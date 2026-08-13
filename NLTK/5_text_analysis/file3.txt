@@ -1,0 +1,32 @@
+Medium is for human storytelling, not AI generated writing.  We have specific policies around the different uses of AI-generated content and technologies. AI-generated writing: We define AI-generated writing as writing where the majority of the content has been created by an AI-writing program with little or no edits, improvements, fact-checking, or changes. This does not include AI writing tools such as AI outlining, or AI assisted fact, spelling, or grammar checkers. AI-assistive technology: We allow the responsible use of AI-assistive technology on Medium. AI assistance empowers an author to level up—to make their ideas clearer, for example, or help them express themselves in a second language. However, in practice, AI-assist is often a way to insert small snippets of AI-generated content that often suffers from the same problems as fully AI- generated stories.  We require that any story incorporating AI assistance be clearly labeled as such. AI-assisted text without a disclosure will similarly be restricted to distribution on the author’s personal network. AI-generated or assisted images: AI-generated or assisted images are allowed on Medium with the following provisions: Other uses of AI-generated content or technologies: Violations of these policies may result in consequences such as account restrictions or suspension of your content: FAQ: How does Medium detect AI content? We use a wide variety of tools and technologies to detect and identify AI-writing and other AI content, combined with human review of any positive results.   For more on Medium’s quality and distribution standards, see Medium's Quality Guidelines. To learn how distribution works on Medium, see What happens to your post when you publish on Medium. Read the Medium Rules here. 
+
+==================================================
+AFTER NLP (TEMİZLENMİŞ VE KÖKÜ BULUNMUŞ METİN)
+==================================================
+
+medium human storytel ai gener write specif polici around differ use aigener content technolog aigener write defin aigener write write major content creat aiwrit program littl edit improv factcheck chang includ ai write tool ai outlin ai assist fact spell grammar checker aiassist technolog allow respons use aiassist technolog medium ai assist empow author level upto make idea clearer exampl help express second languag howev practic aiassist often way insert small snippet aigener content often suffer problem fulli ai gener stori requir stori incorpor ai assist clearli label aiassist text without disclosur similarli restrict distribut author person network aigener assist imag aigener assist imag allow medium follow provis use aigener content technolog violat polici may result consequ account restrict suspens content faq medium detect ai content use wide varieti tool technolog detect identifi aiwrit ai content combin human review posit result medium qualiti distribut standard see medium qualiti guidelin learn distribut work medium see happen post publish medium read medium rule
+
+--------------------------------------------------
+EN ÇOK GEÇEN 20 KELİME FREKANSI
+--------------------------------------------------
+
+medium: 9
+ai: 9
+aigener: 7
+content: 7
+write: 5
+technolog: 5
+assist: 5
+use: 4
+aiassist: 4
+distribut: 3
+human: 2
+gener: 2
+polici: 2
+aiwrit: 2
+tool: 2
+allow: 2
+author: 2
+often: 2
+stori: 2
+restrict: 2
