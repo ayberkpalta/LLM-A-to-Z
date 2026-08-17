@@ -1,0 +1,955 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2012.10055v2",
+    "title": "End-to-End Speaker Diarization as Post-Processing",
+    "abstract": "This paper investigates the utilization of an end-to-end diarization model as post-processing of conventional clustering-based diarization. Clustering-based diarization methods partition frames into clusters of the number of speakers; thus, they typically cannot handle overlapping speech because each frame is assigned to one speaker. On the other hand, some end-to-end diarization methods can handle overlapping speech by treating the problem as multi-label classification. Although some methods can treat a flexible number of speakers, they do not perform well when the number of speakers is large. To compensate for each other's weakness, we propose to use a two-speaker end-to-end diarization method as post-processing of the results obtained by a clustering-based method. We iteratively select two speakers from the results and update the results of the two speakers to improve the overlapped region. Experimental results show that the proposed algorithm consistently improved the performance of the state-of-the-art methods across CALLHOME, AMI, and DIHARD II datasets.",
+    "authors": [
+      "Shota Horiguchi",
+      "Paola Garcia",
+      "Yusuke Fujita",
+      "Shinji Watanabe",
+      "Kenji Nagamatsu"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.CL",
+      "cs.SD"
+    ],
+    "published": "2020-12-18T05:31:07Z",
+    "paper_url": "https://arxiv.org/abs/2012.10055v2",
+    "pdf_url": "https://arxiv.org/pdf/2012.10055v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.10187v1",
+    "title": "Regularized Attentive Capsule Network for Overlapped Relation Extraction",
+    "abstract": "Distantly supervised relation extraction has been widely applied in knowledge base construction due to its less requirement of human efforts. However, the automatically established training datasets in distant supervision contain low-quality instances with noisy words and overlapped relations, introducing great challenges to the accurate extraction of relations. To address this problem, we propose a novel Regularized Attentive Capsule Network (RA-CapNet) to better identify highly overlapped relations in each informal sentence. To discover multiple relation features in an instance, we embed multi-head attention into the capsule network as the low-level capsules, where the subtraction of two entities acts as a new form of relation query to select salient features regardless of their positions. To further discriminate overlapped relation features, we devise disagreement regularization to explicitly encourage the diversity among both multiple attention heads and low-level capsules. Extensive experiments conducted on widely used datasets show that our model achieves significant improvements in relation extraction.",
+    "authors": [
+      "Tianyi Liu",
+      "Xiangyu Lin",
+      "Weijia Jia",
+      "Mingliang Zhou",
+      "Wei Zhao"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-12-18T12:17:08Z",
+    "paper_url": "https://arxiv.org/abs/2012.10187v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.10187v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.10226v1",
+    "title": "Should I visit this place? Inclusion and Exclusion Phrase Mining from Reviews",
+    "abstract": "Although several automatic itinerary generation services have made travel planning easy, often times travellers find themselves in unique situations where they cannot make the best out of their trip. Visitors differ in terms of many factors such as suffering from a disability, being of a particular dietary preference, travelling with a toddler, etc. While most tourist spots are universal, others may not be inclusive for all. In this paper, we focus on the problem of mining inclusion and exclusion phrases associated with 11 such factors, from reviews related to a tourist spot. While existing work on tourism data mining mainly focuses on structured extraction of trip related information, personalized sentiment analysis, and automatic itinerary generation, to the best of our knowledge this is the first work on inclusion/exclusion phrase mining from tourism reviews. Using a dataset of 2000 reviews related to 1000 tourist spots, our broad level classifier provides a binary overlap F1 of $\\sim$80 and $\\sim$82 to classify a phrase as inclusion or exclusion respectively. Further, our inclusion/exclusion classifier provides an F1 of $\\sim$98 and $\\sim$97 for 11-class inclusion and exclusion classification respectively. We believe that our work can significantly improve the quality of an automatic itinerary generation service.",
+    "authors": [
+      "Omkar Gurjar",
+      "Manish Gupta"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "published": "2020-12-18T13:43:13Z",
+    "paper_url": "https://arxiv.org/abs/2012.10226v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.10226v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13004v1",
+    "title": "Speech Synthesis as Augmentation for Low-Resource ASR",
+    "abstract": "Speech synthesis might hold the key to low-resource speech recognition. Data augmentation techniques have become an essential part of modern speech recognition training. Yet, they are simple, naive, and rarely reflect real-world conditions. Meanwhile, speech synthesis techniques have been rapidly getting closer to the goal of achieving human-like speech. In this paper, we investigate the possibility of using synthesized speech as a form of data augmentation to lower the resources necessary to build a speech recognizer. We experiment with three different kinds of synthesizers: statistical parametric, neural, and adversarial. Our findings are interesting and point to new research directions for the future.",
+    "authors": [
+      "Deblin Bagchi",
+      "Shannon Wotherspoon",
+      "Zhuolin Jiang",
+      "Prasanna Muthukumar"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "published": "2020-12-23T22:19:42Z",
+    "paper_url": "https://arxiv.org/abs/2012.13004v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13004v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13190v2",
+    "title": "QUACKIE: A NLP Classification Task With Ground Truth Explanations",
+    "abstract": "NLP Interpretability aims to increase trust in model predictions. This makes evaluating interpretability approaches a pressing issue. There are multiple datasets for evaluating NLP Interpretability, but their dependence on human provided ground truths raises questions about their unbiasedness. In this work, we take a different approach and formulate a specific classification task by diverting question-answering datasets. For this custom classification task, the interpretability ground-truth arises directly from the definition of the classification problem. We use this method to propose a benchmark and lay the groundwork for future research in NLP interpretability by evaluating a wide range of current state of the art methods.",
+    "authors": [
+      "Yves Rychener",
+      "Xavier Renard",
+      "Djamé Seddah",
+      "Pascal Frossard",
+      "Marcin Detyniecki"
+    ],
+    "categories": [
+      "cs.CL",
+      "stat.ML"
+    ],
+    "published": "2020-12-24T10:43:20Z",
+    "paper_url": "https://arxiv.org/abs/2012.13190v2",
+    "pdf_url": "https://arxiv.org/pdf/2012.13190v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13391v2",
+    "title": "I like fish, especially dolphins: Addressing Contradictions in Dialogue Modeling",
+    "abstract": "To quantify how well natural language understanding models can capture consistency in a general conversation, we introduce the DialoguE COntradiction DEtection task (DECODE) and a new conversational dataset containing both human-human and human-bot contradictory dialogues. We then compare a structured utterance-based approach of using pre-trained Transformer models for contradiction detection with the typical unstructured approach. Results reveal that: (i) our newly collected dataset is notably more effective at providing supervision for the dialogue contradiction detection task than existing NLI data including those aimed to cover the dialogue domain; (ii) the structured utterance-based approach is more robust and transferable on both analysis and out-of-distribution dialogues than its unstructured counterpart. We also show that our best contradiction detection model correlates well with human judgments and further provide evidence for its usage in both automatically evaluating and improving the consistency of state-of-the-art generative chatbots.",
+    "authors": [
+      "Yixin Nie",
+      "Mary Williamson",
+      "Mohit Bansal",
+      "Douwe Kiela",
+      "Jason Weston"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "published": "2020-12-24T18:47:49Z",
+    "paper_url": "https://arxiv.org/abs/2012.13391v2",
+    "pdf_url": "https://arxiv.org/pdf/2012.13391v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14312v1",
+    "title": "Panarchy: ripples of a boundary concept",
+    "abstract": "How do social-ecological systems change over time? In 2002 Holling and colleagues proposed the concept of Panarchy, which presented social-ecological systems as an interacting set of adaptive cycles, each of which is produced by the dynamic tensions between novelty and efficiency at multiple scales. Initially introduced as a conceptual framework and set of metaphors, panarchy has gained the attention of scholars across many disciplines and its ideas continue to inspire further conceptual developments. Almost twenty years after this concept was introduced we review how it has been used, tested, extended and revised. We do this by combining qualitative methods and machine learning. Document analysis was used to code panarchy features that are commonly used in the scientific literature (N = 42), a qualitative analysis that was complemented with topic modeling of 2177 documents. We find that the adaptive cycle is the feature of panarchy that has attracted the most attention. Challenges remain in empirically grounding the metaphor, but recent theoretical and empirical work offers some avenues for future research.",
+    "authors": [
+      "Juan Rocha",
+      "Linda Luvuno",
+      "Jesse Rieb",
+      "Erin Crockett",
+      "Katja Malmborg",
+      "Michael Schoon",
+      "Garry Peterson"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-12-28T15:47:45Z",
+    "paper_url": "https://arxiv.org/abs/2012.14312v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14312v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13980v1",
+    "title": "Measuring University Impact: Wikipedia approach",
+    "abstract": "The impact of Universities on the social, economic and political landscape is one of the key directions in contemporary educational evaluation. In this paper, we discuss the new methodological technique that evaluates the impact of university based on popularity (number of page-views) of their alumni's pages on Wikipedia. It allows revealing the alumni popularity dynamics and tracking its state. Preliminary analysis shows that the number of page-views is higher for the contemporary persons that prove the perspectives of this approach. Then, universities were ranked based on the methodology and compared to the famous international university rankings ARWU and QS based only on alumni scales: for the top 10 universities, there is an intersection of two universities (Columbia University, Stanford University). The correlation coefficients between different university rankings are provided in the paper. Finally, the ranking based on the alumni popularity was compared with the ranking of universities based on the popularity of their webpages on Wikipedia: there is a strong connection between these indicators.",
+    "authors": [
+      "Tatiana Kozitsina",
+      "Viacheslav Goiko",
+      "Roman Palkin",
+      "Valentin Khomutenko",
+      "Yulia Mundrievskaya",
+      "Maria Sukhareva",
+      "Isak Froumin",
+      "Mikhail Myagkov"
+    ],
+    "categories": [
+      "cs.SI",
+      "cs.CL",
+      "cs.IR"
+    ],
+    "published": "2020-12-27T17:41:56Z",
+    "paper_url": "https://arxiv.org/abs/2012.13980v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13980v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14005v1",
+    "title": "Neural document expansion for ad-hoc information retrieval",
+    "abstract": "Recently, Nogueira et al. [2019] proposed a new approach to document expansion based on a neural Seq2Seq model, showing significant improvement on short text retrieval task. However, this approach needs a large amount of in-domain training data. In this paper, we show that this neural document expansion approach can be effectively adapted to standard IR tasks, where labels are scarce and many long documents are present.",
+    "authors": [
+      "Cheng Tang",
+      "Andrew Arnold"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "published": "2020-12-27T20:00:08Z",
+    "paper_url": "https://arxiv.org/abs/2012.14005v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14005v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07904v1",
+    "title": "Mitigating the Impact of Speech Recognition Errors on Spoken Question Answering by Adversarial Domain Adaptation",
+    "abstract": "Spoken question answering (SQA) is challenging due to complex reasoning on top of the spoken documents. The recent studies have also shown the catastrophic impact of automatic speech recognition (ASR) errors on SQA. Therefore, this work proposes to mitigate the ASR errors by aligning the mismatch between ASR hypotheses and their corresponding reference transcriptions. An adversarial model is applied to this domain adaptation task, which forces the model to learn domain-invariant features the QA model can effectively utilize in order to improve the SQA results. The experiments successfully demonstrate the effectiveness of our proposed model, and the results are better than the previous best model by 2% EM score.",
+    "authors": [
+      "Chia-Hsuan Lee",
+      "Yun-Nung Chen",
+      "Hung-Yi Lee"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-04-16T18:13:39Z",
+    "paper_url": "https://arxiv.org/abs/1904.07904v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.07904v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07982v1",
+    "title": "Query Expansion for Cross-Language Question Re-Ranking",
+    "abstract": "Community question-answering (CQA) platforms have become very popular forums for asking and answering questions daily. While these forums are rich repositories of community knowledge, they present challenges for finding relevant answers and similar questions, due to the open-ended nature of informal discussions. Further, if the platform allows questions and answers in multiple languages, we are faced with the additional challenge of matching cross-lingual information. In this work, we focus on the cross-language question re-ranking shared task, which aims to find existing questions that may be written in different languages. Our contribution is an exploration of query expansion techniques for this problem. We investigate expansions based on Word Embeddings, DBpedia concepts linking, and Hypernym, and show that they outperform existing state-of-the-art methods.",
+    "authors": [
+      "Muhammad Mahbubur Rahman",
+      "Sorami Hisamoto",
+      "Kevin Duh"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "published": "2019-04-16T20:55:59Z",
+    "paper_url": "https://arxiv.org/abs/1904.07982v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.07982v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.08051v1",
+    "title": "Posterior-regularized REINFORCE for Instance Selection in Distant Supervision",
+    "abstract": "This paper provides a new way to improve the efficiency of the REINFORCE training process. We apply it to the task of instance selection in distant supervision. Modeling the instance selection in one bag as a sequential decision process, a reinforcement learning agent is trained to determine whether an instance is valuable or not and construct a new bag with less noisy instances. However unbiased methods, such as REINFORCE, could usually take much time to train. This paper adopts posterior regularization (PR) to integrate some domain-specific rules in instance selection using REINFORCE. As the experiment results show, this method remarkably improves the performance of the relation classifier trained on cleaned distant supervision dataset as well as the efficiency of the REINFORCE training.",
+    "authors": [
+      "Qi Zhang",
+      "Siliang Tang",
+      "Xiang Ren",
+      "Fei Wu",
+      "Shiliang Pu",
+      "Yueting Zhuang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "published": "2019-04-17T02:21:51Z",
+    "paper_url": "https://arxiv.org/abs/1904.08051v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.08051v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.08075v1",
+    "title": "End-to-End Speech Translation with Knowledge Distillation",
+    "abstract": "End-to-end speech translation (ST), which directly translates from source language speech into target language text, has attracted intensive attentions in recent years. Compared to conventional pipeline systems, end-to-end ST models have advantages of lower latency, smaller model size and less error propagation. However, the combination of speech recognition and text translation in one model is more difficult than each of these two tasks. In this paper, we propose a knowledge distillation approach to improve ST model by transferring the knowledge from text translation model. Specifically, we first train a text translation model, regarded as a teacher model, and then ST model is trained to learn output probabilities from teacher model through knowledge distillation. Experiments on English- French Augmented LibriSpeech and English-Chinese TED corpus show that end-to-end ST is possible to implement on both similar and dissimilar language pairs. In addition, with the instruction of teacher model, end-to-end ST model can gain significant improvements by over 3.5 BLEU points.",
+    "authors": [
+      "Yuchen Liu",
+      "Hao Xiong",
+      "Zhongjun He",
+      "Jiajun Zhang",
+      "Hua Wu",
+      "Haifeng Wang",
+      "Chengqing Zong"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-04-17T04:00:52Z",
+    "paper_url": "https://arxiv.org/abs/1904.08075v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.08075v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02851v2",
+    "title": "FAQ Retrieval using Query-Question Similarity and BERT-Based Query-Answer Relevance",
+    "abstract": "Frequently Asked Question (FAQ) retrieval is an important task where the objective is to retrieve an appropriate Question-Answer (QA) pair from a database based on a user's query. We propose a FAQ retrieval system that considers the similarity between a user's query and a question as well as the relevance between the query and an answer. Although a common approach to FAQ retrieval is to construct labeled data for training, it takes annotation costs. Therefore, we use a traditional unsupervised information retrieval system to calculate the similarity between the query and question. On the other hand, the relevance between the query and answer can be learned by using QA pairs in a FAQ database. The recently-proposed BERT model is used for the relevance calculation. Since the number of QA pairs in FAQ page is not enough to train a model, we cope with this issue by leveraging FAQ sets that are similar to the one in question. We evaluate our approach on two datasets. The first one is localgovFAQ, a dataset we construct in a Japanese administrative municipality domain. The second is StackExchange dataset, which is the public dataset in English. We demonstrate that our proposed method outperforms baseline methods on these datasets.",
+    "authors": [
+      "Wataru Sakata",
+      "Tomohide Shibata",
+      "Ribeka Tanaka",
+      "Sadao Kurohashi"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "published": "2019-05-08T00:33:37Z",
+    "paper_url": "https://arxiv.org/abs/1905.02851v2",
+    "pdf_url": "https://arxiv.org/pdf/1905.02851v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02869v1",
+    "title": "Automatic Inference of Minimalist Grammars using an SMT-Solver",
+    "abstract": "We introduce (1) a novel parser for Minimalist Grammars (MG), encoded as a system of first-order logic formulae that may be evaluated using an SMT-solver, and (2) a novel procedure for inferring Minimalist Grammars using this parser. The input to this procedure is a sequence of sentences that have been annotated with syntactic relations such as semantic role labels (connecting arguments to predicates) and subject-verb agreement. The output of this procedure is a set of minimalist grammars, each of which is able to parse the sentences in the input sequence such that the parse for a sentence has the same syntactic relations as those specified in the annotation for that sentence. We applied this procedure to a set of sentences annotated with syntactic relations and evaluated the inferred grammars using cost functions inspired by the Minimum Description Length principle and the Subset principle. Inferred grammars that were optimal with respect to certain combinations of these cost functions were found to align with contemporary theories of syntax.",
+    "authors": [
+      "Sagar Indurkhya"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-05-08T02:12:18Z",
+    "paper_url": "https://arxiv.org/abs/1905.02869v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02869v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02925v1",
+    "title": "ShapeGlot: Learning Language for Shape Differentiation",
+    "abstract": "In this work we explore how fine-grained differences between the shapes of common objects are expressed in language, grounded on images and 3D models of the objects. We first build a large scale, carefully controlled dataset of human utterances that each refers to a 2D rendering of a 3D CAD model so as to distinguish it from a set of shape-wise similar alternatives. Using this dataset, we develop neural language understanding (listening) and production (speaking) models that vary in their grounding (pure 3D forms via point-clouds vs. rendered 2D images), the degree of pragmatic reasoning captured (e.g. speakers that reason about a listener or not), and the neural architecture (e.g. with or without attention). We find models that perform well with both synthetic and human partners, and with held out utterances and objects. We also find that these models are amenable to zero-shot transfer learning to novel object classes (e.g. transfer from training on chairs to testing on lamps), as well as to real-world images drawn from furniture catalogs. Lesion studies indicate that the neural listeners depend heavily on part-related words and associate these words correctly with visual parts of objects (without any explicit network training on object parts), and that transfer to novel classes is most successful when known part-words are available. This work illustrates a practical approach to language grounding, and provides a case study in the relationship between object shape and linguistic structure when it comes to object differentiation.",
+    "authors": [
+      "Panos Achlioptas",
+      "Judy Fan",
+      "Robert X. D. Hawkins",
+      "Noah D. Goodman",
+      "Leonidas J. Guibas"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.CV"
+    ],
+    "published": "2019-05-08T06:01:33Z",
+    "paper_url": "https://arxiv.org/abs/1905.02925v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02925v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.01958v1",
+    "title": "Text2Node: a Cross-Domain System for Mapping Arbitrary Phrases to a Taxonomy",
+    "abstract": "Electronic health record (EHR) systems are used extensively throughout the healthcare domain. However, data interchangeability between EHR systems is limited due to the use of different coding standards across systems. Existing methods of mapping coding standards based on manual human experts mapping, dictionary mapping, symbolic NLP and classification are unscalable and cannot accommodate large scale EHR datasets.\n  In this work, we present Text2Node, a cross-domain mapping system capable of mapping medical phrases to concepts in a large taxonomy (such as SNOMED CT). The system is designed to generalize from a limited set of training samples and map phrases to elements of the taxonomy that are not covered by training data. As a result, our system is scalable, robust to wording variants between coding systems and can output highly relevant concepts when no exact concept exists in the target taxonomy. Text2Node operates in three main stages: first, the lexicon is mapped to word embeddings; second, the taxonomy is vectorized using node embeddings; and finally, the mapping function is trained to connect the two embedding spaces. We compared multiple algorithms and architectures for each stage of the training, including GloVe and FastText word embeddings, CNN and Bi-LSTM mapping functions, and node2vec for node embeddings. We confirmed the robustness and generalisation properties of Text2Node by mapping ICD-9-CM Diagnosis phrases to SNOMED CT and by zero-shot training at comparable accuracy.\n  This system is a novel methodological contribution to the task of normalizing and linking phrases to a taxonomy, advancing data interchangeability in healthcare. When applied, the system can use electronic health records to generate an embedding that incorporates taxonomical medical knowledge to improve clinical predictive models.",
+    "authors": [
+      "Rohollah Soltani",
+      "Alexandre Tomberg"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-04-11T17:31:23Z",
+    "paper_url": "https://arxiv.org/abs/1905.01958v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.01958v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.01973v1",
+    "title": "Who wrote this book? A challenge for e-commerce",
+    "abstract": "Modern e-commerce catalogs contain millions of references, associated with textual and visual information that is of paramount importance for the products to be found via search or browsing. Of particular significance is the book category, where the author name(s) field poses a significant challenge. Indeed, books written by a given author (such as F. Scott Fitzgerald) might be listed with different authors' names in a catalog due to abbreviations and spelling variants and mistakes, among others. To solve this problem at scale, we design a composite system involving open data sources for books as well as machine learning components leveraging deep learning-based techniques for natural language processing. In particular, we use Siamese neural networks for an approximate match with known author names, and direct correction of the provided author's name using sequence-to-sequence learning with neural networks. We evaluate this approach on product data from the e-commerce website Rakuten France, and find that the top proposal of the system is the normalized author name with 72% accuracy.",
+    "authors": [
+      "Béranger Dumont",
+      "Simona Maggio",
+      "Ghiles Sidi Said",
+      "Quoc-Tien Au"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-04-19T10:13:07Z",
+    "paper_url": "https://arxiv.org/abs/1905.01973v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.01973v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.01984v1",
+    "title": "AI-Powered Text Generation for Harmonious Human-Machine Interaction: Current State and Future Directions",
+    "abstract": "In the last two decades, the landscape of text generation has undergone tremendous changes and is being reshaped by the success of deep learning. New technologies for text generation ranging from template-based methods to neural network-based methods emerged. Meanwhile, the research objectives have also changed from generating smooth and coherent sentences to infusing personalized traits to enrich the diversification of newly generated content. With the rapid development of text generation solutions, one comprehensive survey is urgent to summarize the achievements and track the state of the arts. In this survey paper, we present the general systematical framework, illustrate the widely utilized models and summarize the classic applications of text generation.",
+    "authors": [
+      "Qiuyun Zhang",
+      "Bin Guo",
+      "Hao Wang",
+      "Yunji Liang",
+      "Shaoyang Hao",
+      "Zhiwen Yu"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "published": "2019-05-01T23:26:38Z",
+    "paper_url": "https://arxiv.org/abs/1905.01984v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.01984v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.01998v1",
+    "title": "A Persona-based Multi-turn Conversation Model in an Adversarial Learning Framework",
+    "abstract": "In this paper, we extend the persona-based sequence-to-sequence (Seq2Seq) neural network conversation model to multi-turn dialogue by modifying the state-of-the-art hredGAN architecture. To achieve this, we introduce an additional input modality into the encoder and decoder of hredGAN to capture other attributes such as speaker identity, location, sub-topics, and other external attributes that might be available from the corpus of human-to-human interactions. The resulting persona hredGAN ($phredGAN$) shows better performance than both the existing persona-based Seq2Seq and hredGAN models when those external attributes are available in a multi-turn dialogue corpus. This superiority is demonstrated on TV drama series with character consistency (such as Big Bang Theory and Friends) and customer service interaction datasets such as Ubuntu dialogue corpus in terms of perplexity, BLEU, ROUGE, and Distinct n-gram scores.",
+    "authors": [
+      "Oluwatobi O. Olabiyi",
+      "Anish Khazane",
+      "Erik T. Mueller"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-04-29T15:09:34Z",
+    "paper_url": "https://arxiv.org/abs/1905.01998v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.01998v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02019v1",
+    "title": "Conditioning LSTM Decoder and Bi-directional Attention Based Question Answering System",
+    "abstract": "Applying neural-networks on Question Answering has gained increasing popularity in recent years. In this paper, I implemented a model with Bi-directional attention flow layer, connected with a Multi-layer LSTM encoder, connected with one start-index decoder and one conditioning end-index decoder. I introduce a new end-index decoder layer, conditioning on start-index output. The Experiment shows this has increased model performance by 15.16%. For prediction, I proposed a new smart-span equation, rewarding both short answer length and high probability in start-index and end-index, which further improved the prediction accuracy. The best single model achieves an F1 score of 73.97% and EM score of 64.95% on test set.",
+    "authors": [
+      "Heguang Liu"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-05-02T01:07:20Z",
+    "paper_url": "https://arxiv.org/abs/1905.02019v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02019v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.12213v1",
+    "title": "Towards Recognizing Phrase Translation Processes: Experiments on English-French",
+    "abstract": "When translating phrases (words or group of words), human translators, consciously or not, resort to different translation processes apart from the literal translation, such as Idiom Equivalence, Generalization, Particularization, Semantic Modulation, etc. Translators and linguists (such as Vinay and Darbelnet, Newmark, etc.) have proposed several typologies to characterize the different translation processes. However, to the best of our knowledge, there has not been effort to automatically classify these fine-grained translation processes. Recently, an English-French parallel corpus of TED Talks has been manually annotated with translation process categories, along with established annotation guidelines. Based on these annotated examples, we propose an automatic classification of translation processes at subsentential level. Experimental results show that we can distinguish non-literal translation from literal translation with an accuracy of 87.09%, and 55.20% for classifying among five non-literal translation processes. This work demonstrates that it is possible to automatically classify translation processes. Even with a small amount of annotated examples, our experiments show the directions that we can follow in future work. One of our long term objectives is leveraging this automatic classification to better control paraphrase extraction from bilingual parallel corpora.",
+    "authors": [
+      "Yuming Zhai",
+      "Pooyan Safari",
+      "Gabriel Illouz",
+      "Alexandre Allauzen",
+      "Anne Vilnat"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-04-27T21:14:21Z",
+    "paper_url": "https://arxiv.org/abs/1904.12213v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.12213v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07695v1",
+    "title": "Short Text Topic Modeling Techniques, Applications, and Performance: A Survey",
+    "abstract": "Analyzing short texts infers discriminative and coherent latent topics that is a critical and fundamental task since many real-world applications require semantic understanding of short texts. Traditional long text topic modeling algorithms (e.g., PLSA and LDA) based on word co-occurrences cannot solve this problem very well since only very limited word co-occurrence information is available in short texts. Therefore, short text topic modeling has already attracted much attention from the machine learning research community in recent years, which aims at overcoming the problem of sparseness in short texts. In this survey, we conduct a comprehensive review of various short text topic modeling techniques proposed in the literature. We present three categories of methods based on Dirichlet multinomial mixture, global word co-occurrences, and self-aggregation, with example of representative approaches in each category and analysis of their performance on various tasks. We develop the first comprehensive open-source library, called STTM, for use in Java that integrates all surveyed algorithms within a unified interface, benchmark datasets, to facilitate the expansion of new methods in this research field. Finally, we evaluate these state-of-the-art methods on many real-world datasets and compare their performance against one another and versus long text topic modeling algorithm.",
+    "authors": [
+      "Qiang Jipeng",
+      "Qian Zhenyu",
+      "Li Yun",
+      "Yuan Yunhao",
+      "Wu Xindong"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "published": "2019-04-13T09:08:46Z",
+    "paper_url": "https://arxiv.org/abs/1904.07695v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.07695v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.08109v1",
+    "title": "Contextual Aware Joint Probability Model Towards Question Answering System",
+    "abstract": "In this paper, we address the question answering challenge with the SQuAD 2.0 dataset. We design a model architecture which leverages BERT's capability of context-aware word embeddings and BiDAF's context interactive exploration mechanism. By integrating these two state-of-the-art architectures, our system tries to extract the contextual word representation at word and character levels, for better comprehension of both question and context and their correlations. We also propose our original joint posterior probability predictor module and its associated loss functions. Our best model so far obtains F1 score of 75.842% and EM score of 72.24% on the test PCE leaderboad.",
+    "authors": [
+      "Liu Yang",
+      "Lijing Song"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2019-04-17T07:16:10Z",
+    "paper_url": "https://arxiv.org/abs/1904.08109v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.08109v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.00422v1",
+    "title": "Time-series Insights into the Process of Passing or Failing Online University Courses using Neural-Induced Interpretable Student States",
+    "abstract": "This paper addresses a key challenge in Educational Data Mining, namely to model student behavioral trajectories in order to provide a means for identifying students most at-risk, with the goal of providing supportive interventions. While many forms of data including clickstream data or data from sensors have been used extensively in time series models for such purposes, in this paper we explore the use of textual data, which is sometimes available in the records of students at large, online universities. We propose a time series model that constructs an evolving student state representation using both clickstream data and a signal extracted from the textual notes recorded by human mentors assigned to each student. We explore how the addition of this textual data improves both the predictive power of student states for the purpose of identifying students at risk for course failure as well as for providing interpretable insights about student course engagement processes.",
+    "authors": [
+      "Byungsoo Jeon",
+      "Eyal Shafran",
+      "Luke Breitfeller",
+      "Jason Levin",
+      "Carolyn P. Rose"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.DL"
+    ],
+    "published": "2019-05-01T16:04:12Z",
+    "paper_url": "https://arxiv.org/abs/1905.00422v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.00422v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.12848v6",
+    "title": "Unsupervised Data Augmentation for Consistency Training",
+    "abstract": "Semi-supervised learning lately has shown much promise in improving deep learning models when labeled data is scarce. Common among recent approaches is the use of consistency training on a large amount of unlabeled data to constrain model predictions to be invariant to input noise. In this work, we present a new perspective on how to effectively noise unlabeled examples and argue that the quality of noising, specifically those produced by advanced data augmentation methods, plays a crucial role in semi-supervised learning. By substituting simple noising operations with advanced data augmentation methods such as RandAugment and back-translation, our method brings substantial improvements across six language and three vision tasks under the same consistency training framework. On the IMDb text classification dataset, with only 20 labeled examples, our method achieves an error rate of 4.20, outperforming the state-of-the-art model trained on 25,000 labeled examples. On a standard semi-supervised learning benchmark, CIFAR-10, our method outperforms all previous approaches and achieves an error rate of 5.43 with only 250 examples. Our method also combines well with transfer learning, e.g., when finetuning from BERT, and yields improvements in high-data regime, such as ImageNet, whether when there is only 10% labeled data or when a full labeled set with 1.3M extra unlabeled examples is used. Code is available at https://github.com/google-research/uda.",
+    "authors": [
+      "Qizhe Xie",
+      "Zihang Dai",
+      "Eduard Hovy",
+      "Minh-Thang Luong",
+      "Quoc V. Le"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV",
+      "stat.ML"
+    ],
+    "published": "2019-04-29T17:56:59Z",
+    "paper_url": "https://arxiv.org/abs/1904.12848v6",
+    "pdf_url": "https://arxiv.org/pdf/1904.12848v6",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.12550v1",
+    "title": "Semantic Matching of Documents from Heterogeneous Collections: A Simple and Transparent Method for Practical Applications",
+    "abstract": "We present a very simple, unsupervised method for the pairwise matching of documents from heterogeneous collections. We demonstrate our method with the Concept-Project matching task, which is a binary classification task involving pairs of documents from heterogeneous collections. Although our method only employs standard resources without any domain- or task-specific modifications, it clearly outperforms the more complex system of the original authors. In addition, our method is transparent, because it provides explicit information about how a similarity score was computed, and efficient, because it is based on the aggregation of (pre-computable) word-level similarities.",
+    "authors": [
+      "Mark-Christoph Müller"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-04-29T10:21:58Z",
+    "paper_url": "https://arxiv.org/abs/1904.12550v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.12550v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.00790v2",
+    "title": "Multi-task Pairwise Neural Ranking for Hashtag Segmentation",
+    "abstract": "Hashtags are often employed on social media and beyond to add metadata to a textual utterance with the goal of increasing discoverability, aiding search, or providing additional semantics. However, the semantic content of hashtags is not straightforward to infer as these represent ad-hoc conventions which frequently include multiple words joined together and can include abbreviations and unorthodox spellings. We build a dataset of 12,594 hashtags split into individual segments and propose a set of approaches for hashtag segmentation by framing it as a pairwise ranking problem between candidate segmentations. Our novel neural approaches demonstrate 24.6% error reduction in hashtag segmentation accuracy compared to the current state-of-the-art method. Finally, we demonstrate that a deeper understanding of hashtag semantics obtained through segmentation is useful for downstream applications such as sentiment analysis, for which we achieved a 2.6% increase in average recall on the SemEval 2017 sentiment analysis dataset.",
+    "authors": [
+      "Mounica Maddela",
+      "Wei Xu",
+      "Daniel Preoţiuc-Pietro"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-03T13:28:33Z",
+    "paper_url": "https://arxiv.org/abs/1906.00790v2",
+    "pdf_url": "https://arxiv.org/pdf/1906.00790v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.00872v1",
+    "title": "From Words to Sentences: A Progressive Learning Approach for Zero-resource Machine Translation with Visual Pivots",
+    "abstract": "The neural machine translation model has suffered from the lack of large-scale parallel corpora. In contrast, we humans can learn multi-lingual translations even without parallel texts by referring our languages to the external world. To mimic such human learning behavior, we employ images as pivots to enable zero-resource translation learning. However, a picture tells a thousand words, which makes multi-lingual sentences pivoted by the same image noisy as mutual translations and thus hinders the translation model learning. In this work, we propose a progressive learning approach for image-pivoted zero-resource machine translation. Since words are less diverse when grounded in the image, we first learn word-level translation with image pivots, and then progress to learn the sentence-level translation by utilizing the learned word translation to suppress noises in image-pivoted multi-lingual sentences. Experimental results on two widely used image-pivot translation datasets, IAPR-TC12 and Multi30k, show that the proposed approach significantly outperforms other state-of-the-art methods.",
+    "authors": [
+      "Shizhe Chen",
+      "Qin Jin",
+      "Jianlong Fu"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "published": "2019-06-03T15:28:48Z",
+    "paper_url": "https://arxiv.org/abs/1906.00872v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.00872v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01040v3",
+    "title": "A Surprising Density of Illusionable Natural Speech",
+    "abstract": "Recent work on adversarial examples has demonstrated that most natural inputs can be perturbed to fool even state-of-the-art machine learning systems. But does this happen for humans as well? In this work, we investigate: what fraction of natural instances of speech can be turned into \"illusions\" which either alter humans' perception or result in different people having significantly different perceptions? We first consider the McGurk effect, the phenomenon by which adding a carefully chosen video clip to the audio channel affects the viewer's perception of what is said (McGurk and MacDonald, 1976). We obtain empirical estimates that a significant fraction of both words and sentences occurring in natural speech have some susceptibility to this effect. We also learn models for predicting McGurk illusionability. Finally we demonstrate that the Yanny or Laurel auditory illusion (Pressnitzer et al., 2018) is not an isolated occurrence by generating several very different new instances. We believe that the surprising density of illusionable natural speech warrants further investigation, from the perspectives of both security and cognitive science. Supplementary videos are available at: https://www.youtube.com/playlist?list=PLaX7t1K-e_fF2iaenoKznCatm0RC37B_k.",
+    "authors": [
+      "Melody Y. Guan",
+      "Gregory Valiant"
+    ],
+    "categories": [
+      "cs.SD",
+      "cs.CL",
+      "cs.LG",
+      "eess.AS",
+      "stat.ML"
+    ],
+    "published": "2019-06-03T19:33:43Z",
+    "paper_url": "https://arxiv.org/abs/1906.01040v3",
+    "pdf_url": "https://arxiv.org/pdf/1906.01040v3",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01157v2",
+    "title": "A Review of Automated Speech and Language Features for Assessment of Cognitive and Thought Disorders",
+    "abstract": "It is widely accepted that information derived from analyzing speech (the acoustic signal) and language production (words and sentences) serves as a useful window into the health of an individual's cognitive ability. In fact, most neuropsychological testing batteries have a component related to speech and language where clinicians elicit speech from patients for subjective evaluation across a broad set of dimensions. With advances in speech signal processing and natural language processing, there has been recent interest in developing tools to detect more subtle changes in cognitive-linguistic function. This work relies on extracting a set of features from recorded and transcribed speech for objective assessments of speech and language, early diagnosis of neurological disease, and tracking of disease after diagnosis. With an emphasis on cognitive and thought disorders, in this paper we provide a review of existing speech and language features used in this domain, discuss their clinical application, and highlight their advantages and disadvantages. Broadly speaking, the review is split into two categories: language features based on natural language processing and speech features based on speech signal processing. Within each category, we consider features that aim to measure complementary dimensions of cognitive-linguistics, including language diversity, syntactic complexity, semantic coherence, and timing. We conclude the review with a proposal of new research directions to further advance the field.",
+    "authors": [
+      "Rohit Voleti",
+      "Julie M. Liss",
+      "Visar Berisha"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.SD",
+      "eess.AS",
+      "eess.SP"
+    ],
+    "published": "2019-06-04T02:17:18Z",
+    "paper_url": "https://arxiv.org/abs/1906.01157v2",
+    "pdf_url": "https://arxiv.org/pdf/1906.01157v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01161v2",
+    "title": "Resolving Gendered Ambiguous Pronouns with BERT",
+    "abstract": "Pronoun resolution is part of coreference resolution, the task of pairing an expression to its referring entity. This is an important task for natural language understanding and a necessary component of machine translation systems, chat bots and assistants. Neural machine learning systems perform far from ideally in this task, reaching as low as 73% F1 scores on modern benchmark datasets. Moreover, they tend to perform better for masculine pronouns than for feminine ones. Thus, the problem is both challenging and important for NLP researchers and practitioners. In this project, we describe our BERT-based approach to solving the problem of gender-balanced pronoun resolution. We are able to reach 92% F1 score and a much lower gender bias on the benchmark dataset shared by Google AI Language team.",
+    "authors": [
+      "Matei Ionita",
+      "Yury Kashnitsky",
+      "Ken Krige",
+      "Vladimir Larin",
+      "Denis Logvinenko",
+      "Atanas Atanasov"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-06-03T11:10:10Z",
+    "paper_url": "https://arxiv.org/abs/1906.01161v2",
+    "pdf_url": "https://arxiv.org/pdf/1906.01161v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01185v1",
+    "title": "Joint Effects of Context and User History for Predicting Online Conversation Re-entries",
+    "abstract": "As the online world continues its exponential growth, interpersonal communication has come to play an increasingly central role in opinion formation and change. In order to help users better engage with each other online, we study a challenging problem of re-entry prediction foreseeing whether a user will come back to a conversation they once participated in. We hypothesize that both the context of the ongoing conversations and the users' previous chatting history will affect their continued interests in future engagement. Specifically, we propose a neural framework with three main layers, each modeling context, user history, and interactions between them, to explore how the conversation context and user chatting history jointly result in their re-entry behavior. We experiment with two large-scale datasets collected from Twitter and Reddit. Results show that our proposed framework with bi-attention achieves an F1 score of 61.1 on Twitter conversations, outperforming the state-of-the-art methods from previous work.",
+    "authors": [
+      "Xingshan Zeng",
+      "Jing Li",
+      "Lu Wang",
+      "Kam-Fai Wong"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T03:43:37Z",
+    "paper_url": "https://arxiv.org/abs/1906.01185v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01185v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01195v1",
+    "title": "Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs",
+    "abstract": "The recent proliferation of knowledge graphs (KGs) coupled with incomplete or partial information, in the form of missing relations (links) between entities, has fueled a lot of research on knowledge base completion (also known as relation prediction). Several recent works suggest that convolutional neural network (CNN) based models generate richer and more expressive feature embeddings and hence also perform well on relation prediction. However, we observe that these KG embeddings treat triples independently and thus fail to cover the complex and hidden information that is inherently implicit in the local neighborhood surrounding a triple. To this effect, our paper proposes a novel attention based feature embedding that captures both entity and relation features in any given entity's neighborhood. Additionally, we also encapsulate relation clusters and multihop relations in our model. Our empirical study offers insights into the efficacy of our attention based model and we show marked performance gains in comparison to state of the art methods on all datasets.",
+    "authors": [
+      "Deepak Nathani",
+      "Jatin Chauhan",
+      "Charu Sharma",
+      "Manohar Kaul"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "stat.ML"
+    ],
+    "published": "2019-06-04T04:59:08Z",
+    "paper_url": "https://arxiv.org/abs/1906.01195v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01195v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01243v1",
+    "title": "Learning to Explain: Answering Why-Questions via Rephrasing",
+    "abstract": "Providing plausible responses to why questions is a challenging but critical goal for language based human-machine interaction. Explanations are challenging in that they require many different forms of abstract knowledge and reasoning. Previous work has either relied on human-curated structured knowledge bases or detailed domain representation to generate satisfactory explanations. They are also often limited to ranking pre-existing explanation choices. In our work, we contribute to the under-explored area of generating natural language explanations for general phenomena. We automatically collect large datasets of explanation-phenomenon pairs which allow us to train sequence-to-sequence models to generate natural language explanations. We compare different training strategies and evaluate their performance using both automatic scores and human ratings. We demonstrate that our strategy is sufficient to generate highly plausible explanations for general open-domain phenomena compared to other models trained on different datasets.",
+    "authors": [
+      "Allen Nie",
+      "Erin D. Bennett",
+      "Noah D. Goodman"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T07:27:35Z",
+    "paper_url": "https://arxiv.org/abs/1906.01243v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01243v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01268v1",
+    "title": "Exploiting Sentential Context for Neural Machine Translation",
+    "abstract": "In this work, we present novel approaches to exploit sentential context for neural machine translation (NMT). Specifically, we first show that a shallow sentential context extracted from the top encoder layer only, can improve translation performance via contextualizing the encoding representations of individual words. Next, we introduce a deep sentential context, which aggregates the sentential context representations from all the internal layers of the encoder to form a more comprehensive context representation. Experimental results on the WMT14 English-to-German and English-to-French benchmarks show that our model consistently improves performance over the strong TRANSFORMER model (Vaswani et al., 2017), demonstrating the necessity and effectiveness of exploiting sentential context for NMT.",
+    "authors": [
+      "Xing Wang",
+      "Zhaopeng Tu",
+      "Longyue Wang",
+      "Shuming Shi"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T08:29:33Z",
+    "paper_url": "https://arxiv.org/abs/1906.01268v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01268v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01282v1",
+    "title": "Lattice-Based Transformer Encoder for Neural Machine Translation",
+    "abstract": "Neural machine translation (NMT) takes deterministic sequences for source representations. However, either word-level or subword-level segmentations have multiple choices to split a source sequence with different word segmentors or different subword vocabulary sizes. We hypothesize that the diversity in segmentations may affect the NMT performance. To integrate different segmentations with the state-of-the-art NMT model, Transformer, we propose lattice-based encoders to explore effective word or subword representation in an automatic way during training. We propose two methods: 1) lattice positional encoding and 2) lattice-aware self-attention. These two methods can be used together and show complementary to each other to further improve translation performance. Experiment results show superiorities of lattice-based encoders in word-level and subword-level representations over conventional Transformer encoder.",
+    "authors": [
+      "Fengshun Xiao",
+      "Jiangtong Li",
+      "Hai Zhao",
+      "Rui Wang",
+      "Kehai Chen"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T08:58:14Z",
+    "paper_url": "https://arxiv.org/abs/1906.01282v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01282v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01359v1",
+    "title": "NNE: A Dataset for Nested Named Entity Recognition in English Newswire",
+    "abstract": "Named entity recognition (NER) is widely used in natural language processing applications and downstream tasks. However, most NER tools target flat annotation from popular datasets, eschewing the semantic information available in nested entity mentions. We describe NNE---a fine-grained, nested named entity dataset over the full Wall Street Journal portion of the Penn Treebank (PTB). Our annotation comprises 279,795 mentions of 114 entity types with up to 6 layers of nesting. We hope the public release of this large dataset for English newswire will encourage development of new techniques for nested NER.",
+    "authors": [
+      "Nicky Ringland",
+      "Xiang Dai",
+      "Ben Hachey",
+      "Sarvnaz Karimi",
+      "Cecile Paris",
+      "James R. Curran"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T11:46:37Z",
+    "paper_url": "https://arxiv.org/abs/1906.01359v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01359v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01617v1",
+    "title": "Self-Attentional Models for Lattice Inputs",
+    "abstract": "Lattices are an efficient and effective method to encode ambiguity of upstream systems in natural language processing tasks, for example to compactly capture multiple speech recognition hypotheses, or to represent multiple linguistic analyses. Previous work has extended recurrent neural networks to model lattice inputs and achieved improvements in various tasks, but these models suffer from very slow computation speeds. This paper extends the recently proposed paradigm of self-attention to handle lattice inputs. Self-attention is a sequence modeling technique that relates inputs to one another by computing pairwise similarities and has gained popularity for both its strong results and its computational efficiency. To extend such models to handle lattices, we introduce probabilistic reachability masks that incorporate lattice structure into the model and support lattice scores if available. We also propose a method for adapting positional embeddings to lattice structures. We apply the proposed model to a speech translation task and find that it outperforms all examined baselines while being much faster to compute than previous neural lattice models during both training and inference.",
+    "authors": [
+      "Matthias Sperber",
+      "Graham Neubig",
+      "Ngoc-Quan Pham",
+      "Alex Waibel"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T17:51:03Z",
+    "paper_url": "https://arxiv.org/abs/1906.01617v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01617v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01726v1",
+    "title": "An Introduction to a New Text Classification and Visualization for Natural Language Processing Using Topological Data Analysis",
+    "abstract": "Topological Data Analysis (TDA) is a novel new and fast growing field of data science providing a set of new topological and geometric tools to derive relevant features out of complex high-dimensional data. In this paper we apply two of best methods in topological data analysis, \"Persistent Homology\" and \"Mapper\", in order to classify persian poems which has been composed by two of the best Iranian poets namely \"Ferdowsi\" and \"Hafez\". This article has two main parts, in the first part we explain the mathematics behind these two methods which is easy to understand for general audience and in the second part we describe our models and the results of applying TDA tools to NLP.",
+    "authors": [
+      "Naiereh Elyasi",
+      "Mehdi Hosseini Moghadam"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG",
+      "math.AT"
+    ],
+    "published": "2019-06-03T08:06:39Z",
+    "paper_url": "https://arxiv.org/abs/1906.01726v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01726v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.00579v3",
+    "title": "Listening while Speaking and Visualizing: Improving ASR through Multimodal Chain",
+    "abstract": "Previously, a machine speech chain, which is based on sequence-to-sequence deep learning, was proposed to mimic speech perception and production behavior. Such chains separately processed listening and speaking by automatic speech recognition (ASR) and text-to-speech synthesis (TTS) and simultaneously enabled them to teach each other in semi-supervised learning when they received unpaired data. Unfortunately, this speech chain study is limited to speech and textual modalities. In fact, natural communication is actually multimodal and involves both auditory and visual sensory systems. Although the said speech chain reduces the requirement of having a full amount of paired data, in this case we still need a large amount of unpaired data. In this research, we take a further step and construct a multimodal chain and design a closely knit chain architecture that combines ASR, TTS, image captioning, and image production models into a single framework. The framework allows the training of each component without requiring a large number of parallel multimodal data. Our experimental results also show that an ASR can be further trained without speech and text data and cross-modal data augmentation remains possible through our proposed chain, which improves the ASR performance.",
+    "authors": [
+      "Johanes Effendi",
+      "Andros Tjandra",
+      "Sakriani Sakti",
+      "Satoshi Nakamura"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "published": "2019-06-03T05:25:42Z",
+    "paper_url": "https://arxiv.org/abs/1906.00579v3",
+    "pdf_url": "https://arxiv.org/pdf/1906.00579v3",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.00744v5",
+    "title": "Hierarchical Decision Making by Generating and Following Natural Language Instructions",
+    "abstract": "We explore using latent natural language instructions as an expressive and compositional representation of complex actions for hierarchical decision making. Rather than directly selecting micro-actions, our agent first generates a latent plan in natural language, which is then executed by a separate model. We introduce a challenging real-time strategy game environment in which the actions of a large number of units must be coordinated across long time scales. We gather a dataset of 76 thousand pairs of instructions and executions from human play, and train instructor and executor models. Experiments show that models using natural language as a latent variable significantly outperform models that directly imitate human actions. The compositional structure of language proves crucial to its effectiveness for action representation. We also release our code, models and data.",
+    "authors": [
+      "Hengyuan Hu",
+      "Denis Yarats",
+      "Qucheng Gong",
+      "Yuandong Tian",
+      "Mike Lewis"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "published": "2019-06-03T12:28:50Z",
+    "paper_url": "https://arxiv.org/abs/1906.00744v5",
+    "pdf_url": "https://arxiv.org/pdf/1906.00744v5",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01472v2",
+    "title": "Evaluating Discourse in Structured Text Representations",
+    "abstract": "Discourse structure is integral to understanding a text and is helpful in many NLP tasks. Learning latent representations of discourse is an attractive alternative to acquiring expensive labeled discourse data. Liu and Lapata (2018) propose a structured attention mechanism for text classification that derives a tree over a text, akin to an RST discourse tree. We examine this model in detail, and evaluate on additional discourse-relevant tasks and datasets, in order to assess whether the structured attention improves performance on the end task and whether it captures a text's discourse structure. We find the learned latent trees have little to no structure and instead focus on lexical cues; even after obtaining more structured trees with proposed model modifications, the trees are still far from capturing discourse structure when compared to discourse dependency trees from an existing discourse parser. Finally, ablation studies show the structured attention provides little benefit, sometimes even hurting performance.",
+    "authors": [
+      "Elisa Ferracane",
+      "Greg Durrett",
+      "Junyi Jessy Li",
+      "Katrin Erk"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T14:21:22Z",
+    "paper_url": "https://arxiv.org/abs/1906.01472v2",
+    "pdf_url": "https://arxiv.org/pdf/1906.01472v2",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01573v1",
+    "title": "A Study of Feature Extraction techniques for Sentiment Analysis",
+    "abstract": "Sentiment Analysis refers to the study of systematically extracting the meaning of subjective text . When analysing sentiments from the subjective text using Machine Learning techniques,feature extraction becomes a significant part. We perform a study on the performance of feature extraction techniques TF-IDF(Term Frequency-Inverse Document Frequency) and Doc2vec (Document to Vector) using Cornell movie review datasets, UCI sentiment labeled datasets, stanford movie review datasets,effectively classifying the text into positive and negative polarities by using various pre-processing methods like eliminating StopWords and Tokenization which increases the performance of sentiment analysis in terms of accuracy and time taken by the classifier.The features obtained after applying feature extraction techniques on the text sentences are trained and tested using the classifiers Logistic Regression,Support Vector Machines,K-Nearest Neighbours , Decision Tree and Bernoulli Nave Bayes",
+    "authors": [
+      "Avinash Madasu",
+      "Sivasankar E"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T16:37:44Z",
+    "paper_url": "https://arxiv.org/abs/1906.01573v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01573v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.13421v1",
+    "title": "Thirty Musts for Meaning Banking",
+    "abstract": "Meaning banking--creating a semantically annotated corpus for the purpose of semantic parsing or generation--is a challenging task. It is quite simple to come up with a complex meaning representation, but it is hard to design a simple meaning representation that captures many nuances of meaning. This paper lists some lessons learned in nearly ten years of meaning annotation during the development of the Groningen Meaning Bank (Bos et al., 2017) and the Parallel Meaning Bank (Abzianidze et al., 2017). The paper's format is rather unconventional: there is no explicit related work, no methodology section, no results, and no discussion (and the current snippet is not an abstract but actually an introductory preface). Instead, its structure is inspired by work of Traum (2000) and Bender (2013). The list starts with a brief overview of the existing meaning banks (Section 1) and the rest of the items are roughly divided into three groups: corpus collection (Section 2 and 3, annotation methods (Section 4-11), and design of meaning representations (Section 12-30). We hope this overview will give inspiration and guidance in creating improved meaning banks in the future.",
+    "authors": [
+      "Johan Bos",
+      "Lasha Abzianidze"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-05-27T15:28:12Z",
+    "paper_url": "https://arxiv.org/abs/2005.13421v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.13421v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.14627v1",
+    "title": "Detection of Bangla Fake News using MNB and SVM Classifier",
+    "abstract": "Fake news has been coming into sight in significant numbers for numerous business and political reasons and has become frequent in the online world. People can get contaminated easily by these fake news for its fabricated words which have enormous effects on the offline community. Thus, interest in research in this area has risen. Significant research has been conducted on the detection of fake news from English texts and other languages but a few in Bangla Language. Our work reflects the experimental analysis on the detection of Bangla fake news from social media as this field still requires much focus. In this research work, we have used two supervised machine learning algorithms, Multinomial Naive Bayes (MNB) and Support Vector Machine (SVM) classifiers to detect Bangla fake news with CountVectorizer and Term Frequency - Inverse Document Frequency Vectorizer as feature extraction. Our proposed framework detects fake news depending on the polarity of the corresponding article. Finally, our analysis shows SVM with the linear kernel with an accuracy of 96.64% outperform MNB with an accuracy of 93.32%.",
+    "authors": [
+      "Md Gulzar Hussain",
+      "Md Rashidul Hasan",
+      "Mahmuda Rahman",
+      "Joy Protim",
+      "Sakib Al Hasan"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG"
+    ],
+    "published": "2020-05-29T15:38:54Z",
+    "paper_url": "https://arxiv.org/abs/2005.14627v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.14627v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00459v1",
+    "title": "SANA : Sentiment Analysis on Newspapers comments in Algeria",
+    "abstract": "It is very current in today life to seek for tracking the people opinion from their interaction with occurring events. A very common way to do that is comments in articles published in newspapers web sites dealing with contemporary events. Sentiment analysis or opinion mining is an emergent field who is the purpose is finding the behind phenomenon masked in opinionated texts. We are interested in our work by comments in Algerian newspaper websites. For this end, two corpora were used SANA and OCA. SANA corpus is created by collection of comments from three Algerian newspapers, and annotated by two Algerian Arabic native speakers, while OCA is a freely available corpus for sentiment analysis. For the classification we adopt Supports vector machines, naive Bayes and knearest neighbors. Obtained results are very promising and show the different effects of stemming in such domain, also knearest neighbors give important improvement comparing to other classifiers unlike similar works where SVM is the most dominant. From this study we observe the importance of dedicated resources and methods the newspaper comments sentiment analysis which we look forward in future works.",
+    "authors": [
+      "Hichem Rahab",
+      "Abdelhafid Zitouni",
+      "Mahieddine Djoudi"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "published": "2020-05-31T08:02:23Z",
+    "paper_url": "https://arxiv.org/abs/2006.00459v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00459v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00518v1",
+    "title": "Data-driven Detection and Analysis of the Patterns of Creaky Voice",
+    "abstract": "This paper investigates the temporal excitation patterns of creaky voice. Creaky voice is a voice quality frequently used as a phrase-boundary marker, but also as a means of portraying attitude, affective states and even social status. Consequently, the automatic detection and modelling of creaky voice may have implications for speech technology applications. The acoustic characteristics of creaky voice are, however, rather distinct from modal phonation. Further, several acoustic patterns can bring about the perception of creaky voice, thereby complicating the strategies used for its automatic detection, analysis and modelling. The present study is carried out using a variety of languages, speakers, and on both read and conversational data and involves a mutual information-based assessment of the various acoustic features proposed in the literature for detecting creaky voice. These features are then exploited in classification experiments where we achieve an appreciable improvement in detection accuracy compared to the state of the art. Both experiments clearly highlight the presence of several creaky patterns. A subsequent qualitative and quantitative analysis of the identified patterns is provided, which reveals a considerable speaker-dependent variability in the usage of these creaky patterns. We also investigate how creaky voice detection systems perform across creaky patterns.",
+    "authors": [
+      "Thomas Drugman",
+      "John Kane",
+      "Christer Gobl"
+    ],
+    "categories": [
+      "eess.AS",
+      "cs.CL",
+      "cs.SD"
+    ],
+    "published": "2020-05-31T13:34:30Z",
+    "paper_url": "https://arxiv.org/abs/2006.00518v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00518v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00533v1",
+    "title": "Benchmarking BioRelEx for Entity Tagging and Relation Extraction",
+    "abstract": "Extracting relationships and interactions between different biological entities is still an extremely challenging problem but has not received much attention as much as extraction in other generic domains. In addition to the lack of annotated data, low benchmarking is still a major reason for slow progress. In order to fill this gap, we compare multiple existing entity and relation extraction models over a recently introduced public dataset, BioRelEx of sentences annotated with biological entities and relations. Our straightforward benchmarking shows that span-based multi-task architectures like DYGIE show 4.9% and 6% absolute improvements in entity tagging and relation extraction respectively over the previous state-of-art and that incorporating domain-specific information like embeddings pre-trained over related domains boosts performance.",
+    "authors": [
+      "Abhinav Bhatt",
+      "Kaustubh D. Dhole"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG"
+    ],
+    "published": "2020-05-31T14:45:28Z",
+    "paper_url": "https://arxiv.org/abs/2006.00533v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00533v1",
+    "label": "NLP"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00609v1",
+    "title": "CNRL at SemEval-2020 Task 5: Modelling Causal Reasoning in Language with Multi-Head Self-Attention Weights based Counterfactual Detection",
+    "abstract": "In this paper, we describe an approach for modelling causal reasoning in natural language by detecting counterfactuals in text using multi-head self-attention weights. We use pre-trained transformer models to extract contextual embeddings and self-attention weights from the text. We show the use of convolutional layers to extract task-specific features from these self-attention weights. Further, we describe a fine-tuning approach with a common base model for knowledge sharing between the two closely related sub-tasks for counterfactual detection. We analyze and compare the performance of various transformer models in our experiments. Finally, we perform a qualitative analysis with the multi-head self-attention weights to interpret our models' dynamics.",
+    "authors": [
+      "Rajaswa Patil",
+      "Veeky Baths"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-05-31T21:02:25Z",
+    "paper_url": "https://arxiv.org/abs/2006.00609v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00609v1",
+    "label": "NLP"
+  }
+]

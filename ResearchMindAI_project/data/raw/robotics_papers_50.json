@@ -1,0 +1,953 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2012.11345v1",
+    "title": "Analysis of Safe Ultrawideband Human-Robot Communication in Automated Collaborative Warehouse",
+    "abstract": "The paper presents the propagation analysis of ultrawideband Gaussian signal in an automated collaborative warehouse environment where human and robots communicate to ensure that mutual collisions do not occur. The warehouse racks are principally modeled as clusters of metallic (PEC) parallelepipeds, with dimensions chosen to approximate the realistic warehouse. The signal propagation is analyzed using a ray tracing software, with the goal to calculate the path loss profile for different representative scenarios and antenna polarizations. The influence of the rack surface roughness onto propagation is also analyzed. The guidelines for optimum antenna positions on humans and robots for safe communication are proposed according to the simulations results.",
+    "authors": [
+      "Branimir Ivšić",
+      "Zvonimir Šipuš",
+      "Juraj Bartolić",
+      "Josip Babić"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "published": "2020-12-21T13:55:21Z",
+    "paper_url": "https://arxiv.org/abs/2012.11345v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.11345v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12142v1",
+    "title": "High-Speed Robot Navigation using Predicted Occupancy Maps",
+    "abstract": "Safe and high-speed navigation is a key enabling capability for real world deployment of robotic systems. A significant limitation of existing approaches is the computational bottleneck associated with explicit mapping and the limited field of view (FOV) of existing sensor technologies. In this paper, we study algorithmic approaches that allow the robot to predict spaces extending beyond the sensor horizon for robust planning at high speeds. We accomplish this using a generative neural network trained from real-world data without requiring human annotated labels. Further, we extend our existing control algorithms to support leveraging the predicted spaces to improve collision-free planning and navigation at high speeds. Our experiments are conducted on a physical robot based on the MIT race car using an RGBD sensor where were able to demonstrate improved performance at 4 m/s compared to a controller not operating on predicted regions of the map.",
+    "authors": [
+      "Kapil D. Katyal",
+      "Adam Polevoy",
+      "Joseph Moore",
+      "Craig Knuth",
+      "Katie M. Popek"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "published": "2020-12-22T16:25:12Z",
+    "paper_url": "https://arxiv.org/abs/2012.12142v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12142v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13240v1",
+    "title": "Robotic Following of Flexible Extended Objects: Relevant Technical Facts on the Kinematics of a Moving Continuum",
+    "abstract": "The paper offers general technical facts on the kinematics of a moving continuum involved in research on robotic following of flexible extended objects.",
+    "authors": [
+      "A. S. Matveev",
+      "V. V. Magerkin"
+    ],
+    "categories": [
+      "cs.RO",
+      "math.OC"
+    ],
+    "published": "2020-12-24T13:14:49Z",
+    "paper_url": "https://arxiv.org/abs/2012.13240v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13240v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13470v1",
+    "title": "GIS-Based Estimation of Seasonal Solar Energy Potential for Parking Lots and Roads",
+    "abstract": "The amount of sun cast on roads and parking lots determines the charging opportunities for solar vehicles and impacts the efficiency of conventional vehicles. Estimates of solar energy potential on urban surfaces to assess parking and driving conditions need to account for the shadows cast by surrounding trees and buildings. However, though existing GIS tools can calculate solar potential on surfaces that have buildings and trees, these tools do not estimate the conditions beneath trees and do not consider the seasonal changes in deciduous trees. We introduce a new approach to address these factors using pixel substitution and a light penetration factor. In this paper, we describe how to integrate these techniques into a workflow for computing solar potential estimates for parking and driving conditions. We demonstrate the methodology in an urban setting in North Carolina that includes a mixture of urban structures and trees. We provide code samples so that this workflow is easily repeatable. The solar maps produced with our method are a useful resource for planning solar vehicle parking and routing, and identifying shaded conditions for conventional vehicles.",
+    "authors": [
+      "Vishnu Mahesh Vivek Nanda",
+      "Laura Tateosian",
+      "Perver Baran"
+    ],
+    "categories": [
+      "cs.OH",
+      "cs.RO"
+    ],
+    "published": "2020-12-25T00:34:04Z",
+    "paper_url": "https://arxiv.org/abs/2012.13470v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13470v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13603v1",
+    "title": "Modeling Dispositional and Initial learned Trust in Automated Vehicles with Predictability and Explainability",
+    "abstract": "Technological advances in the automotive industry are bringing automated driving closer to road use. However, one of the most important factors affecting public acceptance of automated vehicles (AVs) is the public's trust in AVs. Many factors can influence people's trust, including perception of risks and benefits, feelings, and knowledge of AVs. This study aims to use these factors to predict people's dispositional and initial learned trust in AVs using a survey study conducted with 1175 participants. For each participant, 23 features were extracted from the survey questions to capture his or her knowledge, perception, experience, behavioral assessment, and feelings about AVs. These features were then used as input to train an eXtreme Gradient Boosting (XGBoost) model to predict trust in AVs. With the help of SHapley Additive exPlanations (SHAP), we were able to interpret the trust predictions of XGBoost to further improve the explainability of the XGBoost model. Compared to traditional regression models and black-box machine learning models, our findings show that this approach was powerful in providing a high level of explainability and predictability of trust in AVs, simultaneously.",
+    "authors": [
+      "Jackie Ayoub",
+      "X. Jessie Yang",
+      "Feng Zhou"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.RO"
+    ],
+    "published": "2020-12-25T16:49:57Z",
+    "paper_url": "https://arxiv.org/abs/2012.13603v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13603v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13690v1",
+    "title": "One-Shot Object Localization Using Learnt Visual Cues via Siamese Networks",
+    "abstract": "A robot that can operate in novel and unstructured environments must be capable of recognizing new, previously unseen, objects. In this work, a visual cue is used to specify a novel object of interest which must be localized in new environments. An end-to-end neural network equipped with a Siamese network is used to learn the cue, infer the object of interest, and then to localize it in new environments. We show that a simulated robot can pick-and-place novel objects pointed to by a laser pointer. We also evaluate the performance of the proposed approach on a dataset derived from the Omniglot handwritten character dataset and on a small dataset of toys.",
+    "authors": [
+      "Sagar Gubbi Venkatesh",
+      "Bharadwaj Amrutur"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "published": "2020-12-26T07:40:00Z",
+    "paper_url": "https://arxiv.org/abs/2012.13690v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13690v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14029v1",
+    "title": "Modeling, Vibration Control, and Trajectory Tracking of a Kinematically Constrained Planar Hybrid Cable-Driven Parallel Robot",
+    "abstract": "This paper presents a kinematically constrained planar hybrid cable-driven parallel robot (HCDPR) for warehousing applications as well as other potential applications such as rehabilitation. The proposed HCDPR can harness the strengths and benefits of serial and cable-driven parallel robots. Based on this robotic platform, the goal in this paper is to develop an integrated control system to reduce vibrations and improve the trajectory accuracy and performance of the HCDPR, including deriving kinematic and dynamic equations, proposing solutions for redundancy resolution and optimization of stiffness, and developing two motion and vibration control strategies (controllers I and II). Finally, different case studies are conducted to evaluate the control performance, and the results show that the controller II can achieve the goal better.",
+    "authors": [
+      "Ronghuai Qi",
+      "Amir Khajepour",
+      "William W. Melek"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "published": "2020-12-27T23:13:20Z",
+    "paper_url": "https://arxiv.org/abs/2012.14029v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14029v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.00134v4",
+    "title": "Accurate Energetic Constraints for Passive Grasp Stability Analysis",
+    "abstract": "Passive reaction effects in grasp stability analysis occur when the contact forces and joint torques applied by a grasp change in response to external disturbances applied to the grasped object. For example, nonbackdrivable actuators (e.g. highly geared servos) will passively resist external disturbances without an actively applied command; for numerous robot hands using such motors, these effects can be highly beneficial as they increase grasp resistance without requiring active control. We introduce a grasp stability analysis method that can model these effects, and, for a given grasp, distinguish between disturbances that will be passively resisted and those that will not. We find that, in order to achieve this, the grasp model must include accurate energetic constraints. One way to achieve this is to consider the Maximum Dissipation Principle (MDP), a part of the Coulomb friction model that is rarely used in grasp stability analysis. However, the MDP constraints are non-convex, and difficult to solve efficiently. We thus introduce a convex relaxation method, along with an algorithm that successively refines this relaxation locally in order to obtain solutions to arbitrary accuracy efficiently. Our resulting algorithm can determine if a grasp is passively stable, solve for equilibrium contact forces and compute optimal actuator commands for stability. Its implementation is publicly available as part of the open-source GraspIt! simulator.",
+    "authors": [
+      "Maximilian Haas-Heger",
+      "Matei Ciocarlie"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2019-04-30T23:27:04Z",
+    "paper_url": "https://arxiv.org/abs/1905.00134v4",
+    "pdf_url": "https://arxiv.org/pdf/1905.00134v4",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.00265v2",
+    "title": "MAVSec: Securing the MAVLink Protocol for Ardupilot/PX4 Unmanned Aerial Systems",
+    "abstract": "The MAVLink is a lightweight communication protocol between Unmanned Aerial Vehicles (UAVs) and ground control stations (GCSs). It defines a set of bi-directional messages exchanged between a UAV (aka drone) and a ground station. The messages carry out information about the UAV's states and control commands sent from the ground station. However, the MAVLink protocol is not secure and has several vulnerabilities to different attacks that result in critical threats and safety concerns. Very few studies provided solutions to this problem. In this paper, we discuss the security vulnerabilities of the MAVLink protocol and propose MAVSec, a security-integrated mechanism for MAVLink that leverages the use of encryption algorithms to ensure the protection of exchanged MAVLink messages between UAVs and GCSs. To validate MAVSec, we implemented it in Ardupilot and evaluated the performance of different encryption algorithms (i.e. AES-CBC, AES-CTR, RC4, and ChaCha20) in terms of memory usage and CPU consumption. The experimental results show that ChaCha20 has a better performance and is more efficient than other encryption algorithms. Integrating ChaCha20 into MAVLink can guarantee its messages confidentiality, without affecting its performance, while occupying less memory and CPU consumption, thus, preserving memory and saving the battery for the resource-constrained drone.",
+    "authors": [
+      "Azza Allouch",
+      "Omar Cheikhrouhou",
+      "Anis Koubaa",
+      "Mohamed Khalgui",
+      "Tarek Abbes"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.RO"
+    ],
+    "published": "2019-05-01T11:17:36Z",
+    "paper_url": "https://arxiv.org/abs/1905.00265v2",
+    "pdf_url": "https://arxiv.org/pdf/1905.00265v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02781v1",
+    "title": "Robust Dense Mapping for Large-Scale Dynamic Environments",
+    "abstract": "We present a stereo-based dense mapping algorithm for large-scale dynamic urban environments. In contrast to other existing methods, we simultaneously reconstruct the static background, the moving objects, and the potentially moving but currently stationary objects separately, which is desirable for high-level mobile robotic tasks such as path planning in crowded environments. We use both instance-aware semantic segmentation and sparse scene flow to classify objects as either background, moving, or potentially moving, thereby ensuring that the system is able to model objects with the potential to transition from static to dynamic, such as parked cars. Given camera poses estimated from visual odometry, both the background and the (potentially) moving objects are reconstructed separately by fusing the depth maps computed from the stereo input. In addition to visual odometry, sparse scene flow is also used to estimate the 3D motions of the detected moving objects, in order to reconstruct them accurately. A map pruning technique is further developed to improve reconstruction accuracy and reduce memory consumption, leading to increased scalability. We evaluate our system thoroughly on the well-known KITTI dataset. Our system is capable of running on a PC at approximately 2.5Hz, with the primary bottleneck being the instance-aware semantic segmentation, which is a limitation we hope to address in future work. The source code is available from the project website (http://andreibarsan.github.io/dynslam).",
+    "authors": [
+      "Ioan Andrei Bârsan",
+      "Peidong Liu",
+      "Marc Pollefeys",
+      "Andreas Geiger"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "published": "2019-05-07T19:38:27Z",
+    "paper_url": "https://arxiv.org/abs/1905.02781v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02781v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.03066v3",
+    "title": "Training a Fast Object Detector for LiDAR Range Images Using Labeled Data from Sensors with Higher Resolution",
+    "abstract": "In this paper, we describe a strategy for training neural networks for object detection in range images obtained from one type of LiDAR sensor using labeled data from a different type of LiDAR sensor. Additionally, an efficient model for object detection in range images for use in self-driving cars is presented. Currently, the highest performing algorithms for object detection from LiDAR measurements are based on neural networks. Training these networks using supervised learning requires large annotated datasets. Therefore, most research using neural networks for object detection from LiDAR point clouds is conducted on a very small number of publicly available datasets. Consequently, only a small number of sensor types are used. We use an existing annotated dataset to train a neural network that can be used with a LiDAR sensor that has a lower resolution than the one used for recording the annotated dataset. This is done by simulating data from the lower resolution LiDAR sensor based on the higher resolution dataset. Furthermore, improvements to models that use LiDAR range images for object detection are presented. The results are validated using both simulated sensor data and data from an actual lower resolution sensor mounted to a research vehicle. It is shown that the model can detect objects from 360° range images in real time.",
+    "authors": [
+      "Manuel Herzog",
+      "Klaus Dietmayer"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "published": "2019-05-08T13:43:03Z",
+    "paper_url": "https://arxiv.org/abs/1905.03066v3",
+    "pdf_url": "https://arxiv.org/pdf/1905.03066v3",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07601v3",
+    "title": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+    "abstract": "Point cloud analysis is very challenging, as the shape implied in irregular points is difficult to capture. In this paper, we propose RS-CNN, namely, Relation-Shape Convolutional Neural Network, which extends regular grid CNN to irregular configuration for point cloud analysis. The key to RS-CNN is learning from relation, i.e., the geometric topology constraint among points. Specifically, the convolutional weight for local point set is forced to learn a high-level relation expression from predefined geometric priors, between a sampled point from this point set and the others. In this way, an inductive local representation with explicit reasoning about the spatial layout of points can be obtained, which leads to much shape awareness and robustness. With this convolution as a basic operator, RS-CNN, a hierarchical architecture can be developed to achieve contextual shape-aware learning for point cloud analysis. Extensive experiments on challenging benchmarks across three tasks verify RS-CNN achieves the state of the arts.",
+    "authors": [
+      "Yongcheng Liu",
+      "Bin Fan",
+      "Shiming Xiang",
+      "Chunhong Pan"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CG",
+      "cs.GR",
+      "cs.RO"
+    ],
+    "published": "2019-04-16T11:28:51Z",
+    "paper_url": "https://arxiv.org/abs/1904.07601v3",
+    "pdf_url": "https://arxiv.org/pdf/1904.07601v3",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.12635v1",
+    "title": "Exploration of Self-Propelling Droplets Using a Curiosity Driven Robotic Assistant",
+    "abstract": "We describe a chemical robotic assistant equipped with a curiosity algorithm (CA) that can efficiently explore the state a complex chemical system can exhibit. The CA-robot is designed to explore formulations in an open-ended way with no explicit optimization target. By applying the CA-robot to the study of self-propelling multicomponent oil-in-water droplets, we are able to observe an order of magnitude more variety of droplet behaviours than possible with a random parameter search and given the same budget. We demonstrate that the CA-robot enabled the discovery of a sudden and highly specific response of droplets to slight temperature changes. Six modes of self-propelled droplets motion were identified and classified using a time-temperature phase diagram and probed using a variety of techniques including NMR. This work illustrates how target free search can significantly increase the rate of unpredictable observations leading to new discoveries with potential applications in formulation chemistry.",
+    "authors": [
+      "Jonathan Grizou",
+      "Laurie J. Points",
+      "Abhishek Sharma",
+      "Leroy Cronin"
+    ],
+    "categories": [
+      "cond-mat.soft",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "published": "2019-04-22T22:17:34Z",
+    "paper_url": "https://arxiv.org/abs/1904.12635v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.12635v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.12717v2",
+    "title": "Globally optimal vertical direction estimation in Atlanta World",
+    "abstract": "In man-made environments, such as indoor and urban scenes, most of the objects and structures are organized in the form of orthogonal and parallel planes. These planes can be approximated by the Atlanta world assumption, in which the normals of planes can be represented by the Atlanta frames. Atlanta world assumption, which can be considered as a generalized Manhattan world assumption, has one vertical frame and multiple horizontal frames. Conventionally, given a set of inputs such as surface normals, the Atlanta frame estimation problem can be solved in one-time by branch-and-bound (BnB). However, the runtime of the BnB algorithm will increase greatly when the dimensionality (i.e., the number of horizontal frames) increases. In this paper, we estimate only the vertical direction instead of all Atlanta frames at once. Accordingly, we propose a vertical direction estimation method by considering the relationship between the vertical frame and horizontal frames. Concretely, our approach employs a BnB algorithm to search the vertical direction guaranteeing global optimality without requiring prior knowledge of the number of Atlanta frames. Four novel bounds by mapping 3D-hemisphere to a 2D region are investigated to guarantee convergence. We verify the validity of the proposed method in various challenging synthetic and real-world data.",
+    "authors": [
+      "Yinlong Liu",
+      "Alois Knoll",
+      "Guang Chen"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "published": "2019-04-29T13:56:36Z",
+    "paper_url": "https://arxiv.org/abs/1904.12717v2",
+    "pdf_url": "https://arxiv.org/pdf/1904.12717v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.12901v1",
+    "title": "Challenges of Real-World Reinforcement Learning",
+    "abstract": "Reinforcement learning (RL) has proven its worth in a series of artificial domains, and is beginning to show some successes in real-world scenarios. However, much of the research advances in RL are often hard to leverage in real-world systems due to a series of assumptions that are rarely satisfied in practice. We present a set of nine unique challenges that must be addressed to productionize RL to real world problems. For each of these challenges, we specify the exact meaning of the challenge, present some approaches from the literature, and specify some metrics for evaluating that challenge. An approach that addresses all nine challenges would be applicable to a large number of real world problems. We also present an example domain that has been modified to present these challenges as a testbed for practical RL research.",
+    "authors": [
+      "Gabriel Dulac-Arnold",
+      "Daniel Mankowitz",
+      "Todd Hester"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO",
+      "stat.ML"
+    ],
+    "published": "2019-04-29T18:40:15Z",
+    "paper_url": "https://arxiv.org/abs/1904.12901v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.12901v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.12939v1",
+    "title": "Frontal Plane Bipedal Zero Dynamics Control",
+    "abstract": "In bipedal gait design literature, one of the common ways of generating stable 3D walking gait is by designing the frontal and sagittal controllers as decoupled dynamics. The study of the decoupled frontal dynamics is, however, still understudied if compared with the sagittal dynamics. In this paper it is presented a formal approach to the problem of frontal dynamics stabilization by extending the hybrid zero dynamics framework to deal with the frontal gait design problem.",
+    "authors": [
+      "Arthur de Oliveira",
+      "Guilherme Vicinansa",
+      "Paulo da Silva",
+      "Bruno Angélico"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2019-04-29T20:37:58Z",
+    "paper_url": "https://arxiv.org/abs/1904.12939v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.12939v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.00825v1",
+    "title": "Self-supervised Body Image Acquisition Using a Deep Neural Network for Sensorimotor Prediction",
+    "abstract": "This work investigates how a naive agent can acquire its own body image in a self-supervised way, based on the predictability of its sensorimotor experience. Our working hypothesis is that, due to its temporal stability, an agent's body produces more consistent sensory experiences than the environment, which exhibits a greater variability. Given its motor experience, an agent can thus reliably predict what appearance its body should have. This intrinsic predictability can be used to automatically isolate the body image from the rest of the environment. We propose a two-branches deconvolutional neural network to predict the visual sensory state associated with an input motor state, as well as the prediction error associated with this input. We train the network on a dataset of first-person images collected with a simulated Pepper robot, and show how the network outputs can be used to automatically isolate its visible arm from the rest of the environment. Finally, the quality of the body image produced by the network is evaluated.",
+    "authors": [
+      "Alban Laflaquière",
+      "Verena V. Hafner"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.RO",
+      "stat.ML"
+    ],
+    "published": "2019-06-03T14:10:17Z",
+    "paper_url": "https://arxiv.org/abs/1906.00825v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.00825v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01299v1",
+    "title": "Grid-based Localization Stack for Inspection Drones towards Automation of Large Scale Warehouse Systems",
+    "abstract": "SLAM based techniques are often adopted for solving the navigation problem for the drones in GPS denied environment. Despite the widespread success of these approaches, they have not yet been fully exploited for automation in a warehouse system due to expensive sensors and setup requirements. This paper focuses on the use of low-cost monocular camera-equipped drones for performing warehouse management tasks like inventory scanning and position update. The methods introduced are at par with the existing state of warehouse environment present today, that is, the existence of a grid network for the ground vehicles, hence eliminating any additional infrastructure requirement for drone deployment. As we lack scale information, that in itself forbids us to use any 3D techniques, we focus more towards optimizing standard image processing algorithms like the thick line detection and further developing it into a fast and robust grid localization framework. In this paper, we show different line detection algorithms, their significance in grid localization and their limitations. We further extend our proposed implementation towards a real-time navigation stack for an actual warehouse inspection case scenario. Our line detection method using skeletonization and centroid strategy works considerably even with varying light conditions, line thicknesses, colors, orientations, and partial occlusions. A simple yet effective Kalman Filter has been used for smoothening the ρ and θ outputs of the two different line detection methods for better drone control while grid following. A generic strategy that handles the navigation of the drone on a grid for completion of the allotted task is also developed. Based on the simulation and real-life experiments, the final developments on the drone localization and navigation in a structured environment are discussed.",
+    "authors": [
+      "Ashwary Anand",
+      "Shubh Agrawal",
+      "Shivang Agrawal",
+      "Aman Chandra",
+      "Krishnakant Deshmukh"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.IV"
+    ],
+    "published": "2019-06-04T09:42:43Z",
+    "paper_url": "https://arxiv.org/abs/1906.01299v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01299v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01350v2",
+    "title": "Rapidly-Exploring Quotient-Space Trees: Motion Planning using Sequential Simplifications",
+    "abstract": "Motion planning problems can be simplified by admissible projections of the configuration space to sequences of lower-dimensional quotient-spaces, called sequential simplifications. To exploit sequential simplifications, we present the Quotient-space Rapidly-exploring Random Trees (QRRT) algorithm. QRRT takes as input a start and a goal configuration, and a sequence of quotient-spaces. The algorithm grows trees on the quotient-spaces both sequentially and simultaneously to guarantee a dense coverage. QRRT is shown to be (1) probabilistically complete, and (2) can reduce the runtime by at least one order of magnitude. However, we show in experiments that the runtime varies substantially between different quotient-space sequences. To find out why, we perform an additional experiment, showing that the more narrow an environment, the more a quotient-space sequence can reduce runtime.",
+    "authors": [
+      "Andreas Orthey",
+      "Marc Toussaint"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "published": "2019-06-04T11:23:38Z",
+    "paper_url": "https://arxiv.org/abs/1906.01350v2",
+    "pdf_url": "https://arxiv.org/pdf/1906.01350v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.14156v1",
+    "title": "Unlucky Explorer: A Complete non-Overlapping Map Exploration",
+    "abstract": "Nowadays, the field of Artificial Intelligence in Computer Games (AI in Games) is going to be more alluring since computer games challenge many aspects of AI with a wide range of problems, particularly general problems. One of these kinds of problems is Exploration, which states that an unknown environment must be explored by one or several agents. In this work, we have first introduced the Maze Dash puzzle as an exploration problem where the agent must find a Hamiltonian Path visiting all the cells. Then, we have investigated to find suitable methods by a focus on Monte-Carlo Tree Search (MCTS) and SAT to solve this puzzle quickly and accurately. An optimization has been applied to the proposed MCTS algorithm to obtain a promising result. Also, since the prefabricated test cases of this puzzle are not large enough to assay the proposed method, we have proposed and employed a technique to generate solvable test cases to evaluate the approaches. Eventually, the MCTS-based method has been assessed by the auto-generated test cases and compared with our implemented SAT approach that is considered a good rival. Our comparison indicates that the MCTS-based approach is an up-and-coming method that could cope with the test cases with small and medium sizes with faster run-time compared to SAT. However, for certain discussed reasons, including the features of the problem, tree search organization, and also the approach of MCTS in the Simulation step, MCTS takes more time to execute in Large size scenarios. Consequently, we have found the bottleneck for the MCTS-based method in significant test cases that could be improved in two real-world problems.",
+    "authors": [
+      "Mohammad Sina Kiarostami",
+      "Saleh Khalaj Monfared",
+      "Mohammadreza Daneshvaramoli",
+      "Ali Oliayi",
+      "Negar Yousefian",
+      "Dara Rahmati",
+      "Saeid Gorgin"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "published": "2020-05-28T17:19:24Z",
+    "paper_url": "https://arxiv.org/abs/2005.14156v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.14156v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00420v1",
+    "title": "VIR-SLAM: Visual, Inertial, and Ranging SLAM for single and multi-robot systems",
+    "abstract": "Monocular cameras coupled with inertial measurements generally give high performance visual inertial odometry. However, drift can be significant with long trajectories, especially when the environment is visually challenging. In this paper, we propose a system that leverages ultra-wideband ranging with one static anchor placed in the environment to correct the accumulated error whenever the anchor is visible. We also use this setup for collaborative SLAM: different robots use mutual ranging (when available) and the common anchor to estimate the transformation between each other, facilitating map fusion Our system consists of two modules: a double layer ranging, visual, and inertial odometry for single robots, and a transformation estimation module for collaborative SLAM. We test our system on public datasets by simulating an ultra-wideband sensor as well as on real robots. Experiments show our method can outperform state-of-the-art visual-inertial odometry by more than 20%. For visually challenging environments, our method works even the visual-inertial odometry has significant drift Furthermore, we can compute the collaborative SLAM transformation matrix at almost no extra computation cost.",
+    "authors": [
+      "Yanjun Cao",
+      "Giovanni Beltrame"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-05-31T02:54:03Z",
+    "paper_url": "https://arxiv.org/abs/2006.00420v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00420v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00424v1",
+    "title": "HMPO: Human Motion Prediction in Occluded Environments for Safe Motion Planning",
+    "abstract": "We present a novel approach to generate collision-free trajectories for a robot operating in close proximity with a human obstacle in an occluded environment. The self-occlusions of the robot can significantly reduce the accuracy of human motion prediction, and we present a novel deep learning-based prediction algorithm. Our formulation uses CNNs and LSTMs and we augment human-action datasets with synthetically generated occlusion information for training. We also present an occlusion-aware planner that uses our motion prediction algorithm to compute collision-free trajectories. We highlight performance of the overall approach (HMPO) in complex scenarios and observe upto 68% performance improvement in motion prediction accuracy, and 38% improvement in terms of error distance between the ground-truth and the predicted human joint positions.",
+    "authors": [
+      "Jae Sung Park",
+      "Dinesh Manocha"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-05-31T03:04:51Z",
+    "paper_url": "https://arxiv.org/abs/2006.00424v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00424v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.14433v1",
+    "title": "MAV Development Towards Navigation in Unknown and Dark Mining Tunnels",
+    "abstract": "The Mining industry considers the deployment of MAV for autonomous inspection of tunnels and shafts to increase safety and productivity. However, mines are challenging and harsh environments that have a direct effect on the degradation of high-end and expensive utilized components over time. Inspired by this effect, this article presents a low cost and modular platform for designing a fully autonomous navigating MAV without requiring any prior information from the surrounding environment. The design of the proposed aerial vehicle can be considered as a consumable platform that can be instantly replaced in case of damage or defect, thus comes into agreement with the vision of mining companies for utilizing stable aerial robots with reasonable cost. In the proposed design, the operator has access to all on-board data, thus increasing the overall customization of the design and the execution of the mine inspection mission. The MAV platform has a software core based on ROS operating on an Aaeon UP-Board, while it is equipped with a sensor suite to accomplish the autonomous navigation equally reliable when compared to high-end and expensive platforms.",
+    "authors": [
+      "Dariusz Kominiak",
+      "Sina Sharif Mansouri",
+      "Christoforos Kanellakis",
+      "George Nikolakopoulos"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-05-29T07:43:36Z",
+    "paper_url": "https://arxiv.org/abs/2005.14433v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.14433v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.04343v1",
+    "title": "Deep Neural Network Based Real-time Kiwi Fruit Flower Detection in an Orchard Environment",
+    "abstract": "In this paper, we present a novel approach to kiwi fruit flower detection using Deep Neural Networks (DNNs) to build an accurate, fast, and robust autonomous pollination robot system. Recent work in deep neural networks has shown outstanding performance on object detection tasks in many areas. Inspired this, we aim for exploiting DNNs for kiwi fruit flower detection and present intensive experiments and their analysis on two state-of-the-art object detectors; Faster R-CNN and Single Shot Detector (SSD) Net, and feature extractors; Inception Net V2 and NAS Net with real-world orchard datasets. We also compare those approaches to find an optimal model which is suitable for a real-time agricultural pollination robot system in terms of accuracy and processing speed. We perform experiments with dataset collected from different seasons and locations (spatio-temporal consistency) in order to demonstrate the performance of the generalized model. The proposed system demonstrates promising results of 0.919, 0.874, and 0.889 for precision, recall, and F1-score respectively on our real-world dataset, and the performance satisfies the requirement for deploying the system onto an autonomous pollination robotics system.",
+    "authors": [
+      "JongYoon Lim",
+      "Ho Seok Ahn",
+      "Mahla Nejati",
+      "Jamie Bell",
+      "Henry Williams",
+      "Bruce A. MacDonald"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "published": "2020-06-08T03:53:54Z",
+    "paper_url": "https://arxiv.org/abs/2006.04343v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.04343v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.04448v1",
+    "title": "Thermal deflection decoupled 6-DOF pose measurement of hexapods",
+    "abstract": "Calibration is crucial for hexapods with high-accuracy positioning capability. Many of these calibration procedures require measurement of hexapod's platform pose (position and orientation) at constant temperature. Consequently, thermal deflection of the hexapod's platform during pose measurements impacts the accuracy of calibrated parameters. This paper presents a method to eliminate the impact of thermal deflection of hexapods on their pose measurement. In this method, a reference pose is measured before each measurement of any particular pose. The measurements of reference pose are used to estimate thermal deflection of hexapod's legs. This is in turn used to estimate and correct the resulting pose error at the particular pose to be measured. The advantage of using the proposed method is demonstrated experimentally by means of pose measurements of a high-precision hexapod using a CMM.",
+    "authors": [
+      "Vinayak Jagannathrao Kalas",
+      "Alain Vissiere",
+      "Olivier Company",
+      "Sébastien Krut",
+      "Pierre Noiré",
+      "Thierry Roux",
+      "François Pierrot"
+    ],
+    "categories": [
+      "cs.RO",
+      "physics.class-ph"
+    ],
+    "published": "2020-06-08T10:07:03Z",
+    "paper_url": "https://arxiv.org/abs/2006.04448v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.04448v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.04082v2",
+    "title": "End-to-end Learning for Inter-Vehicle Distance and Relative Velocity Estimation in ADAS with a Monocular Camera",
+    "abstract": "Inter-vehicle distance and relative velocity estimations are two basic functions for any ADAS (Advanced driver-assistance systems). In this paper, we propose a monocular camera-based inter-vehicle distance and relative velocity estimation method based on end-to-end training of a deep neural network. The key novelty of our method is the integration of multiple visual clues provided by any two time-consecutive monocular frames, which include deep feature clue, scene geometry clue, as well as temporal optical flow clue. We also propose a vehicle-centric sampling mechanism to alleviate the effect of perspective distortion in the motion field (i.e. optical flow). We implement the method by a light-weight deep neural network. Extensive experiments are conducted which confirm the superior performance of our method over other state-of-the-art methods, in terms of estimation accuracy, computational speed, and memory footprint.",
+    "authors": [
+      "Zhenbo Song",
+      "Jianfeng Lu",
+      "Tong Zhang",
+      "Hongdong Li"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "published": "2020-06-07T08:18:31Z",
+    "paper_url": "https://arxiv.org/abs/2006.04082v2",
+    "pdf_url": "https://arxiv.org/pdf/2006.04082v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.04103v1",
+    "title": "An Autonomous Path Planning Method for Unmanned Aerial Vehicle based on A Tangent Intersection and Target Guidance Strategy",
+    "abstract": "Unmanned aerial vehicle (UAV) path planning enables UAVs to avoid obstacles and reach the target efficiently. To generate high-quality paths without obstacle collision for UAVs, this paper proposes a novel autonomous path planning algorithm based on a tangent intersection and target guidance strategy (APPATT). Guided by a target, the elliptic tangent graph method is used to generate two sub-paths, one of which is selected based on heuristic rules when confronting an obstacle. The UAV flies along the selected sub-path and repeatedly adjusts its flight path to avoid obstacles through this way until the collision-free path extends to the target. Considering the UAV kinematic constraints, the cubic B-spline curve is employed to smooth the waypoints for obtaining a feasible path. Compared with A*, PRM, RRT and VFH, the experimental results show that APPATT can generate the shortest collision-free path within 0.05 seconds for each instance under static environments. Moreover, compared with VFH and RRTRW, APPATT can generate satisfactory collision-free paths under uncertain environments in a nearly real-time manner. It is worth noting that APPATT has the capability of escaping from simple traps within a reasonable time.",
+    "authors": [
+      "Huan Liu",
+      "Xiamiao Li",
+      "Mingfeng Fan",
+      "Guohua Wu",
+      "Witold Pedrycz",
+      "Ponnuthurai Nagaratnam Suganthan"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-06-07T09:58:55Z",
+    "paper_url": "https://arxiv.org/abs/2006.04103v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.04103v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.04194v1",
+    "title": "Robotic Motion Planning using Learned Critical Sources and Local Sampling",
+    "abstract": "Sampling based methods are widely used for robotic motion planning. Traditionally, these samples are drawn from probabilistic ( or deterministic ) distributions to cover the state space uniformly. Despite being probabilistically complete, they fail to find a feasible path in a reasonable amount of time in constrained environments where it is essential to go through narrow passages (bottleneck regions). Current state of the art techniques train a learning model (learner) to predict samples selectively on these bottleneck regions. However, these algorithms depend completely on samples generated by this learner to navigate through the bottleneck regions. As the complexity of the planning problem increases, the amount of data and time required to make this learner robust to fine variations in the structure of the workspace becomes computationally intractable. In this work, we present (1) an efficient and robust method to use a learner to locate the bottleneck regions and (2) two algorithms that use local sampling methods to leverage the location of these bottleneck regions for efficient motion planning while maintaining probabilistic completeness.\n  We test our algorithms on 2 dimensional planning problems and 7 dimensional robotic arm planning, and report significant gains over heuristics as well as learned baselines.",
+    "authors": [
+      "Rajat Kumar Jenamani",
+      "Rahul Kumar",
+      "Parth Mall",
+      "Kushal Kedia"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-06-07T16:34:45Z",
+    "paper_url": "https://arxiv.org/abs/2006.04194v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.04194v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.05239v1",
+    "title": "A Smooth Robustness Measure of Signal Temporal Logic for Symbolic Control",
+    "abstract": "Recent years have seen an increasing use of Signal Temporal Logic (STL) as a formal specification language for symbolic control, due to its expressiveness and closeness to natural language. Furthermore, STL specifications can be encoded as cost functions using STL's robust semantics, transforming the synthesis problem into an optimization problem. Unfortunately, these cost functions are non-smooth and non-convex, and exact solutions using mixed-integer programming do not scale well. Recent work has focused on using smooth approximations of robustness, which enable faster gradient-based methods to find local maxima, at the expense of soundness and/or completeness. We propose a novel robustness approximation that is smooth everywhere, sound, and asymptotically complete. Our approach combines the benefits of existing approximations, while enabling an explicit tradeoff between conservativeness and completeness.",
+    "authors": [
+      "Yann Gilpin",
+      "Vince Kurtz",
+      "Hai Lin"
+    ],
+    "categories": [
+      "eess.SY",
+      "cs.RO"
+    ],
+    "published": "2020-06-09T13:21:35Z",
+    "paper_url": "https://arxiv.org/abs/2006.05239v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.05239v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.13131v1",
+    "title": "Efficient Pig Counting in Crowds with Keypoints Tracking and Spatial-aware Temporal Response Filtering",
+    "abstract": "Pig counting is a crucial task for large-scale pig farming, which is usually completed by human visually. But this process is very time-consuming and error-prone. Few studies in literature developed automated pig counting method. Existing methods only focused on pig counting using single image, and its accuracy is challenged by several factors, including pig movements, occlusion and overlapping. Especially, the field of view of a single image is very limited, and could not meet the requirements of pig counting for large pig grouping houses. To that end, we presented a real-time automated pig counting system in crowds using only one monocular fisheye camera with an inspection robot. Our system showed that it produces accurate results surpassing human. Our pipeline began with a novel bottom-up pig detection algorithm to avoid false negatives due to overlapping, occlusion and deformation of pigs. A deep convolution neural network (CNN) is designed to detect keypoints of pig body part and associate the keypoints to identify individual pigs. After that, an efficient on-line tracking method is used to associate pigs across video frames. Finally, a novel spatial-aware temporal response filtering (STRF) method is proposed to predict the counts of pigs, which is effective to suppress false positives caused by pig or camera movements or tracking failures. The whole pipeline has been deployed in an edge computing device, and demonstrated the effectiveness.",
+    "authors": [
+      "Guang Chen",
+      "Shiwen Shen",
+      "Longyin Wen",
+      "Si Luo",
+      "Liefeng Bo"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO",
+      "eess.IV"
+    ],
+    "published": "2020-05-27T02:17:54Z",
+    "paper_url": "https://arxiv.org/abs/2005.13131v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.13131v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.01952v2",
+    "title": "Learning Active Task-Oriented Exploration Policies for Bridging the Sim-to-Real Gap",
+    "abstract": "Training robotic policies in simulation suffers from the sim-to-real gap, as simulated dynamics can be different from real-world dynamics. Past works tackled this problem through domain randomization and online system-identification. The former is sensitive to the manually-specified training distribution of dynamics parameters and can result in behaviors that are overly conservative. The latter requires learning policies that concurrently perform the task and generate useful trajectories for system identification. In this work, we propose and analyze a framework for learning exploration policies that explicitly perform task-oriented exploration actions to identify task-relevant system parameters. These parameters are then used by model-based trajectory optimization algorithms to perform the task in the real world. We instantiate the framework in simulation with the Linear Quadratic Regulator as well as in the real world with pouring and object dragging tasks. Experiments show that task-oriented exploration helps model-based policies adapt to systems with initially unknown parameters, and it leads to better task performance than task-agnostic exploration.",
+    "authors": [
+      "Jacky Liang",
+      "Saumya Saxena",
+      "Oliver Kroemer"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-06-02T21:32:58Z",
+    "paper_url": "https://arxiv.org/abs/2006.01952v2",
+    "pdf_url": "https://arxiv.org/pdf/2006.01952v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.01022v2",
+    "title": "A novel approach for multi-agent cooperative pursuit to capture grouped evaders",
+    "abstract": "An approach of mobile multi-agent pursuit based on application of self-organizing feature map (SOFM) and along with that reinforcement learning based on agent group role membership function (AGRMF) model is proposed. This method promotes dynamic organization of the pursuers' groups and also makes pursuers' group evader according to their desire based on SOFM and AGRMF techniques. This helps to overcome the shortcomings of the pursuers that they cannot fully reorganize when the goal is too independent in process of AGRMF models operation. Besides, we also discuss a new reward function. After the formation of the group, reinforcement learning is applied to get the optimal solution for each agent. The results of each step in capturing process will finally affect the AGR membership function to speed up the convergence of the competitive neural network. The experiments result shows that this approach is more effective for the mobile agents to capture evaders.",
+    "authors": [
+      "Muhammad Zuhair Qadir",
+      "Songhao Piao",
+      "Haiyang Jiang",
+      "Mohammed El Habib Souidi"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.GT",
+      "cs.LG",
+      "cs.MA",
+      "cs.RO"
+    ],
+    "published": "2020-06-01T15:39:58Z",
+    "paper_url": "https://arxiv.org/abs/2006.01022v2",
+    "pdf_url": "https://arxiv.org/pdf/2006.01022v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.01096v3",
+    "title": "Invariant Policy Optimization: Towards Stronger Generalization in Reinforcement Learning",
+    "abstract": "A fundamental challenge in reinforcement learning is to learn policies that generalize beyond the operating domains experienced during training. In this paper, we approach this challenge through the following invariance principle: an agent must find a representation such that there exists an action-predictor built on top of this representation that is simultaneously optimal across all training domains. Intuitively, the resulting invariant policy enhances generalization by finding causes of successful actions. We propose a novel learning algorithm, Invariant Policy Optimization (IPO), that implements this principle and learns an invariant policy during training. We compare our approach with standard policy gradient methods and demonstrate significant improvements in generalization performance on unseen domains for linear quadratic regulator and grid-world problems, and an example where a robot must learn to open doors with varying physical properties.",
+    "authors": [
+      "Anoopkumar Sonar",
+      "Vincent Pacelli",
+      "Anirudha Majumdar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO",
+      "stat.ML"
+    ],
+    "published": "2020-06-01T17:28:19Z",
+    "paper_url": "https://arxiv.org/abs/2006.01096v3",
+    "pdf_url": "https://arxiv.org/pdf/2006.01096v3",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.01655v1",
+    "title": "Deep Visual Odometry with Adaptive Memory",
+    "abstract": "We propose a novel deep visual odometry (VO) method that considers global information by selecting memory and refining poses. Existing learning-based methods take the VO task as a pure tracking problem via recovering camera poses from image snippets, leading to severe error accumulation. Global information is crucial for alleviating accumulated errors. However, it is challenging to effectively preserve such information for end-to-end systems. To deal with this challenge, we design an adaptive memory module, which progressively and adaptively saves the information from local to global in a neural analogue of memory, enabling our system to process long-term dependency. Benefiting from global information in the memory, previous results are further refined by an additional refining module. With the guidance of previous outputs, we adopt a spatial-temporal attention to select features for each view based on the co-visibility in feature domain. Specifically, our architecture consisting of Tracking, Remembering and Refining modules works beyond tracking. Experiments on the KITTI and TUM-RGBD datasets demonstrate that our approach outperforms state-of-the-art methods by large margins and produces competitive results against classic approaches in regular scenes. Moreover, our model achieves outstanding performance in challenging scenarios such as texture-less regions and abrupt motions, where classic algorithms tend to fail.",
+    "authors": [
+      "Fei Xue",
+      "Xin Wang",
+      "Junqiu Wang",
+      "Hongbin Zha"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-08-02T03:41:18Z",
+    "paper_url": "https://arxiv.org/abs/2008.01655v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.01655v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.01825v2",
+    "title": "Robust Reinforcement Learning using Adversarial Populations",
+    "abstract": "Reinforcement Learning (RL) is an effective tool for controller design but can struggle with issues of robustness, failing catastrophically when the underlying system dynamics are perturbed. The Robust RL formulation tackles this by adding worst-case adversarial noise to the dynamics and constructing the noise distribution as the solution to a zero-sum minimax game. However, existing work on learning solutions to the Robust RL formulation has primarily focused on training a single RL agent against a single adversary. In this work, we demonstrate that using a single adversary does not consistently yield robustness to dynamics variations under standard parametrizations of the adversary; the resulting policy is highly exploitable by new adversaries. We propose a population-based augmentation to the Robust RL formulation in which we randomly initialize a population of adversaries and sample from the population uniformly during training. We empirically validate across robotics benchmarks that the use of an adversarial population results in a more robust policy that also improves out-of-distribution generalization. Finally, we demonstrate that this approach provides comparable robustness and generalization as domain randomization on these benchmarks while avoiding a ubiquitous domain randomization failure mode.",
+    "authors": [
+      "Eugene Vinitsky",
+      "Yuqing Du",
+      "Kanaad Parvate",
+      "Kathy Jang",
+      "Pieter Abbeel",
+      "Alexandre Bayen"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.MA",
+      "cs.RO",
+      "stat.ML"
+    ],
+    "published": "2020-08-04T20:57:32Z",
+    "paper_url": "https://arxiv.org/abs/2008.01825v2",
+    "pdf_url": "https://arxiv.org/pdf/2008.01825v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.02616v2",
+    "title": "The Emergence of Adversarial Communication in Multi-Agent Reinforcement Learning",
+    "abstract": "Many real-world problems require the coordination of multiple autonomous agents. Recent work has shown the promise of Graph Neural Networks (GNNs) to learn explicit communication strategies that enable complex multi-agent coordination. These works use models of cooperative multi-agent systems whereby agents strive to achieve a shared global goal. When considering agents with self-interested local objectives, the standard design choice is to model these as separate learning systems (albeit sharing the same environment). Such a design choice, however, precludes the existence of a single, differentiable communication channel, and consequently prohibits the learning of inter-agent communication strategies. In this work, we address this gap by presenting a learning model that accommodates individual non-shared rewards and a differentiable communication channel that is common among all agents. We focus on the case where agents have self-interested objectives, and develop a learning algorithm that elicits the emergence of adversarial communications. We perform experiments on multi-agent coverage and path planning problems, and employ a post-hoc interpretability technique to visualize the messages that agents communicate to each other. We show how a single self-interested agent is capable of learning highly manipulative communication strategies that allows it to significantly outperform a cooperative team of agents.",
+    "authors": [
+      "Jan Blumenkamp",
+      "Amanda Prorok"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "published": "2020-08-06T12:48:08Z",
+    "paper_url": "https://arxiv.org/abs/2008.02616v2",
+    "pdf_url": "https://arxiv.org/pdf/2008.02616v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.02646v1",
+    "title": "Deep Reinforcement Learning for Tactile Robotics: Learning to Type on a Braille Keyboard",
+    "abstract": "Artificial touch would seem well-suited for Reinforcement Learning (RL), since both paradigms rely on interaction with an environment. Here we propose a new environment and set of tasks to encourage development of tactile reinforcement learning: learning to type on a braille keyboard. Four tasks are proposed, progressing in difficulty from arrow to alphabet keys and from discrete to continuous actions. A simulated counterpart is also constructed by sampling tactile data from the physical environment. Using state-of-the-art deep RL algorithms, we show that all of these tasks can be successfully learnt in simulation, and 3 out of 4 tasks can be learned on the real robot. A lack of sample efficiency currently makes the continuous alphabet task impractical on the robot. To the best of our knowledge, this work presents the first demonstration of successfully training deep RL agents in the real world using observations that exclusively consist of tactile images. To aid future research utilising this environment, the code for this project has been released along with designs of the braille keycaps for 3D printing and a guide for recreating the experiments. A brief video summary is also available at https://youtu.be/eNylCA2uE_E.",
+    "authors": [
+      "Alex Church",
+      "John Lloyd",
+      "Raia Hadsell",
+      "Nathan F. Lepora"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "published": "2020-08-06T13:29:05Z",
+    "paper_url": "https://arxiv.org/abs/2008.02646v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.02646v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.04248v1",
+    "title": "Robust and Scalable Techniques for TWR and TDoA based localization using Ultra Wide Band Radios",
+    "abstract": "Current trends in autonomous vehicles and their applications indicates an increasing need in positioning at low battery and compute cost. Lidars provide accurate localization at the cost of high compute and power consumption which could be detrimental for drones. Modern requirements for autonomous drones such as No-Permit-No-Takeoff (NPNT) and applications restricting drones to a corridor require the infrastructure to constantly determine the location of the drone. Ultra Wide Band Radios (UWB) fulfill such requirements and offer high precision localization and fast position update rates at a fraction of the cost and battery consumption as compared to lidars and also have greater network availability than GPS in a dense forested campus or an indoor setting. We present in this paper a novel protocol and technique to localize a drone for such applications using a Time Difference of Arrival (TDoA) approach. This further increases the position update rates without sacrificing on accuracy and compare it to traditional methods",
+    "authors": [
+      "Rakshit Ramesh",
+      "Aaron John-Sabu",
+      "Harshitha S",
+      "Siddarth Ramesh",
+      "Vishwas Navada B",
+      "Mukunth Arunachalam",
+      "Bharadwaj Amrutur"
+    ],
+    "categories": [
+      "eess.SP",
+      "cs.RO"
+    ],
+    "published": "2020-08-10T16:41:29Z",
+    "paper_url": "https://arxiv.org/abs/2008.04248v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.04248v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.03787v1",
+    "title": "Neural Manipulation Planning on Constraint Manifolds",
+    "abstract": "The presence of task constraints imposes a significant challenge to motion planning. Despite all recent advancements, existing algorithms are still computationally expensive for most planning problems. In this paper, we present Constrained Motion Planning Networks (CoMPNet), the first neural planner for multimodal kinematic constraints. Our approach comprises the following components: i) constraint and environment perception encoders; ii) neural robot configuration generator that outputs configurations on/near the constraint manifold(s), and iii) a bidirectional planning algorithm that takes the generated configurations to create a feasible robot motion trajectory. We show that CoMPNet solves practical motion planning tasks involving both unconstrained and constrained problems. Furthermore, it generalizes to new unseen locations of the objects, i.e., not seen during training, in the given environments with high success rates. When compared to the state-of-the-art constrained motion planning algorithms, CoMPNet outperforms by order of magnitude improvement in computational speed with a significantly lower variance.",
+    "authors": [
+      "Ahmed H. Qureshi",
+      "Jiangeng Dong",
+      "Austin Choe",
+      "Michael C. Yip"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "published": "2020-08-09T18:58:10Z",
+    "paper_url": "https://arxiv.org/abs/2008.03787v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.03787v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.10934v1",
+    "title": "UAV Target Tracking in Urban Environments Using Deep Reinforcement Learning",
+    "abstract": "Persistent target tracking in urban environments using UAV is a difficult task due to the limited field of view, visibility obstruction from obstacles and uncertain target motion. The vehicle needs to plan intelligently in 3D such that the target visibility is maximized. In this paper, we introduce Target Following DQN (TF-DQN), a deep reinforcement learning technique based on Deep Q-Networks with a curriculum training framework for the UAV to persistently track the target in the presence of obstacles and target motion uncertainty. The algorithm is evaluated through several simulation experiments qualitatively as well as quantitatively. The results show that the UAV tracks the target persistently in diverse environments while avoiding obstacles on the trained environments as well as on unseen environments.",
+    "authors": [
+      "Sarthak Bhagat",
+      "Sujit PB"
+    ],
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "published": "2020-07-21T16:52:48Z",
+    "paper_url": "https://arxiv.org/abs/2007.10934v1",
+    "pdf_url": "https://arxiv.org/pdf/2007.10934v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.10038v1",
+    "title": "Anticipating Human Intention for Full-Body Motion Prediction in Object Grasping and Placing Tasks",
+    "abstract": "Motion prediction in unstructured environments is a difficult problem and is essential for safe and efficient human-robot space sharing and collaboration. In this work, we focus on manipulation movements in environments such as homes, workplaces or restaurants, where the overall task and environment can be leveraged to produce accurate motion prediction. For these cases we propose an algorithmic framework that accounts explicitly for the environment geometry based on a model of affordances and a model of short-term human dynamics both trained on motion capture data. We propose dedicated function networks for graspability and placebility affordances and we make use of a dedicated RNN for short-term motion prediction. The prediction of grasp and placement probability densities are used by a constraint-based trajectory optimizer to produce a full-body motion prediction over the entire horizon. We show by comparing to ground truth data that we achieve similar performance for full-body motion predictions as using oracle grasp and place locations.",
+    "authors": [
+      "Philipp Kratzer",
+      "Niteesh Balachandra Midlagajni",
+      "Marc Toussaint",
+      "Jim Mainprice"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-07-20T12:19:55Z",
+    "paper_url": "https://arxiv.org/abs/2007.10038v1",
+    "pdf_url": "https://arxiv.org/pdf/2007.10038v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.10420v1",
+    "title": "Non-Markov Policies to Reduce Sequential Failures in Robot Bin Picking",
+    "abstract": "A new generation of automated bin picking systems using deep learning is evolving to support increasing demand for e-commerce. To accommodate a wide variety of products, many automated systems include multiple gripper types and/or tool changers. However, for some objects, sequential grasp failures are common: when a computed grasp fails to lift and remove the object, the bin is often left unchanged; as the sensor input is consistent, the system retries the same grasp over and over, resulting in a significant reduction in mean successful picks per hour (MPPH). Based on an empirical study of sequential failures, we characterize a class of \"sequential failure objects\" (SFOs) -- objects prone to sequential failures based on a novel taxonomy. We then propose three non-Markov picking policies that incorporate memory of past failures to modify subsequent actions. Simulation experiments on SFO models and the EGAD dataset suggest that the non-Markov policies significantly outperform the Markov policy in terms of the sequential failure rate and MPPH. In physical experiments on 50 heaps of 12 SFOs the most effective Non-Markov policy increased MPPH over the Dex-Net Markov policy by 107%.",
+    "authors": [
+      "Kate Sanders",
+      "Michael Danielczuk",
+      "Jeffrey Mahler",
+      "Ajay Tanwani",
+      "Ken Goldberg"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "published": "2020-07-20T19:20:40Z",
+    "paper_url": "https://arxiv.org/abs/2007.10420v1",
+    "pdf_url": "https://arxiv.org/pdf/2007.10420v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.10107v1",
+    "title": "Push, Stop, and Replan: An Application of Pebble Motion on Graphs to Planning in Automated Warehouses",
+    "abstract": "The pebble-motion on graphs is a subcategory of multi-agent pathfinding problems dealing with moving multiple pebble-like objects from a node to a node in a graph with a constraint that only one pebble can occupy one node at a given time. Additionally, algorithms solving this problem assume that individual pebbles (robots) cannot move at the same time and their movement is discrete. These assumptions disqualify them from being directly used in practical applications, although they have otherwise nice theoretical properties. We present modifications of the Push and Rotate algorithm [1], which relax the presumptions mentioned above and demonstrate, through a set of experiments, that the modified algorithm is applicable for planning in automated warehouses.",
+    "authors": [
+      "Miroslav Kulich",
+      "Tomáš Novák",
+      "Libor Přeucil"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-07-20T13:51:15Z",
+    "paper_url": "https://arxiv.org/abs/2007.10107v1",
+    "pdf_url": "https://arxiv.org/pdf/2007.10107v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.10220v2",
+    "title": "Roboat II: A Novel Autonomous Surface Vessel for Urban Environments",
+    "abstract": "This paper presents a novel autonomous surface vessel (ASV), called Roboat II for urban transportation. Roboat II is capable of accurate simultaneous localization and mapping (SLAM), receding horizon tracking control and estimation, and path planning. Roboat II is designed to maximize the internal space for transport and can carry payloads several times of its own weight. Moreover, it is capable of holonomic motions to facilitate transporting, docking, and inter-connectivity between boats. The proposed SLAM system receives sensor data from a 3D LiDAR, an IMU, and a GPS, and utilizes a factor graph to tackle the multi-sensor fusion problem. To cope with the complex dynamics in the water, Roboat II employs an online nonlinear model predictive controller (NMPC), where we experimentally estimated the dynamical model of the vessel in order to achieve superior performance for tracking control. The states of Roboat II are simultaneously estimated using a nonlinear moving horizon estimation (NMHE) algorithm. Experiments demonstrate that Roboat II is able to successfully perform online mapping and localization, plan its path and robustly track the planned trajectory in the confined river, implying that this autonomous vessel holds the promise on potential applications in transporting humans and goods in many of the waterways nowadays.",
+    "authors": [
+      "Wei Wang",
+      "Tixiao Shan",
+      "Pietro Leoni",
+      "David Fernandez-Gutierrez",
+      "Drew Meyers",
+      "Carlo Ratti",
+      "Daniela Rus"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-07-20T16:06:34Z",
+    "paper_url": "https://arxiv.org/abs/2007.10220v2",
+    "pdf_url": "https://arxiv.org/pdf/2007.10220v2",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.07632v1",
+    "title": "Bridging the Gap between Optimal Trajectory Planning and Safety-Critical Control with Applications to Autonomous Vehicles",
+    "abstract": "We address the problem of optimizing the performance of a dynamic system while satisfying hard safety constraints at all times. Implementing an optimal control solution is limited by the computational cost required to derive it in real time, especially when constraints become active, as well as the need to rely on simple linear dynamics, simple objective functions, and ignoring noise. The recently proposed Control Barrier Function (CBF) method may be used for safety-critical control at the expense of sub-optimal performance. In this paper, we develop a real-time control framework that combines optimal trajectories generated through optimal control with the computationally efficient CBF method providing safety guarantees. We use Hamiltonian analysis to obtain a tractable optimal solution for a linear or linearized system, then employ High Order CBFs (HOCBFs) and Control Lyapunov Functions (CLFs) to account for constraints with arbitrary relative degrees and to track the optimal state, respectively. We further show how to deal with noise in arbitrary relative degree systems. The proposed framework is then applied to the optimal traffic merging problem for Connected and Automated Vehicles (CAVs) where the objective is to jointly minimize the travel time and energy consumption of each CAV subject to speed, acceleration, and speed-dependent safety constraints. In addition, when considering more complex objective functions, nonlinear dynamics and passenger comfort requirements for which analytical optimal control solutions are unavailable, we adapt the HOCBF method to such problems. Simulation examples are included to compare the performance of the proposed framework to optimal solutions (when available) and to a baseline provided by human-driven vehicles with results showing significant improvements in all metrics.",
+    "authors": [
+      "Wei Xiao",
+      "Christos G. Cassandras",
+      "Calin A. Belta"
+    ],
+    "categories": [
+      "eess.SY",
+      "cs.RO"
+    ],
+    "published": "2020-08-17T21:35:00Z",
+    "paper_url": "https://arxiv.org/abs/2008.07632v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.07632v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.06626v1",
+    "title": "Safe Reinforcement Learning in Constrained Markov Decision Processes",
+    "abstract": "Safe reinforcement learning has been a promising approach for optimizing the policy of an agent that operates in safety-critical applications. In this paper, we propose an algorithm, SNO-MDP, that explores and optimizes Markov decision processes under unknown safety constraints. Specifically, we take a stepwise approach for optimizing safety and cumulative reward. In our method, the agent first learns safety constraints by expanding the safe region, and then optimizes the cumulative reward in the certified safe region. We provide theoretical guarantees on both the satisfaction of the safety constraint and the near-optimality of the cumulative reward under proper regularity assumptions. In our experiments, we demonstrate the effectiveness of SNO-MDP through two experiments: one uses a synthetic data in a new, openly-available environment named GP-SAFETY-GYM, and the other simulates Mars surface exploration by using real observation data.",
+    "authors": [
+      "Akifumi Wachi",
+      "Yanan Sui"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "published": "2020-08-15T02:20:23Z",
+    "paper_url": "https://arxiv.org/abs/2008.06626v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.06626v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.06696v1",
+    "title": "Autonomous Braking and Throttle System: A Deep Reinforcement Learning Approach for Naturalistic Driving",
+    "abstract": "Autonomous Braking and Throttle control is key in developing safe driving systems for the future. There exists a need for autonomous vehicles to negotiate a multi-agent environment while ensuring safety and comfort. A Deep Reinforcement Learning based autonomous throttle and braking system is presented. For each time step, the proposed system makes a decision to apply the brake or throttle. The throttle and brake are modelled as continuous action space values. We demonstrate 2 scenarios where there is a need for a sophisticated braking and throttle system, i.e when there is a static obstacle in front of our agent like a car, stop sign. The second scenario consists of 2 vehicles approaching an intersection. The policies for brake and throttle control are learned through computer simulation using Deep deterministic policy gradients. The experiment shows that the system not only avoids a collision, but also it ensures that there is smooth change in the values of throttle/brake as it gets out of the emergency situation and abides by the speed regulations, i.e the system resembles human driving.",
+    "authors": [
+      "Varshit S. Dubey",
+      "Ruhshad Kasad",
+      "Karan Agrawal"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "published": "2020-08-15T10:37:07Z",
+    "paper_url": "https://arxiv.org/abs/2008.06696v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.06696v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.06972v1",
+    "title": "Real-Time Spatio-Temporal LiDAR Point Cloud Compression",
+    "abstract": "Compressing massive LiDAR point clouds in real-time is critical to autonomous machines such as drones and self-driving cars. While most of the recent prior work has focused on compressing individual point cloud frames, this paper proposes a novel system that effectively compresses a sequence of point clouds. The idea to exploit both the spatial and temporal redundancies in a sequence of point cloud frames. We first identify a key frame in a point cloud sequence and spatially encode the key frame by iterative plane fitting. We then exploit the fact that consecutive point clouds have large overlaps in the physical space, and thus spatially encoded data can be (re-)used to encode the temporal stream. Temporal encoding by reusing spatial encoding data not only improves the compression rate, but also avoids redundant computations, which significantly improves the compression speed. Experiments show that our compression system achieves 40x to 90x compression rate, significantly higher than the MPEG's LiDAR point cloud compression standard, while retaining high end-to-end application accuracies. Meanwhile, our compression system has a compression speed that matches the point cloud generation rate by today LiDARs and out-performs existing compression systems, enabling real-time point cloud transmission.",
+    "authors": [
+      "Yu Feng",
+      "Shaoshan Liu",
+      "Yuhao Zhu"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.RO"
+    ],
+    "published": "2020-08-16T18:44:00Z",
+    "paper_url": "https://arxiv.org/abs/2008.06972v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.06972v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.11167v1",
+    "title": "Learning the Latent Space of Robot Dynamics for Cutting Interaction Inference",
+    "abstract": "Utilization of latent space to capture a lower-dimensional representation of a complex dynamics model is explored in this work. The targeted application is of a robotic manipulator executing a complex environment interaction task, in particular, cutting a wooden object. We train two flavours of Variational Autoencoders---standard and Vector-Quantised---to learn the latent space which is then used to infer certain properties of the cutting operation, such as whether the robot is cutting or not, as well as, material and geometry of the object being cut. The two VAE models are evaluated with reconstruction, prediction and a combined reconstruction/prediction decoders. The results demonstrate the expressiveness of the latent space for robotic interaction inference and the competitive prediction performance against recurrent neural networks.",
+    "authors": [
+      "Sahand Rezaei-Shoshtari",
+      "David Meger",
+      "Inna Sharf"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "published": "2020-07-22T02:29:33Z",
+    "paper_url": "https://arxiv.org/abs/2007.11167v1",
+    "pdf_url": "https://arxiv.org/pdf/2007.11167v1",
+    "label": "Robotics"
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.11233v3",
+    "title": "Collaborative Localization of Aerial and Ground Mobile Robots through Orthomosaic Map",
+    "abstract": "With the deepening of research on the SLAM system, the possibility of cooperative SLAM with multi-robots has been proposed. This paper presents a map matching and localization approach considering the cooperative SLAM of an aerial-ground system. The proposed approach aims to help precisely matching the map constructed by two independent systems that have large scale variance of viewpoints of the same route and eventually enables the ground mobile robot to localize itself in the global map given by the drone. It contains dense mapping with Elevation Map and software \"Metashape\", map matching with a proposed template matching algorithm, weighted normalized cross-correlation (WNCC) and localization with particle filter. The approach enables map matching for cooperative SLAM with the feasibility of multiple scene sensors, varies from stereo cameras to lidars, and is insensitive to the synchronization of the two systems. We demonstrate the accuracy, robustness, and the speed of the approach under experiments of the Aero-Ground Dataset.",
+    "authors": [
+      "Xuecheng Xu",
+      "Zexi Chen",
+      "Jiaxin Guo",
+      "Yue Wang",
+      "Yunkai Wang",
+      "Rong Xiong"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-07-22T07:07:16Z",
+    "paper_url": "https://arxiv.org/abs/2007.11233v3",
+    "pdf_url": "https://arxiv.org/pdf/2007.11233v3",
+    "label": "Robotics"
+  }
+]

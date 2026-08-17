@@ -1,0 +1,977 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2012.11486v1",
+    "title": "Leaf Segmentation and Counting with Deep Learning: on Model Certainty, Test-Time Augmentation, Trade-Offs",
+    "abstract": "Plant phenotyping tasks such as leaf segmentation and counting are fundamental to the study of phenotypic traits. Since it is well-suited for these tasks, deep supervised learning has been prevalent in recent works proposing better performing models at segmenting and counting leaves. Despite good efforts from research groups, one of the main challenges for proposing better methods is still the limitation of labelled data availability. The main efforts of the field seem to be augmenting existing limited data sets, and some aspects of the modelling process have been under-discussed. This paper explores such topics and present experiments that led to the development of the best-performing method in the Leaf Segmentation Challenge and in another external data set of Komatsuna plants. The model has competitive performance while been arguably simpler than other recently proposed ones. The experiments also brought insights such as the fact that model cardinality and test-time augmentation may have strong applications in object segmentation of single class and high occlusion, and regarding the data distribution of recently proposed data sets for benchmarking.",
+    "authors": [
+      "Douglas Pinto Sampaio Gomes",
+      "Lihong Zheng"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-21T17:00:05Z",
+    "paper_url": "https://arxiv.org/abs/2012.11486v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.11486v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.10066v1",
+    "title": "PointINet: Point Cloud Frame Interpolation Network",
+    "abstract": "LiDAR point cloud streams are usually sparse in time dimension, which is limited by hardware performance. Generally, the frame rates of mechanical LiDAR sensors are 10 to 20 Hz, which is much lower than other commonly used sensors like cameras. To overcome the temporal limitations of LiDAR sensors, a novel task named Point Cloud Frame Interpolation is studied in this paper. Given two consecutive point cloud frames, Point Cloud Frame Interpolation aims to generate intermediate frame(s) between them. To achieve that, we propose a novel framework, namely Point Cloud Frame Interpolation Network (PointINet). Based on the proposed method, the low frame rate point cloud streams can be upsampled to higher frame rates. We start by estimating bi-directional 3D scene flow between the two point clouds and then warp them to the given time step based on the 3D scene flow. To fuse the two warped frames and generate intermediate point cloud(s), we propose a novel learning-based points fusion module, which simultaneously takes two warped point clouds into consideration. We design both quantitative and qualitative experiments to evaluate the performance of the point cloud frame interpolation method and extensive experiments on two large scale outdoor LiDAR datasets demonstrate the effectiveness of the proposed PointINet. Our code is available at https://github.com/ispc-lab/PointINet.git.",
+    "authors": [
+      "Fan Lu",
+      "Guang Chen",
+      "Sanqing Qu",
+      "Zhijun Li",
+      "Yinlong Liu",
+      "Alois Knoll"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-18T06:15:01Z",
+    "paper_url": "https://arxiv.org/abs/2012.10066v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.10066v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12089v1",
+    "title": "Prediction of Chronic Kidney Disease Using Deep Neural Network",
+    "abstract": "Deep neural Network (DNN) is becoming a focal point in Machine Learning research. Its application is penetrating into different fields and solving intricate and complex problems. DNN is now been applied in health image processing to detect various ailment such as cancer and diabetes. Another disease that is causing threat to our health is the kidney disease. This disease is becoming prevalent due to substances and elements we intake. Death is imminent and inevitable within few days without at least one functioning kidney. Ignoring the kidney malfunction can cause chronic kidney disease leading to death. Frequently, Chronic Kidney Disease (CKD) and its symptoms are mild and gradual, often go unnoticed for years only to be realized lately. Bade, a Local Government of Yobe state in Nigeria has been a center of attention by medical practitioners due to the prevalence of CKD. Unfortunately, a technical approach in culminating the disease is yet to be attained. We obtained a record of 400 patients with 10 attributes as our dataset from Bade General Hospital. We used DNN model to predict the absence or presence of CKD in the patients. The model produced an accuracy of 98%. Furthermore, we identified and highlighted the Features importance to provide the ranking of the features used in the prediction of the CKD. The outcome revealed that two attributes; Creatinine and Bicarbonate have the highest influence on the CKD prediction.",
+    "authors": [
+      "Iliyas Ibrahim Iliyas",
+      "Isah Rambo Saidu",
+      "Ali Baba Dauda",
+      "Suleiman Tasiu"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2020-12-22T15:31:14Z",
+    "paper_url": "https://arxiv.org/abs/2012.12089v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12089v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12104v1",
+    "title": "A Deep Reinforcement Learning Approach for Ramp Metering Based on Traffic Video Data",
+    "abstract": "Ramp metering that uses traffic signals to regulate vehicle flows from the on-ramps has been widely implemented to improve vehicle mobility of the freeway. Previous studies generally update signal timings in real-time based on predefined traffic measures collected by point detectors, such as traffic volumes and occupancies. Comparing with point detectors, traffic cameras-which have been increasingly deployed on road networks-could cover larger areas and provide more detailed traffic information. In this work, we propose a deep reinforcement learning (DRL) method to explore the potential of traffic video data in improving the efficiency of ramp metering. The proposed method uses traffic video frames as inputs and learns the optimal control strategies directly from the high-dimensional visual inputs. A real-world case study demonstrates that, in comparison with a state-of-the-practice method, the proposed DRL method results in 1) lower travel times in the mainline, 2) shorter vehicle queues at the on-ramp, and 3) higher traffic flows downstream of the merging area. The results suggest that the proposed method is able to extract useful information from the video data for better ramp metering controls.",
+    "authors": [
+      "Bing Liu",
+      "Yu Tang",
+      "Yuxiong Ji",
+      "Yu Shen",
+      "Yuchuan Du"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2020-12-09T05:08:41Z",
+    "paper_url": "https://arxiv.org/abs/2012.12104v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12104v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12139v1",
+    "title": "Image to Bengali Caption Generation Using Deep CNN and Bidirectional Gated Recurrent Unit",
+    "abstract": "There is very little notable research on generating descriptions of the Bengali language. About 243 million people speak in Bengali, and it is the 7th most spoken language on the planet. The purpose of this research is to propose a CNN and Bidirectional GRU based architecture model that generates natural language captions in the Bengali language from an image. Bengali people can use this research to break the language barrier and better understand each other's perspectives. It will also help many blind people with their everyday lives. This paper used an encoder-decoder approach to generate captions. We used a pre-trained Deep convolutional neural network (DCNN) called InceptonV3image embedding model as the encoder for analysis, classification, and annotation of the dataset's images Bidirectional Gated Recurrent unit (BGRU) layer as the decoder to generate captions. Argmax and Beam search is used to produce the highest possible quality of the captions. A new dataset called BNATURE is used, which comprises 8000 images with five captions per image. It is used for training and testing the proposed model. We obtained BLEU-1, BLEU-2, BLEU-3, BLEU-4 and Meteor is 42.6, 27.95, 23, 66, 16.41, 28.7 respectively.",
+    "authors": [
+      "Al Momin Faruk",
+      "Hasan Al Faraby",
+      "Md. Muzahidul Azad",
+      "Md. Riduyan Fedous",
+      "Md. Kishor Morol"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2020-12-22T16:22:02Z",
+    "paper_url": "https://arxiv.org/abs/2012.12139v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12139v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13028v1",
+    "title": "General Domain Adaptation Through Proportional Progressive Pseudo Labeling",
+    "abstract": "Domain adaptation helps transfer the knowledge gained from a labeled source domain to an unlabeled target domain. During the past few years, different domain adaptation techniques have been published. One common flaw of these approaches is that while they might work well on one input type, such as images, their performance drops when applied to others, such as text or time-series. In this paper, we introduce Proportional Progressive Pseudo Labeling (PPPL), a simple, yet effective technique that can be implemented in a few lines of code to build a more general domain adaptation technique that can be applied on several different input types. At the beginning of the training phase, PPPL progressively reduces target domain classification error, by training the model directly with pseudo-labeled target domain samples, while excluding samples with more likely wrong pseudo-labels from the training set and also postponing training on such samples. Experiments on 6 different datasets that include tasks such as anomaly detection, text sentiment analysis and image classification demonstrate that PPPL can beat other baselines and generalize better.",
+    "authors": [
+      "Mohammad J. Hashemi",
+      "Eric Keller"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ],
+    "published": "2020-12-23T23:57:00Z",
+    "paper_url": "https://arxiv.org/abs/2012.13028v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13028v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13191v1",
+    "title": "Appearance-Invariant 6-DoF Visual Localization using Generative Adversarial Networks",
+    "abstract": "We propose a novel visual localization network when outside environment has changed such as different illumination, weather and season. The visual localization network is composed of a feature extraction network and pose regression network. The feature extraction network is made up of an encoder network based on the Generative Adversarial Network CycleGAN, which can capture intrinsic appearance-invariant feature maps from unpaired samples of different weathers and seasons. With such an invariant feature, we use a 6-DoF pose regression network to tackle long-term visual localization in the presence of outdoor illumination, weather and season changes. A variety of challenging datasets for place recognition and localization are used to prove our visual localization network, and the results show that our method outperforms state-of-the-art methods in the scenarios with various environment changes.",
+    "authors": [
+      "Yimin Lin",
+      "Jianfeng Huang",
+      "Shiguo Lian"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-24T10:43:43Z",
+    "paper_url": "https://arxiv.org/abs/2012.13191v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13191v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12258v1",
+    "title": "Underwater image filtering: methods, datasets and evaluation",
+    "abstract": "Underwater images are degraded by the selective attenuation of light that distorts colours and reduces contrast. The degradation extent depends on the water type, the distance between an object and the camera, and the depth under the water surface the object is at. Underwater image filtering aims to restore or to enhance the appearance of objects captured in an underwater image. Restoration methods compensate for the actual degradation, whereas enhancement methods improve either the perceived image quality or the performance of computer vision algorithms. The growing interest in underwater image filtering methods--including learning-based approaches used for both restoration and enhancement--and the associated challenges call for a comprehensive review of the state of the art. In this paper, we review the design principles of filtering methods and revisit the oceanology background that is fundamental to identify the degradation causes. We discuss image formation models and the results of restoration methods in various water types. Furthermore, we present task-dependent enhancement methods and categorise datasets for training neural networks and for method evaluation. Finally, we discuss evaluation strategies, including subjective tests and quality assessment measures. We complement this survey with a platform ( https://puiqe.eecs.qmul.ac.uk/ ), which hosts state-of-the-art underwater filtering methods and facilitates comparisons.",
+    "authors": [
+      "Chau Yi Li",
+      "Riccardo Mazzon",
+      "Andrea Cavallaro"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-22T18:56:39Z",
+    "paper_url": "https://arxiv.org/abs/2012.12258v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12258v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12302v1",
+    "title": "Flexible deep transfer learning by separate feature embeddings and manifold alignment",
+    "abstract": "Object recognition is a key enabler across industry and defense. As technology changes, algorithms must keep pace with new requirements and data. New modalities and higher resolution sensors should allow for increased algorithm robustness. Unfortunately, algorithms trained on existing labeled datasets do not directly generalize to new data because the data distributions do not match. Transfer learning (TL) or domain adaptation (DA) methods have established the groundwork for transferring knowledge from existing labeled source data to new unlabeled target datasets. However, current DA approaches assume similar source and target feature spaces and suffer in the case of massive domain shifts or changes in the feature space. Existing methods assume the data are either the same modality, or can be aligned to a common feature space. Therefore, most methods are not designed to support a fundamental domain change such as visual to auditory data. We propose a novel deep learning framework that overcomes this limitation by learning separate feature extractions for each domain while minimizing the distance between the domains in a latent lower-dimensional space. The alignment is achieved by considering the data manifold along with an adversarial training procedure. We demonstrate the effectiveness of the approach versus traditional methods with several ablation experiments on synthetic, measured, and satellite image datasets. We also provide practical guidelines for training the network while overcoming vanishing gradients which inhibit learning in some adversarial training settings.",
+    "authors": [
+      "Samuel Rivera",
+      "Joel Klipfel",
+      "Deborah Weeks"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-22T19:24:44Z",
+    "paper_url": "https://arxiv.org/abs/2012.12302v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12302v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12308v1",
+    "title": "Randomized RX for target detection",
+    "abstract": "This work tackles the target detection problem through the well-known global RX method. The RX method models the clutter as a multivariate Gaussian distribution, and has been extended to nonlinear distributions using kernel methods. While the kernel RX can cope with complex clutters, it requires a considerable amount of computational resources as the number of clutter pixels gets larger. Here we propose random Fourier features to approximate the Gaussian kernel in kernel RX and consequently our development keep the accuracy of the nonlinearity while reducing the computational cost which is now controlled by an hyperparameter. Results over both synthetic and real-world image target detection problems show space and time efficiency of the proposed method while providing high detection performance.",
+    "authors": [
+      "Fatih Nar",
+      "Adrián Pérez-Suay",
+      "José Antonio Padrón",
+      "Gustau Camps-Valls"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2020-12-08T19:18:49Z",
+    "paper_url": "https://arxiv.org/abs/2012.12308v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12308v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12397v1",
+    "title": "Multi-Task Multi-Sensor Fusion for 3D Object Detection",
+    "abstract": "In this paper we propose to exploit multiple related tasks for accurate multi-sensor 3D object detection. Towards this goal we present an end-to-end learnable architecture that reasons about 2D and 3D object detection as well as ground estimation and depth completion. Our experiments show that all these tasks are complementary and help the network learn better representations by fusing information at various levels. Importantly, our approach leads the KITTI benchmark on 2D, 3D and BEV object detection, while being real time.",
+    "authors": [
+      "Ming Liang",
+      "Bin Yang",
+      "Yun Chen",
+      "Rui Hu",
+      "Raquel Urtasun"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-22T22:49:15Z",
+    "paper_url": "https://arxiv.org/abs/2012.12397v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12397v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12432v2",
+    "title": "Multi-Contrast Computed Tomography Healthy Kidney Atlas",
+    "abstract": "The construction of three-dimensional multi-modal tissue maps provides an opportunity to spur interdisciplinary innovations across temporal and spatial scales through information integration. While the preponderance of effort is allocated to the cellular level and explore the changes in cell interactions and organizations, contextualizing findings within organs and systems is essential to visualize and interpret higher resolution linkage across scales. There is a substantial normal variation of kidney morphometry and appearance across body size, sex, and imaging protocols in abdominal computed tomography (CT). A volumetric atlas framework is needed to integrate and visualize the variability across scales. However, there is no abdominal and retroperitoneal organs atlas framework for multi-contrast CT. Hence, we proposed a high-resolution CT retroperitoneal atlas specifically optimized for the kidney across non-contrast CT and early arterial, late arterial, venous and delayed contrast enhanced CT. Briefly, we introduce a deep learning-based volume of interest extraction method and an automated two-stage hierarchal registration pipeline to register abdominal volumes to a high-resolution CT atlas template. To generate and evaluate the atlas, multi-contrast modality CT scans of 500 subjects (without reported history of renal disease, age: 15-50 years, 250 males & 250 females) were processed. We demonstrate a stable generalizability of the atlas template for integrating the normal kidney variation from small to large, across contrast modalities and populations with great variability of demographics. The linkage of atlas and demographics provided a better understanding of the variation of kidney anatomy across populations.",
+    "authors": [
+      "Ho Hin Lee",
+      "Yucheng Tang",
+      "Kaiwen Xu",
+      "Shunxing Bao",
+      "Agnes B. Fogo",
+      "Raymond Harris",
+      "Mark P. de Caestecker",
+      "Mattias Heinrich",
+      "Jeffrey M. Spraggins",
+      "Yuankai Huo",
+      "Bennett A. Landman"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "published": "2020-12-23T01:03:16Z",
+    "paper_url": "https://arxiv.org/abs/2012.12432v2",
+    "pdf_url": "https://arxiv.org/pdf/2012.12432v2",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13340v1",
+    "title": "Joint super-resolution and synthesis of 1 mm isotropic MP-RAGE volumes from clinical MRI exams with scans of different orientation, resolution and contrast",
+    "abstract": "Most existing algorithms for automatic 3D morphometry of human brain MRI scans are designed for data with near-isotropic voxels at approximately 1 mm resolution, and frequently have contrast constraints as well - typically requiring T1 scans (e.g., MP-RAGE). This limitation prevents the analysis of millions of MRI scans acquired with large inter-slice spacing (\"thick slice\") in clinical settings every year. The inability to quantitatively analyze these scans hinders the adoption of quantitative neuroimaging in healthcare, and precludes research studies that could attain huge sample sizes and hence greatly improve our understanding of the human brain. Recent advances in CNNs are producing outstanding results in super-resolution and contrast synthesis of MRI. However, these approaches are very sensitive to the contrast, resolution and orientation of the input images, and thus do not generalize to diverse clinical acquisition protocols - even within sites. Here we present SynthSR, a method to train a CNN that receives one or more thick-slice scans with different contrast, resolution and orientation, and produces an isotropic scan of canonical contrast (typically a 1 mm MP-RAGE). The presented method does not require any preprocessing, e.g., skull stripping or bias field correction. Crucially, SynthSR trains on synthetic input images generated from 3D segmentations, and can thus be used to train CNNs for any combination of contrasts, resolutions and orientations without high-resolution training data. We test the images generated with SynthSR in an array of common downstream analyses, and show that they can be reliably used for subcortical segmentation and volumetry, image registration (e.g., for tensor-based morphometry), and, if some image quality requirements are met, even cortical thickness morphometry. The source code is publicly available at github.com/BBillot/SynthSR.",
+    "authors": [
+      "Juan Eugenio Iglesias",
+      "Benjamin Billot",
+      "Yael Balbastre",
+      "Azadeh Tabari",
+      "John Conklin",
+      "Daniel C. Alexander",
+      "Polina Golland",
+      "Brian L. Edlow",
+      "Bruce Fischl"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "published": "2020-12-24T17:29:53Z",
+    "paper_url": "https://arxiv.org/abs/2012.13340v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13340v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13364v1",
+    "title": "Spatio-temporal Multi-task Learning for Cardiac MRI Left Ventricle Quantification",
+    "abstract": "Quantitative assessment of cardiac left ventricle (LV) morphology is essential to assess cardiac function and improve the diagnosis of different cardiovascular diseases. In current clinical practice, LV quantification depends on the measurement of myocardial shape indices, which is usually achieved by manual contouring of the endo- and epicardial. However, this process subjected to inter and intra-observer variability, and it is a time-consuming and tedious task. In this paper, we propose a spatio-temporal multi-task learning approach to obtain a complete set of measurements quantifying cardiac LV morphology, regional-wall thickness (RWT), and additionally detecting the cardiac phase cycle (systole and diastole) for a given 3D Cine-magnetic resonance (MR) image sequence. We first segment cardiac LVs using an encoder-decoder network and then introduce a multitask framework to regress 11 LV indices and classify the cardiac phase, as parallel tasks during model optimization. The proposed deep learning model is based on the 3D spatio-temporal convolutions, which extract spatial and temporal features from MR images. We demonstrate the efficacy of the proposed method using cine-MR sequences of 145 subjects and comparing the performance with other state-of-the-art quantification methods. The proposed method obtained high prediction accuracy, with an average mean absolute error (MAE) of 129 $mm^2$, 1.23 $mm$, 1.76 $mm$, Pearson correlation coefficient (PCC) of 96.4%, 87.2%, and 97.5% for LV and myocardium (Myo) cavity regions, 6 RWTs, 3 LV dimensions, and an error rate of 9.0\\% for phase classification. The experimental results highlight the robustness of the proposed method, despite varying degrees of cardiac morphology, image appearance, and low contrast in the cardiac MR sequences.",
+    "authors": [
+      "Sulaiman Vesal",
+      "Mingxuan Gu",
+      "Andreas Maier",
+      "Nishant Ravikumar"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "published": "2020-12-24T17:48:35Z",
+    "paper_url": "https://arxiv.org/abs/2012.13364v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13364v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12447v1",
+    "title": "Skeleton-based Approaches based on Machine Vision: A Survey",
+    "abstract": "Recently, skeleton-based approaches have achieved rapid progress on the basis of great success in skeleton representation. Plenty of researches focus on solving specific problems according to skeleton features. Some skeleton-based approaches have been mentioned in several overviews on object detection as a non-essential part. Nevertheless, there has not been any thorough analysis of skeleton-based approaches attentively. Instead of describing these techniques in terms of theoretical constructs, we devote to summarizing skeleton-based approaches with regard to application fields and given tasks as comprehensively as possible. This paper is conducive to further understanding of skeleton-based application and dealing with particular issues.",
+    "authors": [
+      "Jie Li",
+      "Binglin Li",
+      "Min Gao"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2020-12-23T02:03:37Z",
+    "paper_url": "https://arxiv.org/abs/2012.12447v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12447v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12453v1",
+    "title": "CholecSeg8k: A Semantic Segmentation Dataset for Laparoscopic Cholecystectomy Based on Cholec80",
+    "abstract": "Computer-assisted surgery has been developed to enhance surgery correctness and safety. However, researchers and engineers suffer from limited annotated data to develop and train better algorithms. Consequently, the development of fundamental algorithms such as Simultaneous Localization and Mapping (SLAM) is limited. This article elaborates on the efforts of preparing the dataset for semantic segmentation, which is the foundation of many computer-assisted surgery mechanisms. Based on the Cholec80 dataset [3], we extracted 8,080 laparoscopic cholecystectomy image frames from 17 video clips in Cholec80 and annotated the images. The dataset is named CholecSeg8K and its total size is 3GB. Each of these images is annotated at pixel-level for thirteen classes, which are commonly founded in laparoscopic cholecystectomy surgery. CholecSeg8k is released under the license CC BY- NC-SA 4.0.",
+    "authors": [
+      "W. -Y. Hong",
+      "C. -L. Kao",
+      "Y. -H. Kuo",
+      "J. -R. Wang",
+      "W. -L. Chang",
+      "C. -S. Shih"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-23T02:23:15Z",
+    "paper_url": "https://arxiv.org/abs/2012.12453v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12453v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12545v1",
+    "title": "Unsupervised Domain Adaptation for Semantic Segmentation by Content Transfer",
+    "abstract": "In this paper, we tackle the unsupervised domain adaptation (UDA) for semantic segmentation, which aims to segment the unlabeled real data using labeled synthetic data. The main problem of UDA for semantic segmentation relies on reducing the domain gap between the real image and synthetic image. To solve this problem, we focused on separating information in an image into content and style. Here, only the content has cues for semantic segmentation, and the style makes the domain gap. Thus, precise separation of content and style in an image leads to effect as supervision of real data even when learning with synthetic data. To make the best of this effect, we propose a zero-style loss. Even though we perfectly extract content for semantic segmentation in the real domain, another main challenge, the class imbalance problem, still exists in UDA for semantic segmentation. We address this problem by transferring the contents of tail classes from synthetic to real domain. Experimental results show that the proposed method achieves the state-of-the-art performance in semantic segmentation on the major two UDA settings.",
+    "authors": [
+      "Suhyeon Lee",
+      "Junhyuk Hyun",
+      "Hongje Seong",
+      "Euntai Kim"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-23T09:01:00Z",
+    "paper_url": "https://arxiv.org/abs/2012.12545v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12545v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.11745v1",
+    "title": "Training DNNs in O(1) memory with MEM-DFA using Random Matrices",
+    "abstract": "This work presents a method for reducing memory consumption to a constant complexity when training deep neural networks. The algorithm is based on the more biologically plausible alternatives of the backpropagation (BP): direct feedback alignment (DFA) and feedback alignment (FA), which use random matrices to propagate error. The proposed method, memory-efficient direct feedback alignment (MEM-DFA), uses higher independence of layers in DFA and allows avoiding storing at once all activation vectors, unlike standard BP, FA, and DFA. Thus, our algorithm's memory usage is constant regardless of the number of layers in a neural network. The method increases the computational cost only by a constant factor of one extra forward pass.\n  The MEM-DFA, BP, FA, and DFA were evaluated along with their memory profiles on MNIST and CIFAR-10 datasets on various neural network models. Our experiments agree with our theoretical results and show a significant decrease in the memory cost of MEM-DFA compared to the other algorithms.",
+    "authors": [
+      "Tien Chu",
+      "Kamil Mykitiuk",
+      "Miron Szewczyk",
+      "Adam Wiktor",
+      "Zbigniew Wojna"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-21T23:27:40Z",
+    "paper_url": "https://arxiv.org/abs/2012.11745v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.11745v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.10992v1",
+    "title": "Deep Continuous Fusion for Multi-Sensor 3D Object Detection",
+    "abstract": "In this paper, we propose a novel 3D object detector that can exploit both LIDAR as well as cameras to perform very accurate localization. Towards this goal, we design an end-to-end learnable architecture that exploits continuous convolutions to fuse image and LIDAR feature maps at different levels of resolution. Our proposed continuous fusion layer encode both discrete-state image features as well as continuous geometric information. This enables us to design a novel, reliable and efficient end-to-end learnable 3D object detector based on multiple sensors. Our experimental evaluation on both KITTI as well as a large scale 3D object detection benchmark shows significant improvements over the state of the art.",
+    "authors": [
+      "Ming Liang",
+      "Bin Yang",
+      "Shenlong Wang",
+      "Raquel Urtasun"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-20T18:43:41Z",
+    "paper_url": "https://arxiv.org/abs/2012.10992v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.10992v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.11002v1",
+    "title": "Deep Bingham Networks: Dealing with Uncertainty and Ambiguity in Pose Estimation",
+    "abstract": "In this work, we introduce Deep Bingham Networks (DBN), a generic framework that can naturally handle pose-related uncertainties and ambiguities arising in almost all real life applications concerning 3D data. While existing works strive to find a single solution to the pose estimation problem, we make peace with the ambiguities causing high uncertainty around which solutions to identify as the best. Instead, we report a family of poses which capture the nature of the solution space. DBN extends the state of the art direct pose regression networks by (i) a multi-hypotheses prediction head which can yield different distribution modes; and (ii) novel loss functions that benefit from Bingham distributions on rotations. This way, DBN can work both in unambiguous cases providing uncertainty information, and in ambiguous scenes where an uncertainty per mode is desired. On a technical front, our network regresses continuous Bingham mixture models and is applicable to both 2D data such as images and to 3D data such as point clouds. We proposed new training strategies so as to avoid mode or posterior collapse during training and to improve numerical stability. Our methods are thoroughly tested on two different applications exploiting two different modalities: (i) 6D camera relocalization from images; and (ii) object pose estimation from 3D point clouds, demonstrating decent advantages over the state of the art. For the former we contributed our own dataset composed of five indoor scenes where it is unavoidable to capture images corresponding to views that are hard to uniquely identify. For the latter we achieve the top results especially for symmetric objects of ModelNet dataset.",
+    "authors": [
+      "Haowen Deng",
+      "Mai Bui",
+      "Nassir Navab",
+      "Leonidas Guibas",
+      "Slobodan Ilic",
+      "Tolga Birdal"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-20T19:20:26Z",
+    "paper_url": "https://arxiv.org/abs/2012.11002v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.11002v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.11101v1",
+    "title": "ResizeMix: Mixing Data with Preserved Object Information and True Labels",
+    "abstract": "Data augmentation is a powerful technique to increase the diversity of data, which can effectively improve the generalization ability of neural networks in image recognition tasks. Recent data mixing based augmentation strategies have achieved great success. Especially, CutMix uses a simple but effective method to improve the classifiers by randomly cropping a patch from one image and pasting it on another image. To further promote the performance of CutMix, a series of works explore to use the saliency information of the image to guide the mixing. We systematically study the importance of the saliency information for mixing data, and find that the saliency information is not so necessary for promoting the augmentation performance. Furthermore, we find that the cutting based data mixing methods carry two problems of label misallocation and object information missing, which cannot be resolved simultaneously. We propose a more effective but very easily implemented method, namely ResizeMix. We mix the data by directly resizing the source image to a small patch and paste it on another image. The obtained patch preserves more substantial object information compared with conventional cut-based methods. ResizeMix shows evident advantages over CutMix and the saliency-guided methods on both image classification and object detection tasks without additional computation cost, which even outperforms most costly search-based automatic augmentation methods.",
+    "authors": [
+      "Jie Qin",
+      "Jiemin Fang",
+      "Qian Zhang",
+      "Wenyu Liu",
+      "Xingang Wang",
+      "Xinggang Wang"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-21T03:43:13Z",
+    "paper_url": "https://arxiv.org/abs/2012.11101v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.11101v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12890v1",
+    "title": "ANR: Articulated Neural Rendering for Virtual Avatars",
+    "abstract": "The combination of traditional rendering with neural networks in Deferred Neural Rendering (DNR) provides a compelling balance between computational complexity and realism of the resulting images. Using skinned meshes for rendering articulating objects is a natural extension for the DNR framework and would open it up to a plethora of applications. However, in this case the neural shading step must account for deformations that are possibly not captured in the mesh, as well as alignment inaccuracies and dynamics -- which can confound the DNR pipeline. We present Articulated Neural Rendering (ANR), a novel framework based on DNR which explicitly addresses its limitations for virtual human avatars. We show the superiority of ANR not only with respect to DNR but also with methods specialized for avatar creation and animation. In two user studies, we observe a clear preference for our avatar model and we demonstrate state-of-the-art performance on quantitative evaluation metrics. Perceptually, we observe better temporal stability, level of detail and plausibility.",
+    "authors": [
+      "Amit Raj",
+      "Julian Tanke",
+      "James Hays",
+      "Minh Vo",
+      "Carsten Stoll",
+      "Christoph Lassner"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-23T18:56:11Z",
+    "paper_url": "https://arxiv.org/abs/2012.12890v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12890v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14092v1",
+    "title": "Model Optimization for Deep Space Exploration via Simulators and Deep Learning",
+    "abstract": "Machine learning, and eventually true artificial intelligence techniques, are extremely important advancements in astrophysics and astronomy. We explore the application of deep learning using neural networks in order to automate the detection of astronomical bodies for future exploration missions, such as missions to search for signatures or suitability of life. The ability to acquire images, analyze them, and send back those that are important, as determined by the deep learning algorithm, is critical in bandwidth-limited applications. Our previous foundational work solidified the concept of using simulator images and deep learning in order to detect planets. Optimization of this process is of vital importance, as even a small loss in accuracy might be the difference between capturing and completely missing a possibly-habitable nearby planet. Through computer vision, deep learning, and simulators, we introduce methods that optimize the detection of exoplanets. We show that maximum achieved accuracy can hit above 98% for multiple model architectures, even with a relatively small training set.",
+    "authors": [
+      "James Bird",
+      "Kellan Colburn",
+      "Linda Petzold",
+      "Philip Lubin"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "cs.CV"
+    ],
+    "published": "2020-12-28T04:36:09Z",
+    "paper_url": "https://arxiv.org/abs/2012.14092v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14092v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14106v1",
+    "title": "Diagnosis/Prognosis of COVID-19 Images: Challenges, Opportunities, and Applications",
+    "abstract": "The novel Coronavirus disease, COVID-19, has rapidly and abruptly changed the world as we knew in 2020. It becomes the most unprecedent challenge to analytic epidemiology in general and signal processing theories in specific. Given its high contingency nature and adverse effects across the world, it is important to develop efficient processing/learning models to overcome this pandemic and be prepared for potential future ones. In this regard, medical imaging plays an important role for the management of COVID-19. Human-centered interpretation of medical images is, however, tedious and can be subjective. This has resulted in a surge of interest to develop Radiomics models for analysis and interpretation of medical images. Signal Processing (SP) and Deep Learning (DL) models can assist in development of robust Radiomics solutions for diagnosis/prognosis, severity assessment, treatment response, and monitoring of COVID-19 patients. In this article, we aim to present an overview of the current state, challenges, and opportunities of developing SP/DL-empowered models for diagnosis (screening/monitoring) and prognosis (outcome prediction and severity assessment) of COVID-19 infection. More specifically, the article starts by elaborating the latest development on the theoretical framework of analytic epidemiology and hypersignal processing for COVID-19. Afterwards, imaging modalities and Radiological characteristics of COVID-19 are discussed. SL/DL-based Radiomic models specific to the analysis of COVID-19 infection are then described covering the following four domains: Segmentation of COVID-19 lesions; Predictive models for outcome prediction; Severity assessment, and; Diagnosis/classification models. Finally, open problems and opportunities are presented in detail.",
+    "authors": [
+      "Arash Mohammadi",
+      "Yingxu Wang",
+      "Nastaran Enshaei",
+      "Parnian Afshar",
+      "Farnoosh Naderkhani",
+      "Anastasia Oikonomou",
+      "Moezedin Javad Rafiee",
+      "Helder C. R. Oliveira",
+      "Svetlana Yanushkevich",
+      "Konstantinos N. Plataniotis"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2020-12-28T05:38:44Z",
+    "paper_url": "https://arxiv.org/abs/2012.14106v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14106v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14130v1",
+    "title": "Joint Intensity-Gradient Guided Generative Modeling for Colorization",
+    "abstract": "This paper proposes an iterative generative model for solving the automatic colorization problem. Although previous researches have shown the capability to generate plausible color, the edge color overflow and the requirement of the reference images still exist. The starting point of the unsupervised learning in this study is the observation that the gradient map possesses latent information of the image. Therefore, the inference process of the generative modeling is conducted in joint intensity-gradient domain. Specifically, a set of intensity-gradient formed high-dimensional tensors, as the network input, are used to train a powerful noise conditional score network at the training phase. Furthermore, the joint intensity-gradient constraint in data-fidelity term is proposed to limit the degree of freedom within generative model at the iterative colorization stage, and it is conducive to edge-preserving. Extensive experiments demonstrated that the system outperformed state-of-the-art methods whether in quantitative comparisons or user study.",
+    "authors": [
+      "Kai Hong",
+      "Jin Li",
+      "Wanyun Li",
+      "Cailian Yang",
+      "Minghui Zhang",
+      "Yuhao Wang",
+      "Qiegen Liu"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-28T07:52:55Z",
+    "paper_url": "https://arxiv.org/abs/2012.14130v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14130v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14142v1",
+    "title": "Perception Consistency Ultrasound Image Super-resolution via Self-supervised CycleGAN",
+    "abstract": "Due to the limitations of sensors, the transmission medium and the intrinsic properties of ultrasound, the quality of ultrasound imaging is always not ideal, especially its low spatial resolution. To remedy this situation, deep learning networks have been recently developed for ultrasound image super-resolution (SR) because of the powerful approximation capability. However, most current supervised SR methods are not suitable for ultrasound medical images because the medical image samples are always rare, and usually, there are no low-resolution (LR) and high-resolution (HR) training pairs in reality. In this work, based on self-supervision and cycle generative adversarial network (CycleGAN), we propose a new perception consistency ultrasound image super-resolution (SR) method, which only requires the LR ultrasound data and can ensure the re-degenerated image of the generated SR one to be consistent with the original LR image, and vice versa. We first generate the HR fathers and the LR sons of the test ultrasound LR image through image enhancement, and then make full use of the cycle loss of LR-SR-LR and HR-LR-SR and the adversarial characteristics of the discriminator to promote the generator to produce better perceptually consistent SR results. The evaluation of PSNR/IFC/SSIM, inference efficiency and visual effects under the benchmark CCA-US and CCA-US datasets illustrate our proposed approach is effective and superior to other state-of-the-art methods.",
+    "authors": [
+      "Heng Liu",
+      "Jianyong Liu",
+      "Tao Tao",
+      "Shudong Hou",
+      "Jungong Han"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "published": "2020-12-28T08:24:04Z",
+    "paper_url": "https://arxiv.org/abs/2012.14142v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14142v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14186v1",
+    "title": "Action Recognition with Kernel-based Graph Convolutional Networks",
+    "abstract": "Learning graph convolutional networks (GCNs) is an emerging field which aims at generalizing deep learning to arbitrary non-regular domains. Most of the existing GCNs follow a neighborhood aggregation scheme, where the representation of a node is recursively obtained by aggregating its neighboring node representations using averaging or sorting operations. However, these operations are either ill-posed or weak to be discriminant or increase the number of training parameters and thereby the computational complexity and the risk of overfitting. In this paper, we introduce a novel GCN framework that achieves spatial graph convolution in a reproducing kernel Hilbert space (RKHS). The latter makes it possible to design, via implicit kernel representations, convolutional graph filters in a high dimensional and more discriminating space without increasing the number of training parameters. The particularity of our GCN model also resides in its ability to achieve convolutions without explicitly realigning nodes in the receptive fields of the learned graph filters with those of the input graphs, thereby making convolutions permutation agnostic and well defined. Experiments conducted on the challenging task of skeleton-based action recognition show the superiority of the proposed method against different baselines as well as the related work.",
+    "authors": [
+      "Hichem Sahbi"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-28T11:02:51Z",
+    "paper_url": "https://arxiv.org/abs/2012.14186v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14186v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14207v1",
+    "title": "Combining CNN and Hybrid Active Contours for Head and Neck Tumor Segmentation in CT and PET images",
+    "abstract": "Automatic segmentation of head and neck tumors plays an important role in radiomics analysis. In this short paper, we propose an automatic segmentation method for head and neck tumors from PET and CT images based on the combination of convolutional neural networks (CNNs) and hybrid active contours. Specifically, we first introduce a multi-channel 3D U-Net to segment the tumor with the concatenated PET and CT images. Then, we estimate the segmentation uncertainty by model ensembles and define a segmentation quality score to select the cases with high uncertainties. Finally, we develop a hybrid active contour model to refine the high uncertainty cases. Our method ranked second place in the MICCAI 2020 HECKTOR challenge with average Dice Similarity Coefficient, precision, and recall of 0.752, 0.838, and 0.717, respectively.",
+    "authors": [
+      "Jun Ma",
+      "Xiaoping Yang"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "published": "2020-12-28T12:12:14Z",
+    "paper_url": "https://arxiv.org/abs/2012.14207v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14207v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13666v1",
+    "title": "PaXNet: Dental Caries Detection in Panoramic X-ray using Ensemble Transfer Learning and Capsule Classifier",
+    "abstract": "Dental caries is one of the most chronic diseases involving the majority of the population during their lifetime. Caries lesions are typically diagnosed by radiologists relying only on their visual inspection to detect via dental x-rays. In many cases, dental caries is hard to identify using x-rays and can be misinterpreted as shadows due to different reasons such as low image quality. Hence, developing a decision support system for caries detection has been a topic of interest in recent years. Here, we propose an automatic diagnosis system to detect dental caries in Panoramic images for the first time, to the best of authors' knowledge. The proposed model benefits from various pretrained deep learning models through transfer learning to extract relevant features from x-rays and uses a capsule network to draw prediction results. On a dataset of 470 Panoramic images used for features extraction, including 240 labeled images for classification, our model achieved an accuracy score of 86.05\\% on the test set. The obtained score demonstrates acceptable detection performance and an increase in caries detection speed, as long as the challenges of using Panoramic x-rays of real patients are taken into account. Among images with caries lesions in the test set, our model acquired recall scores of 69.44\\% and 90.52\\% for mild and severe ones, confirming the fact that severe caries spots are more straightforward to detect and efficient mild caries detection needs a more robust and larger dataset. Considering the novelty of current research study as using Panoramic images, this work is a step towards developing a fully automated efficient decision support system to assist domain experts.",
+    "authors": [
+      "Arman Haghanifar",
+      "Mahdiyar Molahasani Majdabadi",
+      "Seok-Bum Ko"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2020-12-26T03:00:35Z",
+    "paper_url": "https://arxiv.org/abs/2012.13666v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13666v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13690v1",
+    "title": "One-Shot Object Localization Using Learnt Visual Cues via Siamese Networks",
+    "abstract": "A robot that can operate in novel and unstructured environments must be capable of recognizing new, previously unseen, objects. In this work, a visual cue is used to specify a novel object of interest which must be localized in new environments. An end-to-end neural network equipped with a Siamese network is used to learn the cue, infer the object of interest, and then to localize it in new environments. We show that a simulated robot can pick-and-place novel objects pointed to by a laser pointer. We also evaluate the performance of the proposed approach on a dataset derived from the Omniglot handwritten character dataset and on a small dataset of toys.",
+    "authors": [
+      "Sagar Gubbi Venkatesh",
+      "Bharadwaj Amrutur"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "published": "2020-12-26T07:40:00Z",
+    "paper_url": "https://arxiv.org/abs/2012.13690v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13690v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13716v1",
+    "title": "Hybrid and Non-Uniform quantization methods using retro synthesis data for efficient inference",
+    "abstract": "Existing quantization aware training methods attempt to compensate for the quantization loss by leveraging on training data, like most of the post-training quantization methods, and are also time consuming. Both these methods are not effective for privacy constraint applications as they are tightly coupled with training data. In contrast, this paper proposes a data-independent post-training quantization scheme that eliminates the need for training data. This is achieved by generating a faux dataset, hereafter referred to as Retro-Synthesis Data, from the FP32 model layer statistics and further using it for quantization. This approach outperformed state-of-the-art methods including, but not limited to, ZeroQ and DFQ on models with and without Batch-Normalization layers for 8, 6, and 4 bit precisions on ImageNet and CIFAR-10 datasets. We also introduced two futuristic variants of post-training quantization methods namely Hybrid Quantization and Non-Uniform Quantization",
+    "authors": [
+      "Tej pratap GVSL",
+      "Raja Kumar"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-26T10:48:31Z",
+    "paper_url": "https://arxiv.org/abs/2012.13716v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13716v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.13736v1",
+    "title": "Image Synthesis with Adversarial Networks: a Comprehensive Survey and Case Studies",
+    "abstract": "Generative Adversarial Networks (GANs) have been extremely successful in various application domains such as computer vision, medicine, and natural language processing. Moreover, transforming an object or person to a desired shape become a well-studied research in the GANs. GANs are powerful models for learning complex distributions to synthesize semantically meaningful samples. However, there is a lack of comprehensive review in this field, especially lack of a collection of GANs loss-variant, evaluation metrics, remedies for diverse image generation, and stable training. Given the current fast GANs development, in this survey, we provide a comprehensive review of adversarial models for image synthesis. We summarize the synthetic image generation methods, and discuss the categories including image-to-image translation, fusion image generation, label-to-image mapping, and text-to-image translation. We organize the literature based on their base models, developed ideas related to architectures, constraints, loss functions, evaluation metrics, and training datasets. We present milestones of adversarial models, review an extensive selection of previous works in various categories, and present insights on the development route from the model-based to data-driven methods. Further, we highlight a range of potential future research directions. One of the unique features of this review is that all software implementations of these GAN methods and datasets have been collected and made available in one place at https://github.com/pshams55/GAN-Case-Study.",
+    "authors": [
+      "Pourya Shamsolmoali",
+      "Masoumeh Zareapoor",
+      "Eric Granger",
+      "Huiyu Zhou",
+      "Ruili Wang",
+      "M. Emre Celebi",
+      "Jie Yang"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "published": "2020-12-26T13:30:42Z",
+    "paper_url": "https://arxiv.org/abs/2012.13736v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.13736v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07916v1",
+    "title": "IAN: Combining Generative Adversarial Networks for Imaginative Face Generation",
+    "abstract": "Generative Adversarial Networks (GANs) have gained momentum for their ability to model image distributions. They learn to emulate the training set and that enables sampling from that domain and using the knowledge learned for useful applications. Several methods proposed enhancing GANs, including regularizing the loss with some feature matching. We seek to push GANs beyond the data in the training and try to explore unseen territory in the image manifold. We first propose a new regularizer for GAN based on K-nearest neighbor (K-NN) selective feature matching to a target set Y in high-level feature space, during the adversarial training of GAN on the base set X, and we call this novel model K-GAN. We show that minimizing the added term follows from cross-entropy minimization between the distributions of GAN and the set Y. Then, We introduce a cascaded framework for GANs that try to address the task of imagining a new distribution that combines the base set X and target set Y by cascading sampling GANs with translation GANs, and we dub the cascade of such GANs as the Imaginative Adversarial Network (IAN). We conduct an objective and subjective evaluation for different IAN setups in the addressed task and show some useful applications for these IANs, like manifold traversing and creative face generation for characters' design in movies or video games.",
+    "authors": [
+      "Abdullah Hamdi",
+      "Bernard Ghanem"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2019-04-16T18:45:33Z",
+    "paper_url": "https://arxiv.org/abs/1904.07916v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.07916v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07934v2",
+    "title": "Devil is in the Edges: Learning Semantic Boundaries from Noisy Annotations",
+    "abstract": "We tackle the problem of semantic boundary prediction, which aims to identify pixels that belong to object(class) boundaries. We notice that relevant datasets consist of a significant level of label noise, reflecting the fact that precise annotations are laborious to get and thus annotators trade-off quality with efficiency. We aim to learn sharp and precise semantic boundaries by explicitly reasoning about annotation noise during training. We propose a simple new layer and loss that can be used with existing learning-based boundary detectors. Our layer/loss enforces the detector to predict a maximum response along the normal direction at an edge, while also regularizing its direction. We further reason about true object boundaries during training using a level set formulation, which allows the network to learn from misaligned labels in an end-to-end fashion. Experiments show that we improve over the CASENet backbone network by more than 4% in terms of MF(ODS) and 18.61% in terms of AP, outperforming all current state-of-the-art methods including those that deal with alignment. Furthermore, we show that our learned network can be used to significantly improve coarse segmentation labels, lending itself as an efficient way to label new data.",
+    "authors": [
+      "David Acuna",
+      "Amlan Kar",
+      "Sanja Fidler"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2019-04-16T19:16:57Z",
+    "paper_url": "https://arxiv.org/abs/1904.07934v2",
+    "pdf_url": "https://arxiv.org/pdf/1904.07934v2",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07969v1",
+    "title": "DNN Architecture for High Performance Prediction on Natural Videos Loses Submodule's Ability to Learn Discrete-World Dataset",
+    "abstract": "Is cognition a collection of loosely connected functions tuned to different tasks, or can there be a general learning algorithm? If such an hypothetical general algorithm did exist, tuned to our world, could it adapt seamlessly to a world with different laws of nature? We consider the theory that predictive coding is such a general rule, and falsify it for one specific neural architecture known for high-performance predictions on natural videos and replication of human visual illusions: PredNet. Our results show that PredNet's high performance generalizes without retraining on a completely different natural video dataset. Yet PredNet cannot be trained to reach even mediocre accuracy on an artificial video dataset created with the rules of the Game of Life (GoL). We also find that a submodule of PredNet, a Convolutional Neural Network trained alone, reaches perfect accuracy on the GoL while being mediocre for natural videos, showing that PredNet's architecture itself is responsible for both the high performance on natural videos and the loss of performance on the GoL. Just as humans cannot predict the dynamics of the GoL, our results suggest that there might be a trade-off between high performance on sensory inputs with different sets of rules.",
+    "authors": [
+      "Lana Sinapayen",
+      "Atsushi Noda"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-04-16T20:35:09Z",
+    "paper_url": "https://arxiv.org/abs/1904.07969v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.07969v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.08008v3",
+    "title": "Clustered Object Detection in Aerial Images",
+    "abstract": "Detecting objects in aerial images is challenging for at least two reasons: (1) target objects like pedestrians are very small in pixels, making them hardly distinguished from surrounding background; and (2) targets are in general sparsely and non-uniformly distributed, making the detection very inefficient. In this paper, we address both issues inspired by observing that these targets are often clustered. In particular, we propose a Clustered Detection (ClusDet) network that unifies object clustering and detection in an end-to-end framework. The key components in ClusDet include a cluster proposal sub-network (CPNet), a scale estimation sub-network (ScaleNet), and a dedicated detection network (DetecNet). Given an input image, CPNet produces object cluster regions and ScaleNet estimates object scales for these regions. Then, each scale-normalized cluster region is fed into DetecNet for object detection. ClusDet has several advantages over previous solutions: (1) it greatly reduces the number of chips for final object detection and hence achieves high running time efficiency, (2) the cluster-based scale estimation is more accurate than previously used single-object based ones, hence effectively improves the detection for small objects, and (3) the final DetecNet is dedicated for clustered regions and implicitly models the prior context information so as to boost detection accuracy. The proposed method is tested on three popular aerial image datasets including VisDrone, UAVDT and DOTA. In all experiments, ClusDet achieves promising performance in comparison with state-of-the-art detectors. Code will be available in \\url{https://github.com/fyangneil}.",
+    "authors": [
+      "Fan Yang",
+      "Heng Fan",
+      "Peng Chu",
+      "Erik Blasch",
+      "Haibin Ling"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2019-04-16T23:01:53Z",
+    "paper_url": "https://arxiv.org/abs/1904.08008v3",
+    "pdf_url": "https://arxiv.org/pdf/1904.08008v3",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.08034v2",
+    "title": "People infer recursive visual concepts from just a few examples",
+    "abstract": "Machine learning has made major advances in categorizing objects in images, yet the best algorithms miss important aspects of how people learn and think about categories. People can learn richer concepts from fewer examples, including causal models that explain how members of a category are formed. Here, we explore the limits of this human ability to infer causal \"programs\" -- latent generating processes with nontrivial algorithmic properties -- from one, two, or three visual examples. People were asked to extrapolate the programs in several ways, for both classifying and generating new examples. As a theory of these inductive abilities, we present a Bayesian program learning model that searches the space of programs for the best explanation of the observations. Although variable, people's judgments are broadly consistent with the model and inconsistent with several alternatives, including a pre-trained deep neural network for object recognition, indicating that people can learn and reason with rich algorithmic abstractions from sparse input data.",
+    "authors": [
+      "Brenden M. Lake",
+      "Steven T. Piantadosi"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "q-bio.NC",
+      "stat.ML"
+    ],
+    "published": "2019-04-17T00:45:05Z",
+    "paper_url": "https://arxiv.org/abs/1904.08034v2",
+    "pdf_url": "https://arxiv.org/pdf/1904.08034v2",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.08066v1",
+    "title": "Collaboration Analysis Using Deep Learning",
+    "abstract": "The analysis of the collaborative learning process is one of the growing fields of education research, which has many different analytic solutions. In this paper, we provided a new solution to improve automated collaborative learning analyses using deep neural networks. Instead of using self-reported questionnaires, which are subject to bias and noise, we automatically extract group-working information by object recognition results using Mask R-CNN method. This process is based on detecting the people and other objects from pictures and video clips of the collaborative learning process, then evaluate the mobile learning performance using the collaborative indicators. We tested our approach to automatically evaluate the group-work collaboration in a controlled study of thirty-three dyads while performing an anatomy body painting intervention. The results indicate that our approach recognizes the differences of collaborations among teams of treatment and control groups in the case study. This work introduces new methods for automated quality prediction of collaborations among human-human interactions using computer vision techniques.",
+    "authors": [
+      "Zhang Guo",
+      "Kevin Yu",
+      "Rebecca Pearlman",
+      "Nassir Navab",
+      "Roghayeh Barmaki"
+    ],
+    "categories": [
+      "cs.HC",
+      "cs.CV"
+    ],
+    "published": "2019-04-17T03:23:17Z",
+    "paper_url": "https://arxiv.org/abs/1904.08066v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.08066v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.00261v1",
+    "title": "Automatic Dataset Augmentation Using Virtual Human Simulation",
+    "abstract": "Virtual Human Simulation has been widely used for different purposes, such as comfort or accessibility analysis. In this paper, we investigate the possibility of using this type of technique to extend the training datasets of pedestrians to be used with machine learning techniques. Our main goal is to verify if Computer Graphics (CG) images of virtual humans with a simplistic rendering can be efficient in order to augment datasets used for training machine learning methods. In fact, from a machine learning point of view, there is a need to collect and label large datasets for ground truth, which sometimes demands manual annotation. In addition, find out images and videos with real people and also provide ground truth of people detection and counting is not trivial. If CG images, which can have a ground truth automatically generated, can also be used as training in machine learning techniques for pedestrian detection and counting, it can certainly facilitate and optimize the whole process of event detection. In particular, we propose to parametrize virtual humans using a data-driven approach. Results demonstrated that using the extended datasets with CG images outperforms the results when compared to only real images sequences.",
+    "authors": [
+      "Marcelo C. Ghilardi",
+      "Leandro Dihl",
+      "Estevão Testa",
+      "Pedro Braga",
+      "João P. Pianta",
+      "Isabel H. Manssour",
+      "Soraia R. Musse"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2019-05-01T11:01:39Z",
+    "paper_url": "https://arxiv.org/abs/1905.00261v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.00261v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02749v1",
+    "title": "DeepSWIR: A Deep Learning Based Approach for the Synthesis of Short-Wave InfraRed Band using Multi-Sensor Concurrent Datasets",
+    "abstract": "Convolutional Neural Network (CNN) is achieving remarkable progress in various computer vision tasks. In the past few years, the remote sensing community has observed Deep Neural Network (DNN) finally taking off in several challenging fields. In this study, we propose a DNN to generate a predefined High Resolution (HR) synthetic spectral band using an ensemble of concurrent Low Resolution (LR) bands and existing HR bands. Of particular interest, the proposed network, namely DeepSWIR, synthesizes Short-Wave InfraRed (SWIR) band at 5m Ground Sampling Distance (GSD) using Green (G), Red (R) and Near InfraRed (NIR) bands at both 24m and 5m GSD, and SWIR band at 24m GSD. To our knowledge, the highest spatial resolution of commercially deliverable SWIR band is at 7.5m GSD. Also, we propose a Gaussian feathering based image stitching approach in light of processing large satellite imagery. To experimentally validate the synthesized HR SWIR band, we critically analyse the qualitative and quantitative results produced by DeepSWIR using state-of-the-art evaluation metrics. Further, we convert the synthesized DN values to Top Of Atmosphere (TOA) reflectance and compare with the corresponding band of Sentinel-2B. Finally, we show one real world application of the synthesized band by using it to map wetland resources over our region of interest.",
+    "authors": [
+      "Litu Rout",
+      "Yatharath Bhateja",
+      "Ankur Garg",
+      "Indranil Mishra",
+      "S Manthira Moorthi",
+      "Debjyoti Dhar"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "published": "2019-05-07T18:11:24Z",
+    "paper_url": "https://arxiv.org/abs/1905.02749v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02749v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02781v1",
+    "title": "Robust Dense Mapping for Large-Scale Dynamic Environments",
+    "abstract": "We present a stereo-based dense mapping algorithm for large-scale dynamic urban environments. In contrast to other existing methods, we simultaneously reconstruct the static background, the moving objects, and the potentially moving but currently stationary objects separately, which is desirable for high-level mobile robotic tasks such as path planning in crowded environments. We use both instance-aware semantic segmentation and sparse scene flow to classify objects as either background, moving, or potentially moving, thereby ensuring that the system is able to model objects with the potential to transition from static to dynamic, such as parked cars. Given camera poses estimated from visual odometry, both the background and the (potentially) moving objects are reconstructed separately by fusing the depth maps computed from the stereo input. In addition to visual odometry, sparse scene flow is also used to estimate the 3D motions of the detected moving objects, in order to reconstruct them accurately. A map pruning technique is further developed to improve reconstruction accuracy and reduce memory consumption, leading to increased scalability. We evaluate our system thoroughly on the well-known KITTI dataset. Our system is capable of running on a PC at approximately 2.5Hz, with the primary bottleneck being the instance-aware semantic segmentation, which is a limitation we hope to address in future work. The source code is available from the project website (http://andreibarsan.github.io/dynslam).",
+    "authors": [
+      "Ioan Andrei Bârsan",
+      "Peidong Liu",
+      "Marc Pollefeys",
+      "Andreas Geiger"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "published": "2019-05-07T19:38:27Z",
+    "paper_url": "https://arxiv.org/abs/1905.02781v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02781v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02845v1",
+    "title": "Feature Selection and Feature Extraction in Pattern Analysis: A Literature Review",
+    "abstract": "Pattern analysis often requires a pre-processing stage for extracting or selecting features in order to help the classification, prediction, or clustering stage discriminate or represent the data in a better way. The reason for this requirement is that the raw data are complex and difficult to process without extracting or selecting appropriate features beforehand. This paper reviews theory and motivation of different common methods of feature selection and extraction and introduces some of their applications. Some numerical implementations are also shown for these methods. Finally, the methods in feature selection and extraction are compared.",
+    "authors": [
+      "Benyamin Ghojogh",
+      "Maria N. Samad",
+      "Sayema Asif Mashhadi",
+      "Tania Kapoor",
+      "Wahab Ali",
+      "Fakhri Karray",
+      "Mark Crowley"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "stat.ML"
+    ],
+    "published": "2019-05-07T23:41:34Z",
+    "paper_url": "https://arxiv.org/abs/1905.02845v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02845v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02925v1",
+    "title": "ShapeGlot: Learning Language for Shape Differentiation",
+    "abstract": "In this work we explore how fine-grained differences between the shapes of common objects are expressed in language, grounded on images and 3D models of the objects. We first build a large scale, carefully controlled dataset of human utterances that each refers to a 2D rendering of a 3D CAD model so as to distinguish it from a set of shape-wise similar alternatives. Using this dataset, we develop neural language understanding (listening) and production (speaking) models that vary in their grounding (pure 3D forms via point-clouds vs. rendered 2D images), the degree of pragmatic reasoning captured (e.g. speakers that reason about a listener or not), and the neural architecture (e.g. with or without attention). We find models that perform well with both synthetic and human partners, and with held out utterances and objects. We also find that these models are amenable to zero-shot transfer learning to novel object classes (e.g. transfer from training on chairs to testing on lamps), as well as to real-world images drawn from furniture catalogs. Lesion studies indicate that the neural listeners depend heavily on part-related words and associate these words correctly with visual parts of objects (without any explicit network training on object parts), and that transfer to novel classes is most successful when known part-words are available. This work illustrates a practical approach to language grounding, and provides a case study in the relationship between object shape and linguistic structure when it comes to object differentiation.",
+    "authors": [
+      "Panos Achlioptas",
+      "Judy Fan",
+      "Robert X. D. Hawkins",
+      "Noah D. Goodman",
+      "Leonidas J. Guibas"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.CV"
+    ],
+    "published": "2019-05-08T06:01:33Z",
+    "paper_url": "https://arxiv.org/abs/1905.02925v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02925v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02114v1",
+    "title": "Visibility Constrained Generative Model for Depth-based 3D Facial Pose Tracking",
+    "abstract": "In this paper, we propose a generative framework that unifies depth-based 3D facial pose tracking and face model adaptation on-the-fly, in the unconstrained scenarios with heavy occlusions and arbitrary facial expression variations. Specifically, we introduce a statistical 3D morphable model that flexibly describes the distribution of points on the surface of the face model, with an efficient switchable online adaptation that gradually captures the identity of the tracked subject and rapidly constructs a suitable face model when the subject changes. Moreover, unlike prior art that employed ICP-based facial pose estimation, to improve robustness to occlusions, we propose a ray visibility constraint that regularizes the pose based on the face model's visibility with respect to the input point cloud. Ablation studies and experimental results on Biwi and ICT-3DHP datasets demonstrate that the proposed framework is effective and outperforms completing state-of-the-art depth-based methods.",
+    "authors": [
+      "Lu Sheng",
+      "Jianfei Cai",
+      "Tat-Jen Cham",
+      "Vladimir Pavlovic",
+      "King Ngi Ngan"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2019-05-06T15:58:41Z",
+    "paper_url": "https://arxiv.org/abs/1905.02114v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02114v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.03421v3",
+    "title": "Adversarial Image Translation: Unrestricted Adversarial Examples in Face Recognition Systems",
+    "abstract": "Thanks to recent advances in deep neural networks (DNNs), face recognition systems have become highly accurate in classifying a large number of face images. However, recent studies have found that DNNs could be vulnerable to adversarial examples, raising concerns about the robustness of such systems. Adversarial examples that are not restricted to small perturbations could be more serious since conventional certified defenses might be ineffective against them. To shed light on the vulnerability to such adversarial examples, we propose a flexible and efficient method for generating unrestricted adversarial examples using image translation techniques. Our method enables us to translate a source image into any desired facial appearance with large perturbations to deceive target face recognition systems. Our experimental results indicate that our method achieved about $90$ and $80\\%$ attack success rates under white- and black-box settings, respectively, and that the translated images are perceptually realistic and maintain the identifiability of the individual while the perturbations are large enough to bypass certified defenses.",
+    "authors": [
+      "Kazuya Kakizaki",
+      "Kosuke Yoshida"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV",
+      "stat.ML"
+    ],
+    "published": "2019-05-09T02:58:45Z",
+    "paper_url": "https://arxiv.org/abs/1905.03421v3",
+    "pdf_url": "https://arxiv.org/pdf/1905.03421v3",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.03445v1",
+    "title": "Two-Stage Convolutional Neural Network Architecture for Lung Nodule Detection",
+    "abstract": "Early detection of lung cancer is an effective way to improve the survival rate of patients. It is a critical step to have accurate detection of lung nodules in computed tomography (CT) images for the diagnosis of lung cancer. However, due to the heterogeneity of the lung nodules and the complexity of the surrounding environment, robust nodule detection has been a challenging task. In this study, we propose a two-stage convolutional neural network (TSCNN) architecture for lung nodule detection. The CNN architecture in the first stage is based on the improved UNet segmentation network to establish an initial detection of lung nodules. Simultaneously, in order to obtain a high recall rate without introducing excessive false positive nodules, we propose a novel sampling strategy, and use the offline hard mining idea for training and prediction according to the proposed cascaded prediction method. The CNN architecture in the second stage is based on the proposed dual pooling structure, which is built into three 3D CNN classification networks for false positive reduction. Since the network training requires a significant amount of training data, we adopt a data augmentation method based on random mask. Furthermore, we have improved the generalization ability of the false positive reduction model by means of ensemble learning. The proposed method has been experimentally verified on the LUNA dataset. Experimental results show that the proposed TSCNN architecture can obtain competitive detection performance.",
+    "authors": [
+      "Haichao Cao",
+      "Hong Liu",
+      "Enmin Song",
+      "Guangzhi Ma",
+      "Xiangyang Xu",
+      "Renchao Jin",
+      "Tengying Liu",
+      "Chih-Cheng Hung"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "published": "2019-05-09T05:21:40Z",
+    "paper_url": "https://arxiv.org/abs/1905.03445v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.03445v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.03046v1",
+    "title": "PiNet: A Permutation Invariant Graph Neural Network for Graph Classification",
+    "abstract": "We propose an end-to-end deep learning learning model for graph classification and representation learning that is invariant to permutation of the nodes of the input graphs. We address the challenge of learning a fixed size graph representation for graphs of varying dimensions through a differentiable node attention pooling mechanism. In addition to a theoretical proof of its invariance to permutation, we provide empirical evidence demonstrating the statistically significant gain in accuracy when faced with an isomorphic graph classification task given only a small number of training examples. We analyse the effect of four different matrices to facilitate the local message passing mechanism by which graph convolutions are performed vs. a matrix parametrised by a learned parameter pair able to transition smoothly between the former. Finally, we show that our model achieves competitive classification performance with existing techniques on a set of molecule datasets.",
+    "authors": [
+      "Peter Meltzer",
+      "Marcelo Daniel Gutierrez Mallea",
+      "Peter J. Bentley"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CV",
+      "cs.NE",
+      "stat.ML"
+    ],
+    "published": "2019-05-08T12:51:52Z",
+    "paper_url": "https://arxiv.org/abs/1905.03046v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.03046v1",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.03066v3",
+    "title": "Training a Fast Object Detector for LiDAR Range Images Using Labeled Data from Sensors with Higher Resolution",
+    "abstract": "In this paper, we describe a strategy for training neural networks for object detection in range images obtained from one type of LiDAR sensor using labeled data from a different type of LiDAR sensor. Additionally, an efficient model for object detection in range images for use in self-driving cars is presented. Currently, the highest performing algorithms for object detection from LiDAR measurements are based on neural networks. Training these networks using supervised learning requires large annotated datasets. Therefore, most research using neural networks for object detection from LiDAR point clouds is conducted on a very small number of publicly available datasets. Consequently, only a small number of sensor types are used. We use an existing annotated dataset to train a neural network that can be used with a LiDAR sensor that has a lower resolution than the one used for recording the annotated dataset. This is done by simulating data from the lower resolution LiDAR sensor based on the higher resolution dataset. Furthermore, improvements to models that use LiDAR range images for object detection are presented. The results are validated using both simulated sensor data and data from an actual lower resolution sensor mounted to a research vehicle. It is shown that the model can detect objects from 360° range images in real time.",
+    "authors": [
+      "Manuel Herzog",
+      "Klaus Dietmayer"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "published": "2019-05-08T13:43:03Z",
+    "paper_url": "https://arxiv.org/abs/1905.03066v3",
+    "pdf_url": "https://arxiv.org/pdf/1905.03066v3",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.03229v3",
+    "title": "Image-based reconstruction for the impact problems by using DPNNs",
+    "abstract": "With the improvement of the pattern recognition and feature extraction of Deep Neural Networks (DPNNs), image-based design and optimization have been widely used in multidisciplinary researches. Recently, a Reconstructive Neural Network (ReConNN) has been proposed to obtain an image-based model from an analysis-based model [1, 2], and a steady-state heat transfer of a heat sink has been successfully reconstructed. Commonly, this method is suitable to handle stable-state problems. However, it has difficulties handling nonlinear transient impact problems, due to the bottlenecks of the Deep Neural Network (DPNN). For example, nonlinear transient problems make it difficult for the Generative Adversarial Network (GAN) to generate various reasonable images. Therefore, in this study, an improved ReConNN method is proposed to address the mentioned weaknesses. Time-dependent ordered images can be generated. Furthermore, the improved method is successfully applied in impact simulation case and engineering experiment. Through the experiments, comparisons and analyses, the improved method is demonstrated to outperform the former one in terms of its accuracy, efficiency and costs.",
+    "authors": [
+      "Yu Li",
+      "Hu Wang",
+      "Wenquan Shuai",
+      "Honghao Zhang",
+      "Yong Peng"
+    ],
+    "categories": [
+      "cs.OH",
+      "cs.CV",
+      "eess.IV"
+    ],
+    "published": "2019-04-08T04:48:36Z",
+    "paper_url": "https://arxiv.org/abs/1905.03229v3",
+    "pdf_url": "https://arxiv.org/pdf/1905.03229v3",
+    "label": "Computer Vision"
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02706v2",
+    "title": "Learning Unsupervised Multi-View Stereopsis via Robust Photometric Consistency",
+    "abstract": "We present a learning based approach for multi-view stereopsis (MVS). While current deep MVS methods achieve impressive results, they crucially rely on ground-truth 3D training data, and acquisition of such precise 3D geometry for supervision is a major hurdle. Our framework instead leverages photometric consistency between multiple views as supervisory signal for learning depth prediction in a wide baseline MVS setup. However, naively applying photo consistency constraints is undesirable due to occlusion and lighting changes across views. To overcome this, we propose a robust loss formulation that: a) enforces first order consistency and b) for each point, selectively enforces consistency with some views, thus implicitly handling occlusions. We demonstrate our ability to learn MVS without 3D supervision using a real dataset, and show that each component of our proposed robust loss results in a significant improvement. We qualitatively observe that our reconstructions are often more complete than the acquired ground truth, further showing the merits of this approach. Lastly, our learned model generalizes to novel settings, and our approach allows adaptation of existing CNNs to datasets without ground-truth 3D by unsupervised finetuning. Project webpage: https://tejaskhot.github.io/unsup_mvs",
+    "authors": [
+      "Tejas Khot",
+      "Shubham Agrawal",
+      "Shubham Tulsiani",
+      "Christoph Mertz",
+      "Simon Lucey",
+      "Martial Hebert"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2019-05-07T17:45:22Z",
+    "paper_url": "https://arxiv.org/abs/1905.02706v2",
+    "pdf_url": "https://arxiv.org/pdf/1905.02706v2",
+    "label": "Computer Vision"
+  }
+]
