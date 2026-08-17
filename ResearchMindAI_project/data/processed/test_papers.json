@@ -1,0 +1,623 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2012.14312v1",
+    "title": "Panarchy: ripples of a boundary concept",
+    "abstract": "How do social-ecological systems change over time? In 2002 Holling and colleagues proposed the concept of Panarchy, which presented social-ecological systems as an interacting set of adaptive cycles, each of which is produced by the dynamic tensions between novelty and efficiency at multiple scales. Initially introduced as a conceptual framework and set of metaphors, panarchy has gained the attention of scholars across many disciplines and its ideas continue to inspire further conceptual developments. Almost twenty years after this concept was introduced we review how it has been used, tested, extended and revised. We do this by combining qualitative methods and machine learning. Document analysis was used to code panarchy features that are commonly used in the scientific literature (N = 42), a qualitative analysis that was complemented with topic modeling of 2177 documents. We find that the adaptive cycle is the feature of panarchy that has attracted the most attention. Challenges remain in empirically grounding the metaphor, but recent theoretical and empirical work offers some avenues for future research.",
+    "authors": [
+      "Juan Rocha",
+      "Linda Luvuno",
+      "Jesse Rieb",
+      "Erin Crockett",
+      "Katja Malmborg",
+      "Michael Schoon",
+      "Garry Peterson"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-12-28T15:47:45Z",
+    "paper_url": "https://arxiv.org/abs/2012.14312v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14312v1",
+    "labels": [
+      "NLP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14005v1",
+    "title": "Neural document expansion for ad-hoc information retrieval",
+    "abstract": "Recently, Nogueira et al. [2019] proposed a new approach to document expansion based on a neural Seq2Seq model, showing significant improvement on short text retrieval task. However, this approach needs a large amount of in-domain training data. In this paper, we show that this neural document expansion approach can be effectively adapted to standard IR tasks, where labels are scarce and many long documents are present.",
+    "authors": [
+      "Cheng Tang",
+      "Andrew Arnold"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "published": "2020-12-27T20:00:08Z",
+    "paper_url": "https://arxiv.org/abs/2012.14005v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14005v1",
+    "labels": [
+      "NLP",
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07982v1",
+    "title": "Query Expansion for Cross-Language Question Re-Ranking",
+    "abstract": "Community question-answering (CQA) platforms have become very popular forums for asking and answering questions daily. While these forums are rich repositories of community knowledge, they present challenges for finding relevant answers and similar questions, due to the open-ended nature of informal discussions. Further, if the platform allows questions and answers in multiple languages, we are faced with the additional challenge of matching cross-lingual information. In this work, we focus on the cross-language question re-ranking shared task, which aims to find existing questions that may be written in different languages. Our contribution is an exploration of query expansion techniques for this problem. We investigate expansions based on Word Embeddings, DBpedia concepts linking, and Hypernym, and show that they outperform existing state-of-the-art methods.",
+    "authors": [
+      "Muhammad Mahbubur Rahman",
+      "Sorami Hisamoto",
+      "Kevin Duh"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "published": "2019-04-16T20:55:59Z",
+    "paper_url": "https://arxiv.org/abs/1904.07982v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.07982v1",
+    "labels": [
+      "NLP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01359v1",
+    "title": "NNE: A Dataset for Nested Named Entity Recognition in English Newswire",
+    "abstract": "Named entity recognition (NER) is widely used in natural language processing applications and downstream tasks. However, most NER tools target flat annotation from popular datasets, eschewing the semantic information available in nested entity mentions. We describe NNE---a fine-grained, nested named entity dataset over the full Wall Street Journal portion of the Penn Treebank (PTB). Our annotation comprises 279,795 mentions of 114 entity types with up to 6 layers of nesting. We hope the public release of this large dataset for English newswire will encourage development of new techniques for nested NER.",
+    "authors": [
+      "Nicky Ringland",
+      "Xiang Dai",
+      "Ben Hachey",
+      "Sarvnaz Karimi",
+      "Cecile Paris",
+      "James R. Curran"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T11:46:37Z",
+    "paper_url": "https://arxiv.org/abs/1906.01359v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01359v1",
+    "labels": [
+      "NLP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1906.01573v1",
+    "title": "A Study of Feature Extraction techniques for Sentiment Analysis",
+    "abstract": "Sentiment Analysis refers to the study of systematically extracting the meaning of subjective text . When analysing sentiments from the subjective text using Machine Learning techniques,feature extraction becomes a significant part. We perform a study on the performance of feature extraction techniques TF-IDF(Term Frequency-Inverse Document Frequency) and Doc2vec (Document to Vector) using Cornell movie review datasets, UCI sentiment labeled datasets, stanford movie review datasets,effectively classifying the text into positive and negative polarities by using various pre-processing methods like eliminating StopWords and Tokenization which increases the performance of sentiment analysis in terms of accuracy and time taken by the classifier.The features obtained after applying feature extraction techniques on the text sentences are trained and tested using the classifiers Logistic Regression,Support Vector Machines,K-Nearest Neighbours , Decision Tree and Bernoulli Nave Bayes",
+    "authors": [
+      "Avinash Madasu",
+      "Sivasankar E"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2019-06-04T16:37:44Z",
+    "paper_url": "https://arxiv.org/abs/1906.01573v1",
+    "pdf_url": "https://arxiv.org/pdf/1906.01573v1",
+    "labels": [
+      "NLP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.13421v1",
+    "title": "Thirty Musts for Meaning Banking",
+    "abstract": "Meaning banking--creating a semantically annotated corpus for the purpose of semantic parsing or generation--is a challenging task. It is quite simple to come up with a complex meaning representation, but it is hard to design a simple meaning representation that captures many nuances of meaning. This paper lists some lessons learned in nearly ten years of meaning annotation during the development of the Groningen Meaning Bank (Bos et al., 2017) and the Parallel Meaning Bank (Abzianidze et al., 2017). The paper's format is rather unconventional: there is no explicit related work, no methodology section, no results, and no discussion (and the current snippet is not an abstract but actually an introductory preface). Instead, its structure is inspired by work of Traum (2000) and Bender (2013). The list starts with a brief overview of the existing meaning banks (Section 1) and the rest of the items are roughly divided into three groups: corpus collection (Section 2 and 3, annotation methods (Section 4-11), and design of meaning representations (Section 12-30). We hope this overview will give inspiration and guidance in creating improved meaning banks in the future.",
+    "authors": [
+      "Johan Bos",
+      "Lasha Abzianidze"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-05-27T15:28:12Z",
+    "paper_url": "https://arxiv.org/abs/2005.13421v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.13421v1",
+    "labels": [
+      "NLP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00533v1",
+    "title": "Benchmarking BioRelEx for Entity Tagging and Relation Extraction",
+    "abstract": "Extracting relationships and interactions between different biological entities is still an extremely challenging problem but has not received much attention as much as extraction in other generic domains. In addition to the lack of annotated data, low benchmarking is still a major reason for slow progress. In order to fill this gap, we compare multiple existing entity and relation extraction models over a recently introduced public dataset, BioRelEx of sentences annotated with biological entities and relations. Our straightforward benchmarking shows that span-based multi-task architectures like DYGIE show 4.9% and 6% absolute improvements in entity tagging and relation extraction respectively over the previous state-of-art and that incorporating domain-specific information like embeddings pre-trained over related domains boosts performance.",
+    "authors": [
+      "Abhinav Bhatt",
+      "Kaustubh D. Dhole"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG"
+    ],
+    "published": "2020-05-31T14:45:28Z",
+    "paper_url": "https://arxiv.org/abs/2006.00533v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00533v1",
+    "labels": [
+      "NLP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.00609v1",
+    "title": "CNRL at SemEval-2020 Task 5: Modelling Causal Reasoning in Language with Multi-Head Self-Attention Weights based Counterfactual Detection",
+    "abstract": "In this paper, we describe an approach for modelling causal reasoning in natural language by detecting counterfactuals in text using multi-head self-attention weights. We use pre-trained transformer models to extract contextual embeddings and self-attention weights from the text. We show the use of convolutional layers to extract task-specific features from these self-attention weights. Further, we describe a fine-tuning approach with a common base model for knowledge sharing between the two closely related sub-tasks for counterfactual detection. We analyze and compare the performance of various transformer models in our experiments. Finally, we perform a qualitative analysis with the multi-head self-attention weights to interpret our models' dynamics.",
+    "authors": [
+      "Rajaswa Patil",
+      "Veeky Baths"
+    ],
+    "categories": [
+      "cs.CL"
+    ],
+    "published": "2020-05-31T21:02:25Z",
+    "paper_url": "https://arxiv.org/abs/2006.00609v1",
+    "pdf_url": "https://arxiv.org/pdf/2006.00609v1",
+    "labels": [
+      "NLP"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12104v1",
+    "title": "A Deep Reinforcement Learning Approach for Ramp Metering Based on Traffic Video Data",
+    "abstract": "Ramp metering that uses traffic signals to regulate vehicle flows from the on-ramps has been widely implemented to improve vehicle mobility of the freeway. Previous studies generally update signal timings in real-time based on predefined traffic measures collected by point detectors, such as traffic volumes and occupancies. Comparing with point detectors, traffic cameras-which have been increasingly deployed on road networks-could cover larger areas and provide more detailed traffic information. In this work, we propose a deep reinforcement learning (DRL) method to explore the potential of traffic video data in improving the efficiency of ramp metering. The proposed method uses traffic video frames as inputs and learns the optimal control strategies directly from the high-dimensional visual inputs. A real-world case study demonstrates that, in comparison with a state-of-the-practice method, the proposed DRL method results in 1) lower travel times in the mainline, 2) shorter vehicle queues at the on-ramp, and 3) higher traffic flows downstream of the merging area. The results suggest that the proposed method is able to extract useful information from the video data for better ramp metering controls.",
+    "authors": [
+      "Bing Liu",
+      "Yu Tang",
+      "Yuxiong Ji",
+      "Yu Shen",
+      "Yuchuan Du"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2020-12-09T05:08:41Z",
+    "paper_url": "https://arxiv.org/abs/2012.12104v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12104v1",
+    "labels": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12302v1",
+    "title": "Flexible deep transfer learning by separate feature embeddings and manifold alignment",
+    "abstract": "Object recognition is a key enabler across industry and defense. As technology changes, algorithms must keep pace with new requirements and data. New modalities and higher resolution sensors should allow for increased algorithm robustness. Unfortunately, algorithms trained on existing labeled datasets do not directly generalize to new data because the data distributions do not match. Transfer learning (TL) or domain adaptation (DA) methods have established the groundwork for transferring knowledge from existing labeled source data to new unlabeled target datasets. However, current DA approaches assume similar source and target feature spaces and suffer in the case of massive domain shifts or changes in the feature space. Existing methods assume the data are either the same modality, or can be aligned to a common feature space. Therefore, most methods are not designed to support a fundamental domain change such as visual to auditory data. We propose a novel deep learning framework that overcomes this limitation by learning separate feature extractions for each domain while minimizing the distance between the domains in a latent lower-dimensional space. The alignment is achieved by considering the data manifold along with an adversarial training procedure. We demonstrate the effectiveness of the approach versus traditional methods with several ablation experiments on synthetic, measured, and satellite image datasets. We also provide practical guidelines for training the network while overcoming vanishing gradients which inhibit learning in some adversarial training settings.",
+    "authors": [
+      "Samuel Rivera",
+      "Joel Klipfel",
+      "Deborah Weeks"
+    ],
+    "categories": [
+      "cs.CV"
+    ],
+    "published": "2020-12-22T19:24:44Z",
+    "paper_url": "https://arxiv.org/abs/2012.12302v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12302v1",
+    "labels": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12432v2",
+    "title": "Multi-Contrast Computed Tomography Healthy Kidney Atlas",
+    "abstract": "The construction of three-dimensional multi-modal tissue maps provides an opportunity to spur interdisciplinary innovations across temporal and spatial scales through information integration. While the preponderance of effort is allocated to the cellular level and explore the changes in cell interactions and organizations, contextualizing findings within organs and systems is essential to visualize and interpret higher resolution linkage across scales. There is a substantial normal variation of kidney morphometry and appearance across body size, sex, and imaging protocols in abdominal computed tomography (CT). A volumetric atlas framework is needed to integrate and visualize the variability across scales. However, there is no abdominal and retroperitoneal organs atlas framework for multi-contrast CT. Hence, we proposed a high-resolution CT retroperitoneal atlas specifically optimized for the kidney across non-contrast CT and early arterial, late arterial, venous and delayed contrast enhanced CT. Briefly, we introduce a deep learning-based volume of interest extraction method and an automated two-stage hierarchal registration pipeline to register abdominal volumes to a high-resolution CT atlas template. To generate and evaluate the atlas, multi-contrast modality CT scans of 500 subjects (without reported history of renal disease, age: 15-50 years, 250 males & 250 females) were processed. We demonstrate a stable generalizability of the atlas template for integrating the normal kidney variation from small to large, across contrast modalities and populations with great variability of demographics. The linkage of atlas and demographics provided a better understanding of the variation of kidney anatomy across populations.",
+    "authors": [
+      "Ho Hin Lee",
+      "Yucheng Tang",
+      "Kaiwen Xu",
+      "Shunxing Bao",
+      "Agnes B. Fogo",
+      "Raymond Harris",
+      "Mark P. de Caestecker",
+      "Mattias Heinrich",
+      "Jeffrey M. Spraggins",
+      "Yuankai Huo",
+      "Bennett A. Landman"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "published": "2020-12-23T01:03:16Z",
+    "paper_url": "https://arxiv.org/abs/2012.12432v2",
+    "pdf_url": "https://arxiv.org/pdf/2012.12432v2",
+    "labels": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14207v1",
+    "title": "Combining CNN and Hybrid Active Contours for Head and Neck Tumor Segmentation in CT and PET images",
+    "abstract": "Automatic segmentation of head and neck tumors plays an important role in radiomics analysis. In this short paper, we propose an automatic segmentation method for head and neck tumors from PET and CT images based on the combination of convolutional neural networks (CNNs) and hybrid active contours. Specifically, we first introduce a multi-channel 3D U-Net to segment the tumor with the concatenated PET and CT images. Then, we estimate the segmentation uncertainty by model ensembles and define a segmentation quality score to select the cases with high uncertainties. Finally, we develop a hybrid active contour model to refine the high uncertainty cases. Our method ranked second place in the MICCAI 2020 HECKTOR challenge with average Dice Similarity Coefficient, precision, and recall of 0.752, 0.838, and 0.717, respectively.",
+    "authors": [
+      "Jun Ma",
+      "Xiaoping Yang"
+    ],
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "published": "2020-12-28T12:12:14Z",
+    "paper_url": "https://arxiv.org/abs/2012.14207v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14207v1",
+    "labels": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07969v1",
+    "title": "DNN Architecture for High Performance Prediction on Natural Videos Loses Submodule's Ability to Learn Discrete-World Dataset",
+    "abstract": "Is cognition a collection of loosely connected functions tuned to different tasks, or can there be a general learning algorithm? If such an hypothetical general algorithm did exist, tuned to our world, could it adapt seamlessly to a world with different laws of nature? We consider the theory that predictive coding is such a general rule, and falsify it for one specific neural architecture known for high-performance predictions on natural videos and replication of human visual illusions: PredNet. Our results show that PredNet's high performance generalizes without retraining on a completely different natural video dataset. Yet PredNet cannot be trained to reach even mediocre accuracy on an artificial video dataset created with the rules of the Game of Life (GoL). We also find that a submodule of PredNet, a Convolutional Neural Network trained alone, reaches perfect accuracy on the GoL while being mediocre for natural videos, showing that PredNet's architecture itself is responsible for both the high performance on natural videos and the loss of performance on the GoL. Just as humans cannot predict the dynamics of the GoL, our results suggest that there might be a trade-off between high performance on sensory inputs with different sets of rules.",
+    "authors": [
+      "Lana Sinapayen",
+      "Atsushi Noda"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2019-04-16T20:35:09Z",
+    "paper_url": "https://arxiv.org/abs/1904.07969v1",
+    "pdf_url": "https://arxiv.org/pdf/1904.07969v1",
+    "labels": [
+      "Computer Vision",
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.00261v1",
+    "title": "Automatic Dataset Augmentation Using Virtual Human Simulation",
+    "abstract": "Virtual Human Simulation has been widely used for different purposes, such as comfort or accessibility analysis. In this paper, we investigate the possibility of using this type of technique to extend the training datasets of pedestrians to be used with machine learning techniques. Our main goal is to verify if Computer Graphics (CG) images of virtual humans with a simplistic rendering can be efficient in order to augment datasets used for training machine learning methods. In fact, from a machine learning point of view, there is a need to collect and label large datasets for ground truth, which sometimes demands manual annotation. In addition, find out images and videos with real people and also provide ground truth of people detection and counting is not trivial. If CG images, which can have a ground truth automatically generated, can also be used as training in machine learning techniques for pedestrian detection and counting, it can certainly facilitate and optimize the whole process of event detection. In particular, we propose to parametrize virtual humans using a data-driven approach. Results demonstrated that using the extended datasets with CG images outperforms the results when compared to only real images sequences.",
+    "authors": [
+      "Marcelo C. Ghilardi",
+      "Leandro Dihl",
+      "Estevão Testa",
+      "Pedro Braga",
+      "João P. Pianta",
+      "Isabel H. Manssour",
+      "Soraia R. Musse"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "published": "2019-05-01T11:01:39Z",
+    "paper_url": "https://arxiv.org/abs/1905.00261v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.00261v1",
+    "labels": [
+      "Computer Vision",
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02749v1",
+    "title": "DeepSWIR: A Deep Learning Based Approach for the Synthesis of Short-Wave InfraRed Band using Multi-Sensor Concurrent Datasets",
+    "abstract": "Convolutional Neural Network (CNN) is achieving remarkable progress in various computer vision tasks. In the past few years, the remote sensing community has observed Deep Neural Network (DNN) finally taking off in several challenging fields. In this study, we propose a DNN to generate a predefined High Resolution (HR) synthetic spectral band using an ensemble of concurrent Low Resolution (LR) bands and existing HR bands. Of particular interest, the proposed network, namely DeepSWIR, synthesizes Short-Wave InfraRed (SWIR) band at 5m Ground Sampling Distance (GSD) using Green (G), Red (R) and Near InfraRed (NIR) bands at both 24m and 5m GSD, and SWIR band at 24m GSD. To our knowledge, the highest spatial resolution of commercially deliverable SWIR band is at 7.5m GSD. Also, we propose a Gaussian feathering based image stitching approach in light of processing large satellite imagery. To experimentally validate the synthesized HR SWIR band, we critically analyse the qualitative and quantitative results produced by DeepSWIR using state-of-the-art evaluation metrics. Further, we convert the synthesized DN values to Top Of Atmosphere (TOA) reflectance and compare with the corresponding band of Sentinel-2B. Finally, we show one real world application of the synthesized band by using it to map wetland resources over our region of interest.",
+    "authors": [
+      "Litu Rout",
+      "Yatharath Bhateja",
+      "Ankur Garg",
+      "Indranil Mishra",
+      "S Manthira Moorthi",
+      "Debjyoti Dhar"
+    ],
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "published": "2019-05-07T18:11:24Z",
+    "paper_url": "https://arxiv.org/abs/1905.02749v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02749v1",
+    "labels": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.03229v3",
+    "title": "Image-based reconstruction for the impact problems by using DPNNs",
+    "abstract": "With the improvement of the pattern recognition and feature extraction of Deep Neural Networks (DPNNs), image-based design and optimization have been widely used in multidisciplinary researches. Recently, a Reconstructive Neural Network (ReConNN) has been proposed to obtain an image-based model from an analysis-based model [1, 2], and a steady-state heat transfer of a heat sink has been successfully reconstructed. Commonly, this method is suitable to handle stable-state problems. However, it has difficulties handling nonlinear transient impact problems, due to the bottlenecks of the Deep Neural Network (DPNN). For example, nonlinear transient problems make it difficult for the Generative Adversarial Network (GAN) to generate various reasonable images. Therefore, in this study, an improved ReConNN method is proposed to address the mentioned weaknesses. Time-dependent ordered images can be generated. Furthermore, the improved method is successfully applied in impact simulation case and engineering experiment. Through the experiments, comparisons and analyses, the improved method is demonstrated to outperform the former one in terms of its accuracy, efficiency and costs.",
+    "authors": [
+      "Yu Li",
+      "Hu Wang",
+      "Wenquan Shuai",
+      "Honghao Zhang",
+      "Yong Peng"
+    ],
+    "categories": [
+      "cs.OH",
+      "cs.CV",
+      "eess.IV"
+    ],
+    "published": "2019-04-08T04:48:36Z",
+    "paper_url": "https://arxiv.org/abs/1905.03229v3",
+    "pdf_url": "https://arxiv.org/pdf/1905.03229v3",
+    "labels": [
+      "Computer Vision"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.11325v1",
+    "title": "Detecting Botnet Attacks in IoT Environments: An Optimized Machine Learning Approach",
+    "abstract": "The increased reliance on the Internet and the corresponding surge in connectivity demand has led to a significant growth in Internet-of-Things (IoT) devices. The continued deployment of IoT devices has in turn led to an increase in network attacks due to the larger number of potential attack surfaces as illustrated by the recent reports that IoT malware attacks increased by 215.7% from 10.3 million in 2017 to 32.7 million in 2018. This illustrates the increased vulnerability and susceptibility of IoT devices and networks. Therefore, there is a need for proper effective and efficient attack detection and mitigation techniques in such environments. Machine learning (ML) has emerged as one potential solution due to the abundance of data generated and available for IoT devices and networks. Hence, they have significant potential to be adopted for intrusion detection for IoT environments. To that end, this paper proposes an optimized ML-based framework consisting of a combination of Bayesian optimization Gaussian Process (BO-GP) algorithm and decision tree (DT) classification model to detect attacks on IoT devices in an effective and efficient manner. The performance of the proposed framework is evaluated using the Bot-IoT-2018 dataset. Experimental results show that the proposed optimized framework has a high detection accuracy, precision, recall, and F-score, highlighting its effectiveness and robustness for the detection of botnet attacks in IoT environments.",
+    "authors": [
+      "MohammadNoor Injadat",
+      "Abdallah Moubayed",
+      "Abdallah Shami"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.LG",
+      "cs.NI"
+    ],
+    "published": "2020-12-16T16:39:55Z",
+    "paper_url": "https://arxiv.org/abs/2012.11325v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.11325v1",
+    "labels": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.11333v1",
+    "title": "Ensemble model for pre-discharge icd10 coding prediction",
+    "abstract": "The translation of medical diagnosis to clinical coding has wide range of applications in billing, aetiology analysis, and auditing. Currently, coding is a manual effort while the automation of such task is not straight forward. Among the challenges are the messy and noisy clinical records, case complexities, along with the huge ICD10 code space. Previous work mainly relied on discharge notes for prediction and was applied to a very limited data scale. We propose an ensemble model incorporating multiple clinical data sources for accurate code predictions. We further propose an assessment mechanism to provide confidence rates in predicted outcomes. Extensive experiments were performed on two new real-world clinical datasets (inpatient & outpatient) with unaltered case-mix distributions from Maharaj Nakorn Chiang Mai Hospital. We obtain multi-label classification accuracies of 0.73 and 0.58 for average precision, 0.56 and 0.35 for F1-scores and 0.71 and 0.4 accuracy in predicting principal diagnosis for inpatient and outpatient datasets respectively.",
+    "authors": [
+      "Yassien Shaalan",
+      "Alexander Dokumentov",
+      "Piyapong Khumrin",
+      "Krit Khwanngern",
+      "Anawat Wisetborisu",
+      "Thanakom Hatsadeang",
+      "Nattapat Karaket",
+      "Witthawin Achariyaviriya",
+      "Sansanee Auephanwiriyakul",
+      "Nipon Theera-Umpon",
+      "Terence Siganakis"
+    ],
+    "categories": [
+      "cs.IR",
+      "cs.LG"
+    ],
+    "published": "2020-12-16T07:02:56Z",
+    "paper_url": "https://arxiv.org/abs/2012.11333v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.11333v1",
+    "labels": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.12137v1",
+    "title": "Projected Stochastic Gradient Langevin Algorithms for Constrained Sampling and Non-Convex Learning",
+    "abstract": "Langevin algorithms are gradient descent methods with additive noise. They have been used for decades in Markov chain Monte Carlo (MCMC) sampling, optimization, and learning. Their convergence properties for unconstrained non-convex optimization and learning problems have been studied widely in the last few years. Other work has examined projected Langevin algorithms for sampling from log-concave distributions restricted to convex compact sets. For learning and optimization, log-concave distributions correspond to convex losses. In this paper, we analyze the case of non-convex losses with compact convex constraint sets and IID external data variables. We term the resulting method the projected stochastic gradient Langevin algorithm (PSGLA). We show the algorithm achieves a deviation of $O(T^{-1/4}(\\log T)^{1/2})$ from its target distribution in 1-Wasserstein distance. For optimization and learning, we show that the algorithm achieves $ε$-suboptimal solutions, on average, provided that it is run for a time that is polynomial in $ε^{-1}$ and slightly super-exponential in the problem dimension.",
+    "authors": [
+      "Andrew Lamperski"
+    ],
+    "categories": [
+      "cs.LG",
+      "math.OC",
+      "math.PR"
+    ],
+    "published": "2020-12-22T16:19:20Z",
+    "paper_url": "https://arxiv.org/abs/2012.12137v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.12137v1",
+    "labels": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2012.14043v1",
+    "title": "Blackwell Online Learning for Markov Decision Processes",
+    "abstract": "This work provides a novel interpretation of Markov Decision Processes (MDP) from the online optimization viewpoint. In such an online optimization context, the policy of the MDP is viewed as the decision variable while the corresponding value function is treated as payoff feedback from the environment. Based on this interpretation, we construct a Blackwell game induced by MDP, which bridges the gap among regret minimization, Blackwell approachability theory, and learning theory for MDP. Specifically, from the approachability theory, we propose 1) Blackwell value iteration for offline planning and 2) Blackwell $Q-$learning for online learning in MDP, both of which are shown to converge to the optimal solution. Our theoretical guarantees are corroborated by numerical experiments.",
+    "authors": [
+      "Tao Li",
+      "Guanze Peng",
+      "Quanyan Zhu"
+    ],
+    "categories": [
+      "cs.LG"
+    ],
+    "published": "2020-12-28T00:40:01Z",
+    "paper_url": "https://arxiv.org/abs/2012.14043v1",
+    "pdf_url": "https://arxiv.org/pdf/2012.14043v1",
+    "labels": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1905.02898v1",
+    "title": "A Generative Model for Sampling High-Performance and Diverse Weights for Neural Networks",
+    "abstract": "Recent work on mode connectivity in the loss landscape of deep neural networks has demonstrated that the locus of (sub-)optimal weight vectors lies on continuous paths. In this work, we train a neural network that serves as a hypernetwork, mapping a latent vector into high-performance (low-loss) weight vectors, generalizing recent findings of mode connectivity to higher dimensional manifolds. We formulate the training objective as a compromise between accuracy and diversity, where the diversity takes into account trivial symmetry transformations of the target network. We demonstrate how to reduce the number of parameters in the hypernetwork by parameter sharing. Once learned, the hypernetwork allows for a computationally efficient, ancestral sampling of neural network weights, which we recruit to form large ensembles. The improvement in classification accuracy obtained by this ensembling indicates that the generated manifold extends in dimensions other than directions implied by trivial symmetries. For computational efficiency, we distill an ensemble into a single classifier while retaining generalization.",
+    "authors": [
+      "Lior Deutsch",
+      "Erik Nijkamp",
+      "Yu Yang"
+    ],
+    "categories": [
+      "stat.ML",
+      "cs.LG"
+    ],
+    "published": "2019-05-07T04:28:46Z",
+    "paper_url": "https://arxiv.org/abs/1905.02898v1",
+    "pdf_url": "https://arxiv.org/pdf/1905.02898v1",
+    "labels": [
+      "Machine Learning"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1904.07601v3",
+    "title": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis",
+    "abstract": "Point cloud analysis is very challenging, as the shape implied in irregular points is difficult to capture. In this paper, we propose RS-CNN, namely, Relation-Shape Convolutional Neural Network, which extends regular grid CNN to irregular configuration for point cloud analysis. The key to RS-CNN is learning from relation, i.e., the geometric topology constraint among points. Specifically, the convolutional weight for local point set is forced to learn a high-level relation expression from predefined geometric priors, between a sampled point from this point set and the others. In this way, an inductive local representation with explicit reasoning about the spatial layout of points can be obtained, which leads to much shape awareness and robustness. With this convolution as a basic operator, RS-CNN, a hierarchical architecture can be developed to achieve contextual shape-aware learning for point cloud analysis. Extensive experiments on challenging benchmarks across three tasks verify RS-CNN achieves the state of the arts.",
+    "authors": [
+      "Yongcheng Liu",
+      "Bin Fan",
+      "Shiming Xiang",
+      "Chunhong Pan"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CG",
+      "cs.GR",
+      "cs.RO"
+    ],
+    "published": "2019-04-16T11:28:51Z",
+    "paper_url": "https://arxiv.org/abs/1904.07601v3",
+    "pdf_url": "https://arxiv.org/pdf/1904.07601v3",
+    "labels": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2005.14433v1",
+    "title": "MAV Development Towards Navigation in Unknown and Dark Mining Tunnels",
+    "abstract": "The Mining industry considers the deployment of MAV for autonomous inspection of tunnels and shafts to increase safety and productivity. However, mines are challenging and harsh environments that have a direct effect on the degradation of high-end and expensive utilized components over time. Inspired by this effect, this article presents a low cost and modular platform for designing a fully autonomous navigating MAV without requiring any prior information from the surrounding environment. The design of the proposed aerial vehicle can be considered as a consumable platform that can be instantly replaced in case of damage or defect, thus comes into agreement with the vision of mining companies for utilizing stable aerial robots with reasonable cost. In the proposed design, the operator has access to all on-board data, thus increasing the overall customization of the design and the execution of the mine inspection mission. The MAV platform has a software core based on ROS operating on an Aaeon UP-Board, while it is equipped with a sensor suite to accomplish the autonomous navigation equally reliable when compared to high-end and expensive platforms.",
+    "authors": [
+      "Dariusz Kominiak",
+      "Sina Sharif Mansouri",
+      "Christoforos Kanellakis",
+      "George Nikolakopoulos"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-05-29T07:43:36Z",
+    "paper_url": "https://arxiv.org/abs/2005.14433v1",
+    "pdf_url": "https://arxiv.org/pdf/2005.14433v1",
+    "labels": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.01952v2",
+    "title": "Learning Active Task-Oriented Exploration Policies for Bridging the Sim-to-Real Gap",
+    "abstract": "Training robotic policies in simulation suffers from the sim-to-real gap, as simulated dynamics can be different from real-world dynamics. Past works tackled this problem through domain randomization and online system-identification. The former is sensitive to the manually-specified training distribution of dynamics parameters and can result in behaviors that are overly conservative. The latter requires learning policies that concurrently perform the task and generate useful trajectories for system identification. In this work, we propose and analyze a framework for learning exploration policies that explicitly perform task-oriented exploration actions to identify task-relevant system parameters. These parameters are then used by model-based trajectory optimization algorithms to perform the task in the real world. We instantiate the framework in simulation with the Linear Quadratic Regulator as well as in the real world with pouring and object dragging tasks. Experiments show that task-oriented exploration helps model-based policies adapt to systems with initially unknown parameters, and it leads to better task performance than task-agnostic exploration.",
+    "authors": [
+      "Jacky Liang",
+      "Saumya Saxena",
+      "Oliver Kroemer"
+    ],
+    "categories": [
+      "cs.RO"
+    ],
+    "published": "2020-06-02T21:32:58Z",
+    "paper_url": "https://arxiv.org/abs/2006.01952v2",
+    "pdf_url": "https://arxiv.org/pdf/2006.01952v2",
+    "labels": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.01022v2",
+    "title": "A novel approach for multi-agent cooperative pursuit to capture grouped evaders",
+    "abstract": "An approach of mobile multi-agent pursuit based on application of self-organizing feature map (SOFM) and along with that reinforcement learning based on agent group role membership function (AGRMF) model is proposed. This method promotes dynamic organization of the pursuers' groups and also makes pursuers' group evader according to their desire based on SOFM and AGRMF techniques. This helps to overcome the shortcomings of the pursuers that they cannot fully reorganize when the goal is too independent in process of AGRMF models operation. Besides, we also discuss a new reward function. After the formation of the group, reinforcement learning is applied to get the optimal solution for each agent. The results of each step in capturing process will finally affect the AGR membership function to speed up the convergence of the competitive neural network. The experiments result shows that this approach is more effective for the mobile agents to capture evaders.",
+    "authors": [
+      "Muhammad Zuhair Qadir",
+      "Songhao Piao",
+      "Haiyang Jiang",
+      "Mohammed El Habib Souidi"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.GT",
+      "cs.LG",
+      "cs.MA",
+      "cs.RO"
+    ],
+    "published": "2020-06-01T15:39:58Z",
+    "paper_url": "https://arxiv.org/abs/2006.01022v2",
+    "pdf_url": "https://arxiv.org/pdf/2006.01022v2",
+    "labels": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.01096v3",
+    "title": "Invariant Policy Optimization: Towards Stronger Generalization in Reinforcement Learning",
+    "abstract": "A fundamental challenge in reinforcement learning is to learn policies that generalize beyond the operating domains experienced during training. In this paper, we approach this challenge through the following invariance principle: an agent must find a representation such that there exists an action-predictor built on top of this representation that is simultaneously optimal across all training domains. Intuitively, the resulting invariant policy enhances generalization by finding causes of successful actions. We propose a novel learning algorithm, Invariant Policy Optimization (IPO), that implements this principle and learns an invariant policy during training. We compare our approach with standard policy gradient methods and demonstrate significant improvements in generalization performance on unseen domains for linear quadratic regulator and grid-world problems, and an example where a robot must learn to open doors with varying physical properties.",
+    "authors": [
+      "Anoopkumar Sonar",
+      "Vincent Pacelli",
+      "Anirudha Majumdar"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO",
+      "stat.ML"
+    ],
+    "published": "2020-06-01T17:28:19Z",
+    "paper_url": "https://arxiv.org/abs/2006.01096v3",
+    "pdf_url": "https://arxiv.org/pdf/2006.01096v3",
+    "labels": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.02616v2",
+    "title": "The Emergence of Adversarial Communication in Multi-Agent Reinforcement Learning",
+    "abstract": "Many real-world problems require the coordination of multiple autonomous agents. Recent work has shown the promise of Graph Neural Networks (GNNs) to learn explicit communication strategies that enable complex multi-agent coordination. These works use models of cooperative multi-agent systems whereby agents strive to achieve a shared global goal. When considering agents with self-interested local objectives, the standard design choice is to model these as separate learning systems (albeit sharing the same environment). Such a design choice, however, precludes the existence of a single, differentiable communication channel, and consequently prohibits the learning of inter-agent communication strategies. In this work, we address this gap by presenting a learning model that accommodates individual non-shared rewards and a differentiable communication channel that is common among all agents. We focus on the case where agents have self-interested objectives, and develop a learning algorithm that elicits the emergence of adversarial communications. We perform experiments on multi-agent coverage and path planning problems, and employ a post-hoc interpretability technique to visualize the messages that agents communicate to each other. We show how a single self-interested agent is capable of learning highly manipulative communication strategies that allows it to significantly outperform a cooperative team of agents.",
+    "authors": [
+      "Jan Blumenkamp",
+      "Amanda Prorok"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "published": "2020-08-06T12:48:08Z",
+    "paper_url": "https://arxiv.org/abs/2008.02616v2",
+    "pdf_url": "https://arxiv.org/pdf/2008.02616v2",
+    "labels": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.03787v1",
+    "title": "Neural Manipulation Planning on Constraint Manifolds",
+    "abstract": "The presence of task constraints imposes a significant challenge to motion planning. Despite all recent advancements, existing algorithms are still computationally expensive for most planning problems. In this paper, we present Constrained Motion Planning Networks (CoMPNet), the first neural planner for multimodal kinematic constraints. Our approach comprises the following components: i) constraint and environment perception encoders; ii) neural robot configuration generator that outputs configurations on/near the constraint manifold(s), and iii) a bidirectional planning algorithm that takes the generated configurations to create a feasible robot motion trajectory. We show that CoMPNet solves practical motion planning tasks involving both unconstrained and constrained problems. Furthermore, it generalizes to new unseen locations of the objects, i.e., not seen during training, in the given environments with high success rates. When compared to the state-of-the-art constrained motion planning algorithms, CoMPNet outperforms by order of magnitude improvement in computational speed with a significantly lower variance.",
+    "authors": [
+      "Ahmed H. Qureshi",
+      "Jiangeng Dong",
+      "Austin Choe",
+      "Michael C. Yip"
+    ],
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "published": "2020-08-09T18:58:10Z",
+    "paper_url": "https://arxiv.org/abs/2008.03787v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.03787v1",
+    "labels": [
+      "Robotics"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2008.06696v1",
+    "title": "Autonomous Braking and Throttle System: A Deep Reinforcement Learning Approach for Naturalistic Driving",
+    "abstract": "Autonomous Braking and Throttle control is key in developing safe driving systems for the future. There exists a need for autonomous vehicles to negotiate a multi-agent environment while ensuring safety and comfort. A Deep Reinforcement Learning based autonomous throttle and braking system is presented. For each time step, the proposed system makes a decision to apply the brake or throttle. The throttle and brake are modelled as continuous action space values. We demonstrate 2 scenarios where there is a need for a sophisticated braking and throttle system, i.e when there is a static obstacle in front of our agent like a car, stop sign. The second scenario consists of 2 vehicles approaching an intersection. The policies for brake and throttle control are learned through computer simulation using Deep deterministic policy gradients. The experiment shows that the system not only avoids a collision, but also it ensures that there is smooth change in the values of throttle/brake as it gets out of the emergency situation and abides by the speed regulations, i.e the system resembles human driving.",
+    "authors": [
+      "Varshit S. Dubey",
+      "Ruhshad Kasad",
+      "Karan Agrawal"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "published": "2020-08-15T10:37:07Z",
+    "paper_url": "https://arxiv.org/abs/2008.06696v1",
+    "pdf_url": "https://arxiv.org/pdf/2008.06696v1",
+    "labels": [
+      "Robotics"
+    ]
+  }
+]
