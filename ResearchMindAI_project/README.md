@@ -2,7 +2,7 @@
 
 ResearchMindAI, akademik makaleleri (ArXiv üzerinden çekilen) içeriklerine göre otomatik olarak analiz eden ve sınıflandıran, uçtan uca (end-to-end) tasarlanmış bir Çoklu Etiketli (Multi-Label) Doğal Dil İşleme (NLP) projesidir.
 
-Bu proje, veri biliminin tüm aşamalarını (Veri çekme, doğrulama, ön işleme, etiketleme, bölme, modelleme ve hata analizi) adım adım, öğretici ve detaylı bir şekilde işlemektedir.
+Bu proje, veri biliminin tüm aşamalarını (Veri çekme, doğrulama, ön işleme, veri bölme, modelleme, hyperparameter tuning ve canlı tahmin) adım adım ve profesyonel bir şekilde işlemektedir. Başlangıçta geleneksel TF-IDF ile yola çıkılmış, ardından gelişmiş **Sentence-Transformers (MPNet)** mimarisi ve **Linear SVM** ile state-of-the-art seviyeye çıkarılmıştır.
 
 ---
 
@@ -14,86 +14,83 @@ ResearchMindAI_project/
 ├── data/
 │   ├── raw/                 # ArXiv'den çekilen işlenmemiş ham veriler (papers.json)
 │   └── processed/           # Temizlenmiş, bölünmüş ve modele hazır veriler (train, val, test)
+│       ├── embeddings/      # MPNet ile çıkarılan 768 boyutlu vektörler
+│       └── labels/          # Binary matrix formatına çevrilmiş etiketler
 │
-├── notebooks/               # Tüm sürecin adım adım işlendiği Jupyter Notebook'lar
-│   ├── 01_data_ingestion.ipynb
-│   ├── 02_build_classification_dataset.ipynb
-│   ├── 03_data_splitting.ipynb
-│   └── 04_text_prep.ipynb
+├── models/                  # Eğitilmiş final makine öğrenmesi modelleri
+│   ├── researchmindai_svm_final.joblib
+│   └── model_metadata.npz
 │
-├── src/                     # Üretim ortamı için Python script'leri
+├── notebooks/               # Sürecin ilk adımlarının işlendiği Jupyter Notebook'lar
+│
+├── src/                     # Üretim ortamı (Production) için Python script'leri
+│   ├── data_collection.py   # ArXiv API'den veri çeken script
+│   ├── dataset_builder.py   # Veri birleştirme ve JSON oluşturma
+│   ├── embedding_model.py   # MPNet ile metinleri embedding'e çevirme
+│   ├── model_comparison.py  # Modeller arası (LR vs SVM) karşılaştırma (Benchmarking)
+│   ├── svm_tuning.py        # SVM için Grid/Random search mantığıyla C parametresi optimizasyonu
+│   ├── save_final_model.py  # En iyi modelin diske kaydedilmesi
+│   └── predict.py           # Canlı metin girişi ile model tahmini yapan Inference scripti
+│
 ├── try_code_apply/          # Deneme/Test scriptleri
-└── .gitignore               # Versiyon kontrolünde gizlenecek dosyalar
+└── README.md                # Proje dokümantasyonu
 ```
 
 ---
 
-## 📓 Notebook Detayları ve Yapılan İşlemler
+## 📓 Mimari ve Yapılan İşlemler
 
-Aşağıda projede yer alan tüm adımların detaylı bir analizi ve her adımda nelerin hedeflendiği anlatılmaktadır.
+Aşağıda projenin baştan sona veri boru hattı (Data Pipeline) ve makine öğrenmesi süreçleri açıklanmıştır.
 
-### 1. `01_data_ingestion.ipynb` (Veri Çekme ve Doğrulama)
-Bu aşamanın amacı, projenin ham verisini elde etmek ve veri tutarlılığını test etmektir.
-- **ArXiv API Entegrasyonu:** Python `requests` modülü kullanılarak `cs.CL` (NLP) kategorisinden 10 makale deneme amaçlı çekildi.
-- **XML Parsing:** Gelen XML yanıtı `xml.etree.ElementTree` ile parse edildi ve içinden *ID, Başlık, Özet (Abstract), Yazarlar, Kategoriler ve URL'ler* çıkarılarak yapılandırılmış bir JSON formatına getirildi.
-- **Data Validation (Veri Doğrulama):** Çekilen verinin kalitesini ölçmek için; eksik/boş (None/Null) alan kontrolü, aynı ID ve Başlığa sahip kopya verilerin kontrolü yapıldı.
-- **NLTK ile Temel Metin Ön İşleme:** Metinler NLTK kullanılarak `word_tokenize` ile kelimelere bölündü, noktalama işaretleri temizlendi ve temel `stopwords`'ler atıldı.
-- **TF-IDF Konsepti:** Sadece 10 makale üzerinde basit bir `TfidfVectorizer` (Term Frequency-Inverse Document Frequency) kurularak, metinlerin sayılara (540 özellikli vektörlere) nasıl dönüştüğü gözlemlendi.
+### 1. Veri Madenciliği ve Doğrulama (Data Ingestion & Validation)
+Projenin ham verisi ArXiv API kullanılarak çekildi.
+- **API Entegrasyonu:** Python `requests` ve XML parsing kullanılarak 4 ana Computer Science kategorisinden (`NLP`, `Computer Vision`, `Machine Learning`, `Robotics`) yüzlerce makale toplandı.
+- **Data Validation:** Çekilen verinin kalitesini ölçmek için; eksik/boş (None/Null) alan kontrolü, aynı ID ve Başlığa sahip kopya (Duplicate) verilerin temizliği yapıldı.
 
-### 2. `02_build_classification_dataset.ipynb` (Geniş Çaplı Veriseti Oluşturma)
-1. aşamadaki başarıdan sonra makine öğrenmesi modelinin eğitilebilmesi için asıl veriseti toplandı.
-- **Kategori Çeşitlendirmesi:** 4 ana Computer Science kategorisinden (`NLP`, `Computer Vision`, `Machine Learning`, `Robotics`) 50'şer adet olmak üzere geniş çaplı veri çekildi.
-- **Etiketleme (Labeling):** Çekilen makalelerin ait olduğu kategoriler `labels` array'i altına etiket olarak eklendi.
-- **Veri Birleştirme:** Tüm çekilen makaleler tek bir JSON (`papers_merged.json`) dosyasında birleştirilerek kaydedildi.
-
-### 3. `03_data_splitting.ipynb` (Veri Analizi ve Parçalama)
+### 2. Veri İşleme ve Bölme (Data Processing & Splitting)
 Veriyi modele sokmadan önce doğru bir şekilde etiketlerini ayırmak ve modeli kör test edebilmek için eğitim (Train), doğrulama (Validation) ve Test setlerine bölme işlemi yapıldı.
-- **Kombinasyon Analizi:** Makalelerin sınıflara göre dağılımı ve çapraz kategori eşleşmeleri (`NLP + Machine Learning` gibi multi-label kombinasyonları) `Counter` ile analiz edildi.
-- **One-Hot Encoding:** Etiketler string formatından makinenin anlayabileceği Binary Matrix (0 ve 1'ler) formatına dönüştürüldü (Örn: `[1, 0, 1, 0]`).
-- **Stratified Split:** Verinin her parçada dengeli dağılması için `MultilabelStratifiedShuffleSplit` kullanılarak veri Train (%70), Validation (%15) ve Test (%15) olarak ayrıldı.
+- **One-Hot Encoding:** Etiketler (Labels), makinenin anlayabileceği Binary Matrix (0 ve 1'ler) formatına dönüştürüldü (Örn: `[1, 0, 1, 0]`).
+- **Iterative Stratification:** Multi-label (Örn. bir makalenin hem NLP hem ML olması) dengesini bozmamak için gelişmiş `MultilabelStratifiedShuffleSplit` kullanılarak veri Train, Validation ve Test olarak ayrıldı.
 
-### 4. `04_text_prep.ipynb` (Gelişmiş Metin Ön İşleme, Modelleme ve Hata Analizi)
-Bu notebook, projenin "Karar Verme" ve "Makine Öğrenmesi" merkezidir (74 hücre). Metinler tamamen pürüzsüzleştirilip model eğitilmiş ve ince ayarlar yapılmıştır.
+### 3. Gelişmiş NLP: Word Embeddings (MPNet)
+TF-IDF gibi kelime frekansına dayalı geleneksel yöntemlerin ötesine geçilerek semantik (anlamsal) analiz yapıldı.
+- **Sentence-Transformers:** HuggingFace'in `all-mpnet-base-v2` modeli kullanılarak, her makalenin başlık ve özeti 768 boyutlu yoğun vektör uzayına (dense vectors) haritalandırıldı. Bu sayede kelimeler geçmese bile cümlenin anlamsal bağıntısı modele öğretildi.
 
-**A. Veri Temizleme (Data Cleaning)**
-- Modelin öğrenmesi için makale başlığı (`title`) ve makale özeti (`abstract`) birleştirilerek tek bir zengin `feature` haline getirildi.
-- `Regex` (Regular Expressions) kullanılarak sayılar, özel semboller temizlendi ve "Simple Clean" adımı tamamlandı.
+### 4. Makine Öğrenmesi: Modelleme ve Karşılaştırma (Benchmarking)
+Çıkarılan 768 boyutlu vektörler, farklı sınıflandırıcı algoritmalar ile test edildi.
+- **Logistic Regression (Global Threshold):** Standart `0.5` eşik değeri yerine `0.45` kullanılarak optimize edildi.
+- **Class-Specific Thresholds (Sınıfa Özel Eşik):** Özellikle yakalaması zor olan *Machine Learning* sınıfında (Eşik: `0.25`), diğer sınıflarda ise (`0.40 - 0.45`) gibi sınıfa özel eşik değerleri bulunarak Recall ve F1 skorları inanılmaz oranda artırıldı.
+- **Linear SVM (Support Vector Machine):** Yüksek boyutlu verilerde hiper-düzlemlerle (hyperplanes) en iyi ayırıcı olan SVM, `OneVsRestClassifier` sarmalayıcısı ile uygulandı.
 
-**B. Stopwords Karşılaştırması ve TF-IDF Optimizasyonu**
-Sklearn kütüphanesinin `ENGLISH_STOP_WORDS` (318 kelime) listesi kullanılarak metindeki bağlaç ve dolgu kelimeleri ("the", "is", "at") çıkarıldı. 
-- **Normal TF-IDF Vocabulary Size:** 3729 Kelime
-- **Stopword Çıkartılmış TF-IDF Size:** 3522 Kelime
-*Sonuç: Sadece Stopword filtresi uygulayarak modelin belleğinde gereksiz yer kaplayan ~200 kelime başarıyla elenerek model daha saf metinlere odaklandı.*
+### 5. Hyperparameter Tuning ve Sonuçlar
+SVM modelinin optimizasyonu için `C` (Regularization) parametresi `0.01`'den `10.0`'a kadar Validation seti üzerinde test edildi.
+- **Optimum C Değeri:** `0.25` olarak bulundu.
 
-**C. Modelleme ve Hüsran**
-- Veri, `OneVsRestClassifier` sarmalayıcısı ile `LogisticRegression` algoritmasına verildi.
-- **İlk Sonuç:** Model varsayılan Threshold (Eşik) değeri olan `0.5` ile test edildiğinde tüm tahminler "0 (Negative)" çıktı. Yani model hiçbir makalenin hiçbir sınıfı temsil ettiğinden %50 oranında emin olamadı (`Micro F1: 0.0`). Bu durum Multi-label projelerinde sık karşılaşılan bir zorluktur.
+**Final Modellerin Test Setindeki Karşılaştırması:**
+| Model | Micro F1 | Macro F1 |
+| --- | --- | --- |
+| Logistic Regression — Global 0.45 | 0.832 | 0.829 |
+| Logistic Regression — Class-specific | 0.824 | 0.829 |
+| **Linear SVM (C=0.25)** | **0.842** | **0.838** |
 
-**D. Threshold (Eşik) Analizi**
-Modelin skorlarını optimize etmek için **Validation** seti üzerinden özel bir Threshold (Eşik Değeri) araması yapıldı:
-- Eşik `0.20` -> Micro F1: 0.43
-- Eşik `0.25` -> Micro F1: 0.53
-- **Eşik `0.30` -> Micro F1: 0.667 (Optimum Nokta)**
-- Eşik `0.35` -> Micro F1: 0.44
+*(Not: SVM modelinde Robotics sınıfı için F1-Score **0.96**'ya ulaşarak kusursuz bir başarı sergilemiştir.)*
 
-Eşik değeri `0.30`'a çekildiğinde modelin tahmin başarısı 0'dan %66'ya (F1 Score) sıçradı. Modelin "%30 ihtimal veriyorsan o sınıftır de" mantığı başarıyla çalıştı.
-
-**E. Hata Analizi (Error Analysis)**
-- Optimize edilmiş eşik değeri, hiç görülmemiş Test Seti üzerinde çalıştırıldı.
-- Özellike *Machine Learning* sınıfında modelin neden yanıldığı, Gerçek Etiket (True Labels) vs Tahmin Edilen Etiket (Predicted Labels) olasılıkları manuel olarak ekrana basılarak derinlemesine analiz edildi.
+### 6. Canlı Tahmin Motoru (Inference / Predict)
+Eğitilen ve en iyi performansı gösteren SVM modeli (joblib formatında) diske kaydedildi.
+- `predict.py` script'i yazılarak; dışarıdan verilen herhangi bir makale özetini önce MPNet ile embedding'e çeviren, ardından eğitilmiş SVM modeline sokarak sınıfını tahmin eden dinamik bir yapı kuruldu.
 
 ---
 
 ## 🛠 Kullanılan Teknolojiler
-- **Veri Toplama:** `requests`, `xml.etree.ElementTree` (ArXiv API)
-- **Doğal Dil İşleme (NLP):** `nltk`, `re`, `sklearn.feature_extraction.text`
-- **Veri İşleme ve Matematik:** `json`, `collections`, `numpy`
+- **Veri Madenciliği:** `requests`, `xml.etree.ElementTree`
+- **Doğal Dil İşleme (NLP):** `sentence-transformers` (MPNet), `nltk`
+- **Veri İşleme ve Vektör Uzayı:** `numpy`, `json`
 - **Makine Öğrenmesi (ML):** `scikit-learn`, `iterative-stratification`
-- **Model:** `Logistic Regression` (One-vs-Rest stratejisi ile)
+- **Model Kayıt:** `joblib`
 
 ---
 
 ## 🚀 Sonraki Adımlar (Gelecek Planları)
-1. **Derin Öğrenme ve Word Embeddings:** TF-IDF matrisleri yerine kelimelerin anlamsal uzayını yakalayan *Word2Vec*, *FastText* veya *GloVe* kullanılması.
-2. **Transformers Mimarisi:** Makine Öğrenmesi tabanlı Logistic Regresyon modelinin yerini, kendi cihazımızda fine-tune edilmiş bir açık kaynaklı *BERT* veya *RoBERTa* modeline bırakması.
-3. **Web API & Arayüz:** Geliştirilen modelin *FastAPI* ile canlıya alınıp *Streamlit* ile kullanıcı dostu bir arayüzde (ResearchMindAI as a Service) sunulması.
+1. **Web API (FastAPI):** Geliştirilen bu uçtan uca altyapının, FastAPI ile bir REST API'ye dönüştürülmesi.
+2. **Kullanıcı Arayüzü (Streamlit / React):** API'ye bağlanan web tabanlı bir arayüz ile araştırmacıların (researcher) makalelerini kolayca sınıflayabileceği bir servis haline getirilmesi.
+3. **Bulut (Cloud) Dağıtımı:** Dockerize edilip AWS/GCP üzerinde canlıya alınması.
